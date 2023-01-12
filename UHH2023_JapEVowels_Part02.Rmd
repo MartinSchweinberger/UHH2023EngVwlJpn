@@ -7,7 +7,7 @@ output: word_document
 
 # Introduction
 
-This R Notebook shows how to access Praat from R and how to extract formant values from wav files and their corresponding Praat TextGrids. The tutorials is based on [Phonetics Tools in R](https://marissabarlaz.github.io/portfolio/phoneticstools/] by Marissa Barlaz).
+This notebook reports the analyses of monophthongal English vowels produced by Japanese learners and L1 speakers of English.
 
 ## Preparation
 
@@ -15,25 +15,38 @@ install packages
 
 ```{r install, eval=F, message=F, warning=F}
 # install
-install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("stringr")
+install.packages("tidyr")
 install.packages("here")
 install.packages("viridis")
 install.packages("phonR")
 install.packages("vowels")
 install.packages("ggridges")
 install.packages("sm")
+install.packages("adehabitatHR")
+install.packages("lme4")
+install.packages("sjPlot")
+install.packages("report")
 ```
 
 load packages
 
 ```{r load, message=F, warning=F}
-library(tidyverse)
+library(dplyr)
+library(stringr)
+library(tidyr)
 library(here)
+library(adehabitatHR)
+library(lme4)
+library(sjPlot)
+library(report)
 library(viridis)
 library(phonR)
 library(vowels)
 library(ggridges)
 library(sm)
+library(janitor)
 options("scipen" = 100, "digits" = 12) # suppress math annotation
 ```
 

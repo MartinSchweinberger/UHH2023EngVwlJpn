@@ -1,30 +1,17 @@
 # Reproducibility in corpus-based computational analyses of learner speech - Part 2"
 
-This R Notebook shows how to access Praat from R and how to extract formant values from wav files and their corresponding Praat TextGrids. The tutorials is based on [Phonetics Tools in R](https://marissabarlaz.github.io/portfolio/phoneticstools/] by Marissa Barlaz).
+This notebook reports the analyses of monophthongal English vowels produced by Japanese learners and L1 speakers of English.
 
 ## Preparation
 
-install packages
 
-```{r install, eval=F, message=F, warning=F}
-# install
-install.packages("tidyverse")
-install.packages("viridis")
-install.packages("phonR")
-install.packages("vowels")
-install.packages("ggridges")
-install.packages("sm")
-install.packages("here")
-install.packages("adehabitatHR")
-install.packages("lme4")
-install.packages("sjPlot")
-install.packages("report")
-```
 
 load packages
 
 ```{r load, message=F, warning=F}
-library(tidyverse)
+library(dplyr)
+library(stringr)
+library(tidyr)
 library(adehabitatHR)
 library(lme4)
 library(sjPlot)
@@ -44,7 +31,7 @@ load data
 
 ```{r data, message=F, warning=F}
 # load .rda data
-vdf  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/vdf.rda")) %>%
+vdf  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/vdf.rda", "rb")) %>%
   dplyr::mutate(type = stringr::str_replace_all(file, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
                 speaker = stringr::str_replace_all(file, ".*_([0-9]{3,3})_.*", "\\1")) %>%
   dplyr::mutate(tgender = stringr::str_replace_all(path, ".*F[3-7]{1,1}_([fm]{1,1})_[a-z]{2,2}$", "\\1"),
@@ -58,7 +45,7 @@ nrow(vdf); head(vdf)
 # Load Biodata
 
 ```{r bio, message=F, warning=F}
-bio <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/biodata_icnale.txt"), header = T, sep = "\t") %>%
+bio <- base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/biodata_icnale.rda", "rb")) %>%
   dplyr::filter(stringr::str_detect(Code, "JPN|ENS")) %>%
   dplyr::mutate(type = stringr::str_replace_all(Code, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
                 speaker = stringr::str_replace_all(Code, ".*_([0-9]{3,3}).*", "\\1"),
@@ -124,7 +111,7 @@ summary(fdat$prof)
 [Yang, Byunggon. 1996. A comparative study of American English and Korean vowels produced by male and female speakers. *Journal of Phonetics* 24: 245–261.](http://fonetiks.info/bgyang/db/96jp.pdf)
 
 ```{r refame, message=F, warning=F}
-ame <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/reference/GenAm.txt"), sep = "\t", header = T) %>%
+ame <- base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/GenAm.txt", "rb")) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
@@ -156,7 +143,7 @@ head(ame)
 
 
 ```{r refbre, message=F, warning=F}
-bre <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/reference/SSB.txt"), sep = "\t", header = T) %>%
+bre <-base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/SSB.txt", "rb")) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
@@ -654,7 +641,7 @@ load data
 
 ```{r data, message=F, warning=F}
 # load .rda data
-fdat  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/fdat_sst.rda"))
+fdat  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/fdat_sst.rda", "rb"))
 # inspect
 nrow(fdat); head(fdat)
 ```
