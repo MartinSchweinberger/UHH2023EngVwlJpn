@@ -1,0 +1,1219 @@
+---
+title: "Reproducibility in corpus-based computational analyses of learner speech - Part 2"
+author: "Martin Schweinberger"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: word_document
+---
+
+# Introduction
+
+This R Notebook shows how to access Praat from R and how to extract formant values from wav files and their corresponding Praat TextGrids. The tutorials is based on [Phonetics Tools in R](https://marissabarlaz.github.io/portfolio/phoneticstools/] by Marissa Barlaz).
+
+## Preparation
+
+install packages
+
+```{r install,eval=F, message=F, warning=F}
+# install
+install.packages("tidyverse")
+install.packages("here")
+install.packages("viridis")
+install.packages("phonR")
+install.packages("vowels")
+install.packages("ggridges")
+install.packages("sm")
+```
+
+load packages
+
+```{r load, message=F, warning=F}
+library(tidyverse)
+library(here)
+library(viridis)
+library(phonR)
+library(vowels)
+library(ggridges)
+library(sm)
+options("scipen" = 100, "digits" = 12) # suppress math annotation
+```
+
+
+load data
+
+
+```{r data, message=F, warning=F}
+# load .rda data
+vdf  <- base::readRDS(file = here::here("data", "vdf.rda")) %>%
+  dplyr::mutate(type = stringr::str_replace_all(file, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
+                speaker = stringr::str_replace_all(file, ".*_([0-9]{3,3})_.*", "\\1")) %>%
+  dplyr::mutate(tgender = stringr::str_replace_all(path, ".*F[3-7]{1,1}_([fm]{1,1})_[a-z]{2,2}$", "\\1"),
+                tformants = stringr::str_replace_all(path, ".*(F[3-7]{1,1})_[fm]{1,1}_[a-z]{2,2}$", "\\1"),
+                tvariety = stringr::str_remove_all(path, ".*_"))
+# inspect
+nrow(vdf); head(vdf)
+```
+
+
+# Load Biodata
+
+```{r bio, message=F, warning=F}
+bio <- read.delim(here::here("data", "biodata_icnale.txt"), header = T, sep = "\t") %>%
+  dplyr::filter(stringr::str_detect(Code, "JPN|ENS")) %>%
+  dplyr::mutate(type = stringr::str_replace_all(Code, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
+                speaker = stringr::str_replace_all(Code, ".*_([0-9]{3,3}).*", "\\1"),
+                Sex = tolower(Sex)) %>%
+  dplyr::rename(gender = Sex)
+bio[bio=="N/A"]<-NA
+# inspect
+head(bio)
+```
+
+
+# Join data sets
+
+Join formant and biodata
+
+```{r combine, message=F, warning=F}
+fdat <- dplyr::left_join(vdf, bio, by = c("type", "speaker"))  %>%
+  # filter out di- and triphthongs
+  dplyr::mutate(nv = nchar(stringr::str_remove_all(label, ":"))) %>%
+  dplyr::filter(nv == 1) %>%
+  dplyr::filter(gender == tgender) %>%
+  # remove  ref speakers with l1-var other than genam or gb
+  dplyr::mutate(tvariety = dplyr::case_when(Country == "ENS_GBR" ~ "gb",
+                                            Country == "ENS_CAN" ~ "us",
+                                            Country == "ENS_USA" ~ "us",
+                                             TRUE ~ tvariety)) %>%
+  dplyr::filter(type == "JPN" | type == "ENS" & Country == "ENS_CAN" | Country == "ENS_GBR" | Country == "ENS_USA")
+# inspect
+head(fdat)
+```
+
+
+
+
+
+
+testing
+
+```{r}
+table(fdat$label, fdat$tvariety, fdat$type)
+```
+
+check proficiency
+
+
+
+
+```{r}
+fdat <- fdat %>%
+  dplyr::mutate(prof = stringr::str_replace_all(file, ".*_([A-B]{1,1}[0-9]{1,1})_.*", "\\1")) %>%
+  mutate(prof = ifelse(prof == file, NA, prof),
+         prof = factor(prof, levels = c("A2", "B1", "B2")))
+# inspect
+summary(fdat$prof)
+```
+
+
+
+# Reference data
+
+**GenAm**
+
+[Yang, Byunggon. 1996. A comparative study of American English and Korean vowels produced by male and female speakers. *Journal of Phonetics* 24: 245–261.](http://fonetiks.info/bgyang/db/96jp.pdf)
+
+```{r refame, message=F, warning=F}
+ame <- read.delim(here::here("data/reference", "GenAm.txt"), sep = "\t", header = T) %>%
+  dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
+                                         item == "heed" ~ "i:",
+                                         item == "hid" ~ "I",
+                                         item == "head" ~ "E",
+                                         item == "hard" ~ "6",
+                                         item == "whod" ~ "u:",
+                                         item == "hood" ~ "U",
+                                         item == "hoard" ~ "O:",
+                                         item == "hud" ~ "V",
+                                         item == "hod" ~ "Q",
+                                         TRUE ~ "other"),
+                gender = dplyr::case_when(sex == "female" ~ "f",
+                                          TRUE ~ "m")) %>%
+  dplyr::filter(label != "other") %>%
+  dplyr::group_by(label, gender) %>%
+  dplyr::summarise(target_f1 = mean(F1_Hz),
+                   target_f2 = mean(F2_Hz),
+                   target_f3 = mean(F3_Hz)) %>%
+  dplyr::mutate(tvariety = "us")
+# inspect data
+head(ame)
+```
+
+**SSB**
+
+[Deterding, David 2009. The Formants of Monophthong Vowels in Standard Southern British English Pronunciation. *Journal of the International Phonetic Association* 27, 1-2: 47-55. doi:10.1017/S0025100300005417](http://journals.cambridge.org/download.php?file=%2F7775_45AD5CD7849D3B7634A613DE6E61C294_journals__IPA_IPA27_1-2_S0025100300005417a.pdf&cover=Y&code=0639c34593b21cb18a9e7b504bdd5319)
+
+
+
+
+```{r refbre, message=F, warning=F}
+bre <- read.delim(here::here("data/reference", "SSB.txt"), sep = "\t", header = T) %>%
+  dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
+                                         item == "heed" ~ "i:",
+                                         item == "hid" ~ "I",
+                                         item == "head" ~ "e",
+                                         item == "hard" ~ "A:",
+                                         item == "whod" ~ "u:",
+                                         item == "hood" ~ "U",
+                                         item == "hoard" ~ "O:",
+                                         item == "hud" ~ "V",
+                                         item == "hod" ~ "Q",
+                                         TRUE ~ "other"),
+                gender = dplyr::case_when(sex == "female" ~ "f",
+                                          TRUE ~ "m")) %>%
+  dplyr::filter(label != "other") %>%
+  dplyr::group_by(label, gender) %>%
+  dplyr::summarise(target_f1 = mean(F1_Hz),
+                   target_f2 = mean(F2_Hz),
+                   target_f3 = mean(F3_Hz)) %>%
+  dplyr::mutate(tvariety = "gb")
+# inspect data
+head(bre)
+```
+
+Combine reference and obs data
+
+```{r cref, message=F, warning=F}
+ref <- rbind(ame, bre)
+fdat <- dplyr::left_join(fdat, ref) %>%
+  dplyr::filter(!is.na(target_f1)) %>%
+  dplyr::mutate(edist = sqrt((F1-target_f1)^2 + (F2-target_f2)^2))
+# inspect
+head(fdat)
+```
+
+
+Determine best fit (f3:f7)
+
+
+```{r fit, message=F, warning=F}
+fdat <- fdat %>%
+  dplyr::arrange(file, tmin, tvariety, tformants) %>%
+  dplyr::group_by(file, tmin) %>% 
+  dplyr::slice(which.min(edist))
+# inspect
+head(fdat)
+```
+
+
+
+remove vowels other than I and i: or U and u:
+
+```{r}
+# reduce words
+fdat <- fdat %>%
+  dplyr::filter(label == "U" | label == "u:" | label == "I" | label == "i:") %>%
+  dplyr::filter(nchar(word) < 9,
+                word != "the") %>%
+  # bark normalization
+  dplyr::mutate(barkF1 = normBark(F1),
+                barkF2 = normBark(F2)) %>%
+  # lobanov normalization
+  dplyr::ungroup() %>%
+  dplyr::mutate(fspeaker = paste0(type, speaker, collaspe = "")) %>%
+  dplyr::group_by(type, gender, tvariety) %>%
+  dplyr::mutate(lobF1 = scale(F1),
+                lobF2 = scale(F2)) %>%
+  # remove superfluous columns
+  dplyr::select(-path, -PTJ1..wds., -PTJ2..wds., -SMK1..wds., -SMK2..wds., -Self.Ev, 
+                -Grade.Degree, -Acad..Genre, -VST, -CEFR, -INTM, -INSM, -INTM.INSM, 
+                -INTM.INSM.1, -Primary, -Secondary, -College, -Inschool, -Outschool,
+                -Reading, -Writing, -NS, -Presentation, -EssayW, -nv)
+# inspect
+head(fdat)
+```
+
+
+
+# (Semi-)Manual cross-evaluation
+
+check for inconsistencies
+
+```{r check, message=F, warning=F}
+table(fdat$label, fdat$word)
+```
+
+exclude inconsistencies
+
+```{r exclude, message=F, warning=F}
+fdat <- fdat %>%
+  dplyr::mutate(word = stringr::str_squish(word)) %>%
+  dplyr::mutate(remove = dplyr::case_when(word == "--we"  ~ "remove",
+                                          word == "ba"  ~ "remove",
+                                          word == "bit" & label == "6" ~ "remove",
+                                          word == "books" & label == "I" ~ "remove",
+                                          word == "but" & label == "I" ~ "remove",
+                                          word == "bui" & label == "I" ~ "remove",
+                                          word == "de" & label == "i:" ~ "remove",
+                                          word == "do" & label == "6" ~ "remove",
+                                          word == "do" & label == "I" ~ "remove",
+                                          word == "dust" & label == "V" ~ "remove",
+                                          word == "get" & label == "I" ~ "remove",
+                                          word == "gets" & label == "I" ~ "remove",
+                                          word == "good" & label == "I" ~ "remove",
+                                          word == "hea" ~ "remove",
+                                          word == "peo" ~ "remove",
+                                          word == "speak" & label == "I" ~ "remove",
+                                          word == "sets" & label == "I" ~ "remove",
+                                          word == "shops" & label == "I" ~ "remove",
+                                          word == "so" & label == "U" ~ "remove",
+                                          word == "that" & label == "I" ~ "remove",
+                                          word == "that's" & label == "I" ~ "remove",
+                                          word == "they're" ~ "remove",
+                                          word == "they" ~ "remove",
+                                          word == "that\u0081's" & label == "I" ~ "remove",
+                                          word == "this" & label == "O:" ~ "remove",
+                                          word == "to" ~ "remove",
+                                          word == "too" & label == "I" ~ "remove",
+                                          word == "too" & label == "6" ~ "remove",
+                                          word == "two" & label != "u:" ~ "remove",
+                                          word == "ways" & label == "I" ~ "remove",
+                                          word == "we're" & label == "6" ~ "remove",
+                                          word == "we're" & label == "6" ~ "remove",
+                                          stringr::str_detect(word, "\\W") ~ "remove",
+                                          TRUE ~ "keep")) %>%
+  dplyr::filter(remove != "remove")
+# inspect
+table(fdat$label, fdat$word)
+```
+
+
+
+## Check durations
+
+```{r}
+fdat <- fdat %>%
+  # duration
+  dplyr::mutate(duration = tmax - tmin)
+# inspect
+head(fdat)
+```
+
+plot durations
+
+
+```{r}
+fdat %>%
+  ggplot(aes(x = vowel, y = duration, fill = type)) +
+  geom_boxplot()
+```
+
+
+
+
+
+
+
+```{r}
+max_durs <- fdat %>%
+  dplyr::group_by(type, tvariety, vowel) %>%
+  dplyr::summarise(du_min = min(duration),
+                   du_max = max(duration),
+                   du_ave = mean(duration),
+                   du_med = median(duration),
+                   du_sd = sd(duration),
+                   du_2sd = sd(duration)*1.645) %>%
+  dplyr::mutate(cutoff_duration = du_ave + du_2sd) %>%
+  dplyr::select(type, tvariety, vowel, cutoff_duration)
+# inspect
+head(max_durs)
+```
+
+overview
+
+```{r}
+library(janitor)
+tb0 <- fdat %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(label == "I" | label == "i:" | label == "U" | label == "u:" ) %>%
+  dplyr::group_by(type) %>%
+  dplyr::mutate(speakers = length(table(speaker))) %>%
+  dplyr::ungroup() %>%
+  dplyr::group_by(type, label) %>%
+  dplyr::summarise(speakers = speakers,
+                   obs = n()) %>%
+  unique() %>%
+  tidyr::spread(label, obs) %>%
+  dplyr::ungroup()  %>%
+  adorn_totals("row")%>%
+  adorn_totals("col") %>%
+  dplyr::mutate(Total = Total-speakers)
+# save
+write.table(tb0, here::here("tables", "tb0.txt"), sep = "\t")
+# inspect
+tb0
+```
+
+remove duration outliers
+
+```{r}
+fdat <- dplyr::left_join(fdat, max_durs) %>%
+  dplyr::filter(duration <= cutoff_duration,
+                ifelse(label != "A:", duration <= 0.4, duration <= 0.75))
+# inspect
+head(fdat); nrow(fdat)
+```
+
+
+
+
+```{r}
+dur_IiUu <-  fdat %>%
+  dplyr::filter(label == "i:" | label == "I" | label == "u:" | label == "U") %>%
+  ggplot(aes(y = vowel, x = duration, fill = type)) +
+  geom_density_ridges(alpha = .5) +
+  theme_ridges() +
+  theme(legend.position = "top") +
+  scale_fill_manual(values = c("orange", "gray"))
+ggsave(here::here("images", "dur_IiUu.png"), height = 3,  width = 5, dpi = 320)
+dur_IiUu
+```
+
+
+```{r}
+fdat %>%
+  ggplot(aes(x = vowel, y = duration, fill = type)) +
+  geom_boxplot()
+```
+
+
+
+```{r}
+fdat %>%
+  dplyr::group_by(type, tvariety, vowel) %>%
+  dplyr::mutate(ldur = log(duration)) %>%
+  ggplot(aes(x = vowel, y = ldur, fill = type)) +
+  geom_boxplot() +
+  facet_grid(~tvariety)
+```
+
+
+# Remove outliers
+
+```{r}
+nrow(fdat)
+fdat <- fdat %>% 
+  dplyr::group_by(type, tvariety, label) %>%
+  dplyr::mutate(densF1 = sm.density(barkF1,eval.points=barkF1)$estimate,
+                densF2 = sm.density(barkF2,eval.points=barkF2)$estimate,
+                qnt1F1 = quantile(densF1, .5),
+                qnt1F2 = quantile(densF2, .5))
+# inspect
+nrow(fdat); head(fdat); summary(fdat$densF1)
+```
+
+```{r}
+fdat <- fdat %>%
+  # remove data point within the lowest 25 percent of densities among F1 and F2 values
+  # but when label = A: and tvariety is gb
+  dplyr::mutate(rmv = ifelse(label == "A:" & tvariety == "gb", "keep", "remove")) %>%
+  dplyr::rowwise() %>%
+  dplyr::filter(rmv == "keep" | densF1 > qnt1F1 | densF2 > qnt1F2) %>%
+  # remove superfluous columns
+  dplyr::select(-densF1, -densF2, -qnt1F1, -qnt1F2, -cutoff_duration, -rmv)
+# inspect
+head(fdat); nrow(fdat)
+```
+
+
+
+
+
+
+```{r sdrmv, eval = F}
+fdat <- fdat %>%
+  dplyr::filter(lobF1 > -1.96,
+                lobF1 < 1.96,
+                lobF2 > -1.96,
+                lobF2 < 1.96)
+```
+
+
+# Remove GB target
+
+```{r tvar}
+fdat <- fdat %>%
+  dplyr::filter(tvariety != "gb")
+```
+
+# Check density
+
+
+
+```{r}
+wordplot3 <- function(fdat, vwl1, vwl2){
+  plt <- fdat %>% 
+    dplyr::filter(label == vwl1 | label == vwl2) %>%
+    dplyr::group_by(word, label) %>%
+    dplyr::mutate(meanF2 = mean(lobF2),
+                  meanF1 = mean(lobF1)) %>%
+    dplyr::ungroup() %>%
+    dplyr::group_by(label) %>%
+    dplyr::mutate(cF2 = mean(lobF2),
+                  cF1 = mean(lobF1)) %>%
+    # plot
+    ggplot(aes(x = lobF2, y = lobF1)) +
+  stat_density_2d(geom = "polygon",
+                  aes(alpha = ..level.., fill = label), bins = 8)  +
+    facet_grid( ~ type) +
+    scale_x_reverse(position = "top") + 
+    scale_y_reverse(position = "right") + 
+    #scale_fill_distiller(palette = "Blues", direction = 1) +
+    geom_text(aes(x = meanF2, y = meanF1, 
+                  label = word, color = label), size = 4) +
+    geom_text(aes(x = cF2, y = cF1, 
+                  label = label), size = 6, color = "gray20") +
+    theme_minimal() +
+    theme(panel.grid.major = element_blank(), 
+                  panel.grid.minor = element_blank(),
+                  legend.position = "none") +
+  scale_color_manual(values = c("orange3", "gray40")) +
+  scale_fill_manual(values = c("orange", "gray")) +
+    labs(x = "Formant 2 (Lobanov normalized)", y = "Formant 1 (Lobanov normalized)")
+  return(plt)
+  }
+```
+
+
+```{r}
+pIi <- wordplot3(fdat = fdat, vwl1 = "I", vwl2 = "i:")
+ggsave(here::here("images", "pIi.png"), height = 3,  width = 5, dpi = 320)
+pIi
+```
+
+```{r}
+pUu <- wordplot3(fdat = fdat, vwl1 = "U", vwl2 = "u:")
+ggsave(here::here("images", "pUu.png"), height = 3,  width = 5, dpi = 320)
+pUu
+```
+
+
+
+
+
+# Normalization
+
+See [here](https://marissabarlaz.github.io/portfolio/vowelnormalization/)
+
+Gender normalization
+
+```{r}
+# Using mean F3 of open vowels (vowels with F1>600) to approximate female F1&F2 to those of male
+tempvowel <- fdat %>% 
+  dplyr::filter(F1 > 600) %>% 
+  dplyr::group_by(gender) %>%
+  dplyr::mutate(meanF3 = mean(F3))
+# extract k: k = ratio of Female F3 to Male F3
+k <- max(tempvowel$meanF3) / min(tempvowel$meanF3)
+# perform normalization
+fdat <- fdat %>%
+  dplyr::mutate(barkF1 = phonR::normBark(F1),
+                barkF2 = phonR::normBark(F2)) %>%
+  dplyr::mutate(normF1 = dplyr::if_else(gender == "f", F1*k, F1),
+                normF2 = dplyr::if_else(gender == "f", F2*k, F2))
+```
+
+calculate distance from target vowel centroid for each token
+
+```{r}
+tcentroid <- fdat %>%
+  dplyr::filter(type == "ENS") %>%
+  dplyr::group_by(tvariety, vowel) %>%
+  dplyr::summarise(cF1 = median(barkF1),
+                   cF2 = median(barkF2))
+# inspect
+head(tcentroid)
+```
+
+combine
+
+```{r}
+fdat <- dplyr::left_join(fdat, tcentroid) %>%
+  # euclidean distance
+  dplyr::rowwise() %>%
+  dplyr::mutate(ED = sqrt((barkF1-cF1)^2 + (barkF2-cF2)^2)) %>%
+  # remove superfluous columns
+  dplyr::select(-remove)
+# inspect
+head(fdat)
+```
+
+# Gramm. Status of Word
+
+```{r}
+gram <- c("be", "but", "did", "do", "get", "gets", "got", "had", "has", "he", "his", 
+          "she", "that", "this", "too", "was", "we", "what", "who", "with")
+fdat <- fdat %>%
+  # gramm. category of word
+  dplyr::mutate(WordType = ifelse(word %in% gram, "grammatical", "lexical"))
+```
+
+
+
+
+```{r, eval = T}
+fdat %>%
+  dplyr::group_by(label) %>%
+  dplyr::mutate(meanF2 = median(barkF2),
+                meanF1 = median(barkF1)) %>%
+  ggplot(aes(x = barkF2, y = barkF1, color = vowel, fill = vowel, label = vowel)) +
+  facet_grid(tvariety ~ type) +
+  scale_x_reverse(position = "top") + 
+  scale_y_reverse(position = "right") + 
+  #stat_ellipse(aes(group = label), level = .5) +
+  #geom_point(alpha = .2) +
+  geom_text(alpha = .2) +
+  #geom_count() +
+  #geom_text(aes(x = meanF2, y = meanF1, color = vowel, label = vowel), size = 5) +
+  #scale_color_viridis(discrete = TRUE) +
+  theme_minimal() +
+  theme(legend.position = "right") +
+  labs(x = "Formant 2 (Bark normalized)", y = "Formant 1 (Bark normalized))")
+ggsave(file = here("images", "vowels_lob.png"), height = 5,  width = 5, dpi = 320)
+```
+
+
+
+# Overview of the data
+
+```{r}
+tb1 <- fdat %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(label == "I" | label == "i:" | label == "U" | label == "u:" ) %>%
+  dplyr::group_by(type) %>%
+  dplyr::mutate(speakers = length(table(speaker))) %>%
+  dplyr::ungroup() %>%
+  dplyr::group_by(type, label) %>%
+  dplyr::summarise(speakers = speakers,
+                   obs = n()) %>%
+  unique() %>%
+  tidyr::spread(label, obs) %>%
+  dplyr::ungroup()  %>%
+  adorn_totals("row")%>%
+  adorn_totals("col") %>%
+  dplyr::mutate(Total = Total-speakers)
+# save
+write.table(tb1, here::here("tables", "tb1.txt"), sep = "\t")
+# inspect
+tb1
+```
+
+```{r}
+
+tb2 <- fdat %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(label == "I" | label == "i:" | label == "U" | label == "u:" ) %>%
+  dplyr::mutate(Age = dplyr::case_when(Age < 30 ~ "18-29",
+                                       Age < 40 ~ "30-39",
+                                       Age < 50 ~ "40-49",
+                                       Age > 49 ~ "50+",
+                                       TRUE ~ "unknown")) %>%
+  dplyr::group_by(type, gender, Age) %>%
+  dplyr::summarise(speakers = length(table(speaker))) %>%
+  tidyr::spread(Age, speakers) %>%
+  dplyr::ungroup()  %>%
+  adorn_totals("row")%>%
+  adorn_totals("col")
+# save
+write.table(tb2, here::here("tables", "tb2.txt"), sep = "\t")
+# inspect
+tb2
+```
+
+tabulate proficiency
+
+
+```{r}
+tb3 <- fdat %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(label == "I" | label == "i:" | label == "U" | label == "u:" ) %>%
+  dplyr::filter(type == "JPN")%>%
+  dplyr::group_by(prof, gender) %>%
+  dplyr::summarise(speakers = length(table(speaker))) %>%
+  tidyr::spread(prof, speakers) %>%
+  dplyr::ungroup()  %>%
+  adorn_totals("row")%>%
+  adorn_totals("col")
+# save
+write.table(tb3, here::here("tables", "tb3.txt"), sep = "\t")
+# inspect
+tb3
+```
+
+
+# Save data to disc
+
+```{r savefdat, message=F, warning=F}
+# save
+base::saveRDS(fdat, file = here::here("data", "fdat_sst.rda"))
+# inspect
+nrow(fdat); head(fdat)
+```
+
+
+# Statistical Analysis
+
+## Preparation
+
+install packages
+
+```{r install, eval=F, message=F, warning=F}
+# install
+install.packages("tidyverse")
+install.packages("here")
+install.packages("adehabitatHR")
+install.packages("lme4")
+install.packages("sjPlot")
+install.packages("report")
+install.packages("flextable")
+```
+
+load packages
+
+```{r load, message=F, warning=F}
+library(tidyverse)
+library(here)
+library(adehabitatHR)
+library(lme4)
+library(sjPlot)
+library(report)
+library(flextable)
+```
+
+
+load data
+
+
+```{r data, message=F, warning=F}
+# load .rda data
+fdat  <- base::readRDS(file = here::here("data", "fdat_sst.rda"))
+# inspect
+nrow(fdat); head(fdat)
+```
+
+remove superfluous variables
+
+```{r}
+fdat <- fdat %>%
+  dplyr::select(id, label, word, file, F1, F2, speaker, vowel, 
+                label, type, gender, Age, tvariety, edist, barkF1, 
+                barkF2, fspeaker, lobF1, lobF2, duration, normF1, 
+                normF2, cF1, cF2, ED, WordType, prof) %>%
+  # create new speaker column
+  dplyr::mutate(speaker = paste0(type, speaker))
+# inspect
+head(fdat)
+```
+
+
+
+# Bhattacharyya's affinity 
+
+function for extracting Bhattacharyya's affinity by type and target variety
+
+```{r bafun, message=F, warning=F}
+exba <- function(data, section, target, vwl1, vwl2){
+  ba <- data %>%
+  ungroup() %>%
+  dplyr::filter(type == section,
+                tvariety == target,
+                label == vwl1 | label == vwl2)
+
+  ba_formants <- ba %>%  dplyr::select(lobF1, lobF2)
+  # extract vowels
+  ba_vowel <- ba %>%  dplyr::select(vowel)
+  # spatial data frame
+  ba_spdf <- SpatialPointsDataFrame(ba_formants, ba_vowel)
+  # calculate Bhattacharyya's affinity
+  ba_ba <- kerneloverlap(ba_spdf, method = "BA")
+  # result
+  return(ba_ba[1,2])
+}
+```
+
+
+
+## I vs i: 
+
+
+```{r baius, message=F, warning=F}
+# JPN
+exba(data = fdat, section = "JPN", target = "us", vwl1 = "I", vwl2 = "i:")
+# ENS
+exba(data = fdat, section = "ENS", target = "us", vwl1 = "I", vwl2 = "i:")
+```
+
+
+
+## U vs u:
+
+High-back 
+
+```{r baius, message=F, warning=F}
+# JPN
+exba(data = fdat, section = "JPN", target = "us", vwl1 = "U", vwl2 = "u:")
+# ENS
+exba(data = fdat, section = "ENS", target = "us", vwl1 = "U", vwl2 = "u:")
+```
+
+
+
+
+# Duration
+
+```{r durtb, message=F, warning=F}
+durtb <- fdat %>%
+  dplyr::group_by(type, tvariety, vowel) %>%
+  dplyr::summarise(duration_mean = round(mean(duration), 3), 
+                   duration_sd = round(sd(duration), 3),
+                   freq = n())
+# inspect
+durtb
+```
+
+
+```{r}
+durtb %>%
+  dplyr::mutate(mean_sd = paste0(duration_mean, " (", duration_sd, ", N = ", freq, ")")) %>%
+  dplyr::select(-duration_mean, -duration_sd, -freq) %>%
+  tidyr::spread(type, mean_sd) %>%
+  flextable::flextable()
+```
+
+
+```{r durplot, message=F, warning=F}
+fdat %>%
+  dplyr::group_by(type, tvariety, vowel) %>%
+  dplyr::summarise(duration = mean(duration)) %>%
+  ggplot(aes(x = vowel, y = duration, fill = type)) +
+  geom_bar(stat = "identity", position=position_dodge()) +
+  facet_grid( ~ tvariety) +
+  theme_bw()
+```
+
+
+
+```{r}
+diff_dat <- fdat %>%
+  dplyr::group_by(type, tvariety, label) %>%
+  dplyr::summarise(dur = mean(duration)) %>%
+  dplyr::filter(label == "I" | 
+                  label == "i:" | 
+                  label == "U" | 
+                  label == "u:") %>%
+  tidyr::spread(label, dur) %>%
+  dplyr::mutate(diff_i = `i:` - I,
+                diff_u = `u:` - U) %>%
+  dplyr::select(-I, -U, -`i:`, -`u:`) %>%
+  tidyr::gather(pair, diff, diff_i:diff_u) %>%
+  dplyr::mutate(pair = dplyr::case_when(pair == "diff_i" ~ "Ii",
+                                        pair == "diff_u" ~ "Uu"))
+# inspect
+diff_dat
+```
+
+
+```{r eval = F}
+diff_dat <- fdat %>%
+  dplyr::group_by(type, tvariety, label) %>%
+  dplyr::summarise(dur = round(mean(duration), 5),
+                   sd = round(sd(duration), 5)) %>%
+  dplyr::filter(label == "I" |
+                  label == "i:" | 
+                  label == "U" | 
+                  label == "u:") %>%
+  tidyr::spread(label, dur) %>%
+  dplyr::mutate(diff_i = `i:` - I,
+                diff_u = `u:` - U) %>%
+  dplyr::select(-I, -U, -`i:`, -`u:`) %>%
+  tidyr::gather(pair, diff, diff_i:diff_u) %>%
+  dplyr::mutate(pair = dplyr::case_when(pair == "diff_i" ~ "Ii",
+                                        pair == "diff_u" ~ "Uu"))
+# inspect
+diff_dat
+```
+
+
+
+
+```{r}
+dplot <- diff_dat %>%
+  dplyr::rename(Speaker = type) %>%
+  dplyr::mutate(pair = ifelse(pair == "Ii", "i-vowles", "u-vowels")) %>%
+  ggplot(aes(x = pair, y = diff, fill = Speaker)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+    # define colors
+  scale_fill_manual(values= c("orange", "gray")) + 
+  # add text and define colour
+  geom_text(aes(label=round(diff, 3)), vjust=-1.6, color="gray20", 
+            # define text position and size
+            position = position_dodge(0.9),  size=3) +
+  theme_bw() +
+  coord_cartesian(ylim = c(0, .06)) +
+  labs(x = "Vowel pairs", y = "Mean Difference in Duration (ms)") +
+  theme(legend.position = "top")
+# save
+ggsave(here::here("images", "dplot.png"), height = 3,  width = 5, dpi = 320)
+# inspect
+dplot
+```
+
+
+# Statistical Analysis
+
+base-line model
+
+```{r}
+m0 <- lmer(duration ~ 1 + (1 | speaker) + (1 | word), data = fdat)
+# inspect
+summary(m0)
+```
+
+## Model Fitting
+
+
+```{r eval = F}
+# WARNING: this model fitting procedure is suboptimal for 2 reasons: 
+# 1. the reported best model has terms in interactions that are not 
+# included as main effects.
+# 2. The model fitting ignores multicolliniarity
+
+# activate package
+library(glmulti)
+# wrapper function for linear mixed-models
+lmer.glmulti <- function(formula,data, random="",...){
+  lmer(paste(deparse(formula),random), data=data, REML=F,...)
+}
+# define formular
+form_glmulti = as.formula(paste("duration ~ type + label + gender + Age"))
+# multi selection for lmer
+mfit <- glmulti(form_glmulti,random="+(1 | speaker) + (1 | word)", 
+                data = fdat, method = "h", fitfunc = lmer.glmulti,
+                intercept = TRUE, marginality = FALSE, level = 2)
+# inspect results
+summary(mfit)
+```
+
+
+
+
+**Main effects**
+
+### type
+
+sig.
+
+```{r}
+# add type
+m1 <- update(m0, . ~ . + type)
+# inspect
+sjPlot::tab_model(m1)
+```
+
+### label (vowel)
+
+sig.
+
+```{r}
+# add label
+m2 <- update(m1, . ~ . + label)
+# checks
+anova(m1, m2, test = "Chi")
+car::vif(m2)
+# inspect
+sjPlot::tab_model(m2)
+```
+
+### gender
+
+not sig.
+
+```{r}
+# add gender
+m3 <- update(m2, . ~ . + gender)
+# checks
+anova(m2, m3, test = "Chi")
+car::vif(m3)
+# inspect
+sjPlot::tab_model(m3)
+```
+
+### Age
+
+not sig.
+
+
+```{r}
+# add Age
+m4 <- update(m2, . ~ . + Age)
+# checks
+anova(m2, m4, test = "Chi")
+car::vif(m4)
+# inspect
+sjPlot::tab_model(m4)
+```
+
+### WordType
+
+not sig.
+
+```{r}
+# add WordType
+m5 <- update(m2, . ~ . + WordType)
+# checks
+anova(m2, m5, test = "Chi")
+car::vif(m5)
+# inspect
+sjPlot::tab_model(m5)
+```
+
+
+
+**Interactions**
+
+### type x label
+
+sig.
+
+```{r}
+# add type x label
+m6 <- update(m2, . ~ . + type * label)
+# checks
+anova(m2, m6, test = "Chi")
+car::vif(m6)
+# inspect
+sjPlot::tab_model(m6)
+```
+
+
+### type x Age
+
+unacc. vifs
+
+```{r}
+# add type x Age
+m7 <- update(m6, . ~ . + type * Age)
+# checks
+car::vif(m7)
+```
+
+### type x gender
+
+unacc. vifs
+
+```{r}
+# add type x gender
+m8 <- update(m6, . ~ . + type * gender)
+# checks
+car::vif(m8)
+```
+
+
+### type x WordType
+
+unacc. vifs
+
+```{r}
+# add type x gender
+m9 <- update(m6, . ~ . + type * WordType)
+# checks
+car::vif(m9)
+```
+
+### label x gender
+
+sig.
+
+```{r}
+# add type x gender
+m10 <- update(m6, . ~ . + type * gender)
+# checks
+car::vif(m10)
+anova(m6, m10, test = "Chi")
+# inspect
+sjPlot::tab_model(m10)
+```
+
+
+### label x Age
+
+unacc. vifs
+
+```{r}
+# add type x gender
+m11 <- update(m10, . ~ . + type * Age)
+# checks
+car::vif(m11)
+```
+
+
+
+### label x WordType
+
+unacc. vifs
+
+```{r}
+# add type x gender
+m12 <- update(m10, . ~ . + type * WordType)
+# checks
+car::vif(m12)
+```
+
+### gender x Age
+
+unacc. vifs
+
+```{r}
+# add type x gender
+m13 <- update(m10, . ~ . + gender * Age)
+# checks
+car::vif(m13)
+```
+
+### gender x WordType
+
+not sig
+
+```{r}
+# add type x gender
+m14 <- update(m10, . ~ . + gender * WordType)
+# checks
+car::vif(m14)
+anova(m10, m14, test = "Chi")
+# inspect
+sjPlot::tab_model(m14)
+```
+
+### Age x WordType
+
+not sig.
+
+```{r}
+# add type x gender
+m15 <- update(m10, . ~ . + Age * WordType)
+# checks
+car::vif(m15)
+anova(m10, m15, test = "Chi")
+# inspect
+sjPlot::tab_model(m15)
+```
+
+## Final Minimal Adequate Model
+
+```{r}
+sjPlot::tab_model(m0, m10)
+```
+
+
+```{r}
+sjPlot::tab_model(m10)
+```
+
+```{r}
+sjPlot::plot_model(m10) +
+  coord_flip(ylim = c(-.1, .1)) 
+```
+
+
+```{r}
+plot_model(m10, type = "re", terms = "words")
+```
+
+
+```{r}
+fixef(m10)
+```
+
+
+```{r}
+# jpn i
+jpn_I <- fixef(m10)[1] + fixef(m10)[2]
+jpn_i <- fixef(m10)[1] + fixef(m10)[2] + fixef(m10)[3]  + fixef(m10)[7]
+# ens i
+ens_I <- fixef(m10)[1] 
+ens_i <- fixef(m10)[1] + fixef(m10)[3]
+
+# jpn u
+jpn_U <- fixef(m10)[1] + fixef(m10)[2] + fixef(m10)[4]  + fixef(m10)[8]
+jpn_u <- fixef(m10)[1] + fixef(m10)[2] + fixef(m10)[5]  + fixef(m10)[9]
+# ens i
+ens_U <- fixef(m10)[1] + fixef(m10)[4]
+ens_u <- fixef(m10)[1] + fixef(m10)[5]
+```
+
+
+
+
+```{r efp, message=F, warning=F}
+plot_model(m10, type = "pred", terms = c("type", "label"), axis.lim = c(0, .2)) +
+  theme_bw() +
+  labs(x = "Speaker type", y = "Predicted Duration (ms)") +
+  geom_segment(aes(x = 1.9, y = jpn_I, xend = 1.9, yend = jpn_i), 
+               size = 1, color = "gray") +
+  geom_segment(aes(x = 0.9, y = ens_I, xend = 0.9, yend = ens_i), 
+               size = 1, color = "gray") +
+    geom_segment(aes(x = 2.1, y = jpn_U, xend = 2.1, yend = jpn_u), 
+                 size = 1, color = "orange") +
+  geom_segment(aes(x = 1.1, y = ens_U, xend = 1.1, yend = ens_u), 
+               size = 1, color = "orange") +
+  scale_color_manual(values = c("lightgray", "darkgray", "orange", "orange3"))
+# save
+ggsave(here::here("images", "ef.png"), height = 3,  width = 5, dpi = 320)
+```
+
+
+
+
+
+
+```{r}
+report::report(m10)
+```
+
+
+# Citation & Session Info
+
+Schweinberger, Martin. `r format(Sys.time(), '%Y')`. A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English. Brisbane: The University of Queensland, School of Languages and Cultures. url: https://slcladal.github.io/praatrf.html (Version `r format(Sys.time(), '%Y.%m.%d')`).
+
+@manual{schweinberger`r format(Sys.time(), '%Y')`praatrf,
+  author = {Schweinberger, Martin},
+  title = {A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English},
+  note = {https://slcladal.github.io/praatrf.html},
+  year = {`r format(Sys.time(), '%Y')`},
+  organization = "The University of Queensland, School of Languages and Cultures},
+  address = {Brisbane},
+  edition = {`r format(Sys.time(), '%Y.%m.%d')`}
+}
+
+
+```{r}
+sessionInfo()
+```
+
+
+# Citation & Session Info
+
+Schweinberger, Martin. `r format(Sys.time(), '%Y')`. A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English. Brisbane: The University of Queensland, School of Languages and Cultures. url: https://slcladal.github.io/praatrf.html (Version `r format(Sys.time(), '%Y.%m.%d')`).
+
+@manual{schweinberger`r format(Sys.time(), '%Y')`praatrf,
+  author = {Schweinberger, Martin},
+  title = {A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English},
+  note = {https://slcladal.github.io/praatrf.html},
+  year = {`r format(Sys.time(), '%Y')`},
+  organization = "The University of Queensland, School of Languages and Cultures},
+  address = {Brisbane},
+  edition = {`r format(Sys.time(), '%Y.%m.%d')`}
+}
+
+
+```{r}
+sessionInfo()
+```
