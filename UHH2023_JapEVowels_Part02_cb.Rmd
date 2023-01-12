@@ -347,8 +347,6 @@ tb0 <- fdat %>%
   adorn_totals("row")%>%
   adorn_totals("col") %>%
   dplyr::mutate(Total = Total-speakers)
-# save
-write.table(tb0, here::here("tables", "tb0.txt"), sep = "\t")
 # inspect
 tb0
 ```
@@ -374,7 +372,6 @@ dur_IiUu <-  fdat %>%
   theme_ridges() +
   theme(legend.position = "top") +
   scale_fill_manual(values = c("orange", "gray"))
-ggsave(here::here("images", "dur_IiUu.png"), height = 3,  width = 5, dpi = 320)
 dur_IiUu
 ```
 
@@ -486,13 +483,11 @@ wordplot3 <- function(fdat, vwl1, vwl2){
 
 ```{r}
 pIi <- wordplot3(fdat = fdat, vwl1 = "I", vwl2 = "i:")
-ggsave(here::here("images", "pIi.png"), height = 3,  width = 5, dpi = 320)
 pIi
 ```
 
 ```{r}
 pUu <- wordplot3(fdat = fdat, vwl1 = "U", vwl2 = "u:")
-ggsave(here::here("images", "pUu.png"), height = 3,  width = 5, dpi = 320)
 pUu
 ```
 
@@ -578,7 +573,6 @@ fdat %>%
   theme_minimal() +
   theme(legend.position = "right") +
   labs(x = "Formant 2 (Bark normalized)", y = "Formant 1 (Bark normalized))")
-ggsave(file = here("images", "vowels_lob.png"), height = 5,  width = 5, dpi = 320)
 ```
 
 
@@ -601,8 +595,6 @@ tb1 <- fdat %>%
   adorn_totals("row")%>%
   adorn_totals("col") %>%
   dplyr::mutate(Total = Total-speakers)
-# save
-write.table(tb1, here::here("tables", "tb1.txt"), sep = "\t")
 # inspect
 tb1
 ```
@@ -623,8 +615,6 @@ tb2 <- fdat %>%
   dplyr::ungroup()  %>%
   adorn_totals("row")%>%
   adorn_totals("col")
-# save
-write.table(tb2, here::here("tables", "tb2.txt"), sep = "\t")
 # inspect
 tb2
 ```
@@ -643,8 +633,6 @@ tb3 <- fdat %>%
   dplyr::ungroup()  %>%
   adorn_totals("row")%>%
   adorn_totals("col")
-# save
-write.table(tb3, here::here("tables", "tb3.txt"), sep = "\t")
 # inspect
 tb3
 ```
@@ -653,8 +641,6 @@ tb3
 # Save data to disc
 
 ```{r savefdat, message=F, warning=F}
-# save
-base::saveRDS(fdat, file = here::here("data", "fdat_sst.rda"))
 # inspect
 nrow(fdat); head(fdat)
 ```
@@ -668,7 +654,7 @@ load data
 
 ```{r data, message=F, warning=F}
 # load .rda data
-fdat  <- base::readRDS(file = here::here("data", "fdat_sst.rda"))
+fdat  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/fdat_sst.rda"))
 # inspect
 nrow(fdat); head(fdat)
 ```
@@ -834,8 +820,6 @@ dplot <- diff_dat %>%
   coord_cartesian(ylim = c(0, .06)) +
   labs(x = "Vowel pairs", y = "Mean Difference in Duration (ms)") +
   theme(legend.position = "top")
-# save
-ggsave(here::here("images", "dplot.png"), height = 3,  width = 5, dpi = 320)
 # inspect
 dplot
 ```
@@ -852,30 +836,6 @@ summary(m0)
 ```
 
 ## Model Fitting
-
-
-```{r eval = F}
-# WARNING: this model fitting procedure is suboptimal for 2 reasons: 
-# 1. the reported best model has terms in interactions that are not 
-# included as main effects.
-# 2. The model fitting ignores multicolliniarity
-
-# activate package
-library(glmulti)
-# wrapper function for linear mixed-models
-lmer.glmulti <- function(formula,data, random="",...){
-  lmer(paste(deparse(formula),random), data=data, REML=F,...)
-}
-# define formular
-form_glmulti = as.formula(paste("duration ~ type + label + gender + Age"))
-# multi selection for lmer
-mfit <- glmulti(form_glmulti,random="+(1 | speaker) + (1 | word)", 
-                data = fdat, method = "h", fitfunc = lmer.glmulti,
-                intercept = TRUE, marginality = FALSE, level = 2)
-# inspect results
-summary(mfit)
-```
-
 
 
 
@@ -1139,8 +1099,6 @@ plot_model(m10, type = "pred", terms = c("type", "label"), axis.lim = c(0, .2)) 
   geom_segment(aes(x = 1.1, y = ens_U, xend = 1.1, yend = ens_u), 
                size = 1, color = "orange") +
   scale_color_manual(values = c("lightgray", "darkgray", "orange", "orange3"))
-# save
-ggsave(here::here("images", "ef.png"), height = 3,  width = 5, dpi = 320)
 ```
 
 
