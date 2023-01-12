@@ -1,0 +1,1101 @@
+Code	Country	PTJ1 (wds)	PTJ2 (wds)	SMK1 (wds)	SMK2 (wds)	Self Ev	Sex	Age	Grade/Degree	Yrs of Stay (< Yrs)	ENS Type	Major/ Occupation	Acad. Genre	Test	Score	VST	CEFR	INTM	INSM	INTM+INSM	INTM-INSM	Primary	Secondary	College	Inschool	Outschool	Listening	Reading	Speaking	Writing	NS	Pronunciation	Presentation	EssayW
+SM_CHN_001	CHN	99	129	109	108	1	M	20	1	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	39	B1_2	5	5	10	0	3	3.75	3.88	4.11	3.33	4.5	4	3	3.75	2	4	4	5
+SM_CHN_002	CHN	52	59	43	49	1	M	20	2	N/A	N/A	Nuclear Power Engineering	Sciences & Technology	N/A	N/A	44	B1_2	4.83	5.17	10	-0.34	3	4.63	3.5	4.33	3.56	4.25	4.5	3.5	4	3	4	4	4
+SM_CHN_003	CHN	95	107	90	98	1	M	19	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	33	B1_1	3.83	1.67	5.5	2.16	1	2.5	2.88	3	2	3	3	2	2.75	1	3	2	4
+SM_CHN_004	CHN	77	81	69	90	0	F	20	3	1	N/A	Information Engineering	Sciences & Technology	N/A	N/A	43	B1_2	4	4.83	8.83	-0.83	5	3.75	3.13	3.44	3.78	3.5	4	3.5	2.75	3	4	4	3
+SM_CHN_005	CHN	95	102	93	102	3	M	19	2	N/A	N/A	Physics	Sciences & Technology	N/A	N/A	34	B1_1	5	4.5	9.5	0.5	2	2.63	3.13	2.78	2.78	3.75	3	3.25	1.5	6	2	4	5
+SM_CHN_006	CHN	89	99	98	128	1	F	20	2	N/A	N/A	Finance	Social Sciences	N/A	N/A	36	B1_2	3.5	5.5	9	-2	2	2.38	2	2	2.33	2.75	2.25	2	1.75	6	3	4	3
+SM_CHN_007	CHN	142	164	103	123	1	F	21	2	N/A	N/A	Economics	Social Sciences	N/A	N/A	32	B1_1	4.5	5	9.5	-0.5	1.5	4.25	1.88	3.44	2.33	3	3.5	2.5	3.25	1	5	3	5
+SM_CHN_008	CHN	99	94	111	113	1	M	18	2	N/A	N/A	Software Engineering	Sciences & Technology	N/A	N/A	34	B1_1	2.67	3.17	5.84	-0.5	3	2.5	2.63	3	2.22	2.75	2.75	2	2.75	4	1	1	5
+SM_CHN_009	CHN	87	122	82	79	1	M	20	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	42	B1_2	4.33	5.17	9.5	-0.84	2	3.25	3.5	3.56	2.89	3.75	3.25	3.25	3.25	2	3	5	5
+SM_CHN_010	CHN	100	98	100	90	1	F	18	2	N/A	N/A	Sea Engineering	Sciences & Technology	N/A	N/A	39	B1_2	2.67	4.17	6.84	-1.5	1.5	1.5	1.5	1.56	1.44	2.25	1	1.25	1.5	1	2	1	2
+SM_CHN_011	CHN	119	124	105	120	1	M	20	2	N/A	N/A	Sea Engineering	Sciences & Technology	N/A	N/A	38	B1_2	4.83	5.83	10.66	-1	2	3.13	3	2.78	3.11	3.5	3.75	2.25	2.75	2	4	4	5
+SM_CHN_012	CHN	108	102	95	99	1	M	18	2	N/A	N/A	Physics	Sciences & Technology	N/A	N/A	33	B1_1	4.67	4.67	9.34	0	1	3.88	3.25	3.56	3	5	3.5	3.25	2.5	6	6	4	6
+SM_CHN_013	CHN	47	84	72	75	1	M	20	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	TOEFL (iBT)	65 	30	B1_1	3.67	5.5	9.17	-1.83	3	2.5	2.63	3.11	2.11	2.75	2.5	2.5	2.5	2	5	4	4
+SM_CHN_014	CHN	74	100	100	119	2	M	20	1	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	39	B1_2	4.67	5.33	10	-0.66	2.5	4.5	2.88	3.67	3.44	4	3.75	3.25	3.75	1	2	4	3
+SM_CHN_015	CHN	90	100	92	124	2	M	20	1	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	39	B1_2	4.67	5.33	10	-0.66	2.5	4.5	2.88	3.67	3.44	4	3.75	3.25	3.75	1	2	4	3
+SM_CHN_016	CHN	128	118	126	128	2	F	19	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	32	B1_1	5.5	4.67	10.17	0.83	2	2.88	3.38	3.22	2.78	4.25	3	2	3.25	2	4	4	4
+SM_CHN_017	CHN	133	123	112	112	1	M	20	2	N/A	N/A	Industrial Engineering	Sciences & Technology	N/A	N/A	36	B1_2	3.83	4.33	8.16	-0.5	3.5	3.5	3.13	3.67	3	3.5	3.25	3.25	3.25	4	5	4	4
+SM_CHN_018	CHN	111	106	98	104	1	M	19	2	N/A	N/A	Machine Science	Sciences & Technology	N/A	N/A	36	B1_2	3.67	5.67	9.34	-2	2.5	3.88	2.38	3.56	2.56	3.25	4	1.75	3.5	1	5	2	5
+SM_CHN_019	CHN	107	104	96	117	3	M	20	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	38	B1_2	4.67	4.83	9.5	-0.16	2	3.88	3.63	3.33	3.78	4.25	4.5	3.25	3	3	3	3	4
+SM_CHN_020	CHN	107	114	109	118	1	M	20	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	33	B1_1	4.33	3.5	7.83	0.83	1	3.75	3	3.78	2.44	2.75	4.5	2.25	4	1	2	4	5
+SM_CHN_021	CHN	92	97	105	111	0	M	20	1	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	39	B1_2	5	5	10	0	3	3.75	3.88	4.11	3.33	4.5	4	3	3.75	2	4	4	5
+SM_CHN_022	CHN	84	88	109	120	1	M	21	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	44	B1_2	4.67	5.17	9.84	-0.5	3	4.63	3.63	4.33	3.67	4.25	4.25	3.75	4.25	3	4	4	4
+SM_CHN_023	CHN	81	75	50	72	0	M	20	2	N/A	N/A	Software Engineering	Sciences & Technology	N/A	N/A	26	B1_1	4.5	5.17	9.67	-0.67	2.5	2.13	3.25	2.78	2.56	3	3.25	2.25	2.25	2	2	4	4
+SM_CHN_024	CHN	110	127	104	90	1	M	19	2	N/A	N/A	Physics	Sciences & Technology	N/A	N/A	43	B1_2	4.5	5	9.5	-0.5	2.5	4.25	3.75	4	3.67	4.25	4.5	3.75	3.5	2	6	5	5
+SM_CHN_025	CHN	165	181	124	152	2	M	20	2	N/A	N/A	Industrial Engineering	Sciences & Technology	N/A	N/A	36	B1_2	3.83	4.33	8.16	-0.5	3.5	3.5	3.13	3.67	3	3.5	3.25	3.25	3.25	4	5	4	4
+SM_CHN_026	CHN	108	103	98	101	3	M	31	M	N/A	N/A	Calculating Science	Sciences & Technology	N/A	N/A	18	A2_0	3.33	4.67	8	-1.34	1	1.38	1.75	1.33	1.67	2.5	1.5	1.25	1	1	2	3	3
+SM_CHN_027	CHN	86	66	71	74	3	M	19	1	N/A	N/A	Industrial Engineering	Sciences & Technology	N/A	N/A	37	B1_2	2.33	3.33	5.66	-1	3	2.75	2.88	2.78	2.89	2.5	2.5	3.25	3	3	4	3	3
+SM_CHN_028	CHN	117	130	104	114	2	M	27	1	N/A	N/A	Chemical Engineering	Sciences & Technology	N/A	N/A	27	B1_1	3.83	5.67	9.5	-1.84	2	3.75	2.88	2.89	3.44	4.25	3.75	2.75	2.5	2	2	2	2
+SM_CHN_029	CHN	132	128	107	105	1	M	26	M	N/A	N/A	Computer Science	Sciences & Technology	TOEIC	740 	29	B1_2	5.83	5.17	11	0.66	2.5	4.25	5.25	4.56	4.44	5	5	4.75	4.25	6	6	2	4
+SM_CHN_030	CHN	88	89	80	94	1	M	19	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	36	B1_2	4	3.5	7.5	0.5	2.5	3.25	3.75	4.22	2.56	4.25	3.5	3.25	3	6	3	6	6
+SM_CHN_031	CHN	99	101	84	96	1	M	19	2	N/A	N/A	Engineering	Sciences & Technology	N/A	N/A	29	B1_1	4.5	5	9.5	-0.5	2.5	3.5	4	3.89	3.33	3.75	3.75	3.75	3.75	4	4	4	4
+SM_CHN_032	CHN	117	115	117	105	1	M	22	4	N/A	N/A	Mechanical Engineering	Sciences & Technology	TOEFL (iBT)	108 	44	B2_0	5.33	3.83	9.16	1.5	3.5	3.38	3.88	3.56	3.67	3.75	4.25	3	3.5	5	5	4	5
+SM_CHN_033	CHN	72	81	90	77	0	M	20	2	N/A	N/A	Economics	Social Sciences	N/A	N/A	42	B1_2	4.33	4.5	8.83	-0.17	4	3.13	3	3.44	2.89	3	4	2.25	3	4	5	6	2
+SM_CHN_034	CHN	71	56	61	65	1	M	20	2	N/A	N/A	Sea Engineering	Sciences & Technology	N/A	N/A	43	B1_2	5.17	5.83	11	-0.66	4	3.25	3.38	3.78	3	4.25	2.5	2.5	4	5	6	6	6
+SM_CHN_035	CHN	112	91	100	100	1	F	21	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	28	B1_1	3.67	5.17	8.84	-1.5	1	1.75	1	1.67	1	1.5	1.5	1.5	1	1	1	1	6
+SM_CHN_036	CHN	110	99	104	58	1	M	20	2	0.5	N/A	Environment	Sciences & Technology	N/A	N/A	21	A2_0	3.33	3.83	7.16	-0.5	5	4	3.88	4.22	3.89	4	4	3.5	4.25	2	3	2	5
+SM_CHN_037	CHN	114	135	117	122	1	M	19	2	N/A	N/A	Sea Engineering	Sciences & Technology	N/A	N/A	39	B1_2	3	4.5	7.5	-1.5	6	3.13	1	2.44	2.56	2	2.25	1.75	2.25	1	5	1	5
+SM_CHN_038	CHN	103	65	80	82	1	M	20	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	42	B1_2	4.33	5.17	9.5	-0.84	2	3.25	3.5	3.56	2.89	3.75	3.25	3.25	3.25	2	3	5	5
+SM_CHN_039	CHN	71	44	30	42	2	M	19	2	N/A	N/A	Mechanical Engineering	Sciences & Technology	N/A	N/A	42	B1_2	4.33	5.17	9.5	-0.84	2	3.25	3.5	3.56	2.89	3.75	3.25	3.25	3.25	2	3	5	5
+SM_CHN_040	CHN	122	106	113	116	1	F	26	M	N/A	N/A	System Science	Sciences & Technology	TOEFL (iBT)	92 	33	B2_0	5.5	5.5	11	0	1	2	2.88	1.56	3	2.5	2.75	2.5	2	5	5	5	2
+SM_CHN_041	CHN	101	113	95	107	1	M	24	M	N/A	N/A	Wireless Network	Sciences & Technology	TOEIC	865 	36	B2_0	5.33	5.5	10.83	-0.17	3.5	3.13	3.88	3.11	3.89	3	4.25	3.5	3.25	4	3	4	3
+SM_CHN_042	CHN	109	127	97	109	1	F	26	M	N/A	N/A	Anthropology	Humanities	N/A	N/A	45	B1_2	6	4.83	10.83	1.17	1.5	4.63	4.25	3.56	4.67	4.5	4.75	3.25	5.25	6	6	6	6
+SM_CHN_043	CHN	95	89	82	72	0	F	24	3	N/A	N/A	Japanese	Humanities	TOEFL (iBT)	84 	29	B1_2	5.83	5	10.83	0.83	1	1.88	1	1.78	1	1	2	1.5	1.25	1	1	1	6
+SM_CHN_044	CHN	130	133	115	133	1	F	23	M	N/A	N/A	Human Communication	Humanities	N/A	N/A	42	B1_2	4.17	4.33	8.5	-0.16	2.5	3.5	3.75	3.67	3.33	3.5	4.25	3	3.75	3	5	4	5
+SM_CHN_045	CHN	104	128	97	98	1	M	28	M	N/A	N/A	Information Science	Sciences & Technology	TOEIC	710 	27	B1_2	5	3.83	8.83	1.17	1	3.63	2.25	3	2.44	2.75	4.25	2.25	2.5	1	4	2	1
+SM_CHN_046	CHN	99	100	104	100	1	M	26	M	N/A	N/A	Education	Humanities	TOEIC	705 	40	B1_2	5.17	4.83	10	0.34	4.5	4.5	3.5	5	3.11	4	4	4	4	5	5	3	5
+SM_CHN_047	CHN	98	97	89	94	1	F	25	M	N/A	N/A	Economics	Social Sciences	N/A	N/A	31	B1_1	5.5	3.83	9.33	1.67	2	3	2.25	3	2.11	3	2.75	2	2.75	2	2	2	3
+SM_CHN_048	CHN	102	135	108	101	0	M	30	M	N/A	N/A	Marketing	Social Sciences	TOEIC	720 	32	B1_2	4	5.33	9.33	-1.33	2	2.75	2.75	3.22	2.11	2.5	4	2.25	2.25	2	6	6	5
+SM_CHN_049	CHN	131	115	96	105	1	F	24	M	N/A	N/A	Political Science	Social Sciences	TOEFL (iBT)	98 	31	B2_0	5.67	5.33	11	0.34	1.5	3.25	2.88	1.78	4	3.5	3.5	2.75	2.5	1	6	3	3
+SM_CHN_050	CHN	41	52	38	50	1	M	20	2	N/A	N/A	Life Science	Life Sciences	N/A	N/A	43	B1_2	5.67	5.67	11.34	0	3	5	3	4.56	3.22	4.5	4.75	3	3.75	5	6	5	5
+SM_CHN_051	CHN	118	135	120	130	1	M	21	2	N/A	N/A	Information Security	Sciences & Technology	N/A	N/A	26	B1_1	2.33	5	7.33	-2.67	1	4.25	2.13	3.33	2.56	3.5	3.75	2	3.5	5	3	2	4
+SM_CHN_052	CHN	79	109	98	103	1	F	21	2	N/A	N/A	Animal Sciences	Sciences & Technology	N/A	N/A	44	B1_2	4.33	4.67	9	-0.34	5	5.13	4.38	5.11	4.44	4.25	5	4.25	5.5	1	6	6	5
+SM_CHN_053	CHN	89	109	98	132	1	F	21	2	N/A	N/A	Visual Communication	Sciences & Technology	N/A	N/A	44	B1_2	4.83	4.5	9.33	0.33	2.5	3	3.63	4.11	2.33	3.75	3.5	3.25	2.75	5	5	6	6
+SM_CHN_054	CHN	165	151	139	145	2	M	21	2	N/A	N/A	Automation	Sciences & Technology	N/A	N/A	27	B1_1	5	4.5	9.5	0.5	2.5	3.25	2.38	2.78	2.78	3	2.75	2.75	2.75	5	4	3	1
+SM_CHN_055	CHN	119	118	87	112	1	M	21	3	N/A	N/A	Material Engineering	Sciences & Technology	TOEFL (iBT)	86 	34	B1_2	4.83	5	9.83	-0.17	1	2.88	3.25	3.33	2.33	3.75	2.75	2.5	3.25	2	4	4	5
+SM_CHN_056	CHN	100	121	97	95	1	F	19	1	N/A	N/A	Finance	Social Sciences	N/A	N/A	35	B1_1	5	4.83	9.83	0.17	1	3	3.5	3.22	2.78	3.5	3	2.25	4.25	4	4	4	5
+SM_CHN_057	CHN	146	129	140	109	1	M	20	2	N/A	N/A	Applied Chemistry	Sciences & Technology	N/A	N/A	31	B1_1	4.67	5.67	10.34	-1	2	3.25	3	3.33	2.67	3.5	3.25	2.75	3	4	4	5	5
+SM_CHN_058	CHN	139	154	130	130	3	M	20	2	N/A	N/A	Information Security	Sciences & Technology	TOEFL (iBT)	70 	28	B1_1	3.67	4.67	8.34	-1	2.5	3.63	3.38	3.44	3.33	4.25	3.5	3	3.25	2	3	3	3
+SM_CHN_059	CHN	125	140	114	112	1	M	20	2	N/A	N/A	Information Security	Sciences & Technology	N/A	N/A	33	B1_1	3.83	5.5	9.33	-1.67	2	2.63	2.63	2.78	2.33	2.5	3.5	2.75	1.75	3	3	4	2
+SM_CHN_060	CHN	99	140	90	79	1	F	20	2	N/A	N/A	Life Science	Life Sciences	N/A	N/A	43	B1_2	5.67	5.67	11.34	0	3	5	3	4.56	3.22	4.5	4.75	3	3.75	5	6	5	5
+SM_CHN_061	CHN	130	139	126	126	2	F	30	M	N/A	N/A	Education	Humanities	TOEIC	760 	46	B1_2	4.5	4.67	9.17	-0.17	3.5	3.13	3.5	3.22	3.44	3.5	3.75	3	3	3	4	3	3
+SM_CHN_062	CHN	82	97	75	90	1	F	23	M	N/A	N/A	Japanese	Humanities	TOEIC	645 	41	B1_1	3.5	4.5	8	-1	2.5	3	2.13	2.78	2.33	2.75	2.75	2	2.75	2	5	4	2
+SM_CHN_063	CHN	118	116	119	105	0	F	24	M	N/A	N/A	Global Culture	Humanities	N/A	N/A	31	B1_1	3.5	3.17	6.67	0.33	2	4.5	1.38	2.78	2.89	3	3	3	2.75	1	1	1	1
+SM_CHN_064	CHN	107	104	106	81	1	F 	21	4	N/A	N/A	Business English	Humanities	IELTS	7 	29	B2_0	4.83	3.83	8.66	1	3	3.63	3.88	4	3.33	4.5	4.25	3.25	3	6	4	4	4
+SM_CHN_065	CHN	119	107	114	109	0	M	22	4	N/A	N/A	Chemistry	Sciences & Technology	N/A	N/A	34	B1_1	3.33	4.17	7.5	-0.84	1.5	4.5	2.63	3.22	3.44	3.75	4	2.75	3.75	2	2	2	4
+SM_CHN_066	CHN	104	110	104	94	1	F	23	4	N/A	N/A	Nursing	Life Sciences	N/A	N/A	19	A2_0	3.33	4.67	8	-1.34	1.5	3.25	3.38	2.56	3.67	3.75	3.25	3	3.25	2	5	3	3
+SM_CHN_067	CHN	116	122	104	115	1	M	19	2	N/A	N/A	Engineering	Sciences & Technology	N/A	N/A	20	A2_0	2.5	1.83	4.33	0.67	5.5	3.63	3.5	3.78	3.78	3	3.25	4	4	4	3	3	4
+SM_CHN_068	CHN	122	135	118	105	1	M	20	3	N/A	N/A	Biology	Sciences & Technology	N/A	0 	36	B1_2	3.83	2	5.83	1.83	3	3	2.75	2.78	3	2.5	3.5	2.75	2.75	2	3	3	4
+SM_CHN_069	CHN	140	156	135	123	1	M	22	4	0.5	N/A	Chinese	Humanities	N/A	N/A	28	B1_1	4.83	3.83	8.66	1	2	3.13	4.5	3.89	3.33	4.25	3.25	3.5	4.25	5	5	4	5
+SM_CHN_070	CHN	135	145	146	159	1	M	20	4	N/A	N/A	Chinese Literature	Humanities	N/A	N/A	30	B1_1	4.67	4.67	9.34	0	1	3.63	5	4.22	3.67	4.5	4.5	4	4.25	4	4	4	4
+SM_CHN_071	CHN	79	86	69	77	2	M	19	4	N/A	N/A	Marketing Management	Social Sciences	N/A	N/A	32	B1_1	4.5	5.17	9.67	-0.67	1.5	4.5	4.75	4.56	4	5	4.5	4.5	4.5	4	6	6	6
+SM_CHN_072	CHN	126	141	124	144	1	M	20	4	N/A	N/A	International Trade	Social Sciences	N/A	N/A	40	B1_2	3.67	3.5	7.17	0.17	2	2.25	2.13	2.22	2.11	2.25	2.25	2.25	2	5	5	4	5
+SM_CHN_073	CHN	89	106	86	92	1	M	21	3	N/A	N/A	Psychology	Humanities	N/A	N/A	42	B1_2	2.83	4.67	7.5	-1.84	3.5	1.88	2.38	3	1.56	1.75	3	1.75	2	3	2	4	4
+SM_CHN_074	CHN	134	151	118	129	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	5.17	4.83	10	0.34	4	3.63	6	5.11	4.33	4.75	4.75	4.75	5	6	6	6	6
+SM_CHN_075	CHN	125	154	124	110	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	41	B1_2	3.33	3.5	6.83	-0.17	1.5	4	4.88	5	3.22	4	4.5	4.75	4.5	6	6	3	6
+SM_CHN_076	CHN	138	134	132	126	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	39	B1_2	4.67	4.83	9.5	-0.16	1.5	2.88	4.25	3.89	2.78	4	3.5	3.5	3.25	5	5	5	5
+SM_CHN_077	CHN	102	139	92	100	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	41	B1_2	5	4.83	9.83	0.17	2.5	3	4.63	4.56	2.78	4	4.5	3.25	3.5	5	6	6	6
+SM_CHN_078	CHN	137	91	125	115	2	M	22	3	N/A	N/A	Legal English	Social Sciences	N/A	N/A	44	B1_2	4.5	4.5	9	0	3	3.75	4.75	4.56	3.67	4.5	4.25	4	4.25	3	4	5	5
+SM_CHN_079	CHN	157	155	143	164	2	F	20	3	0.5	N/A	English Literature	Humanities	N/A	N/A	46	B1_2	5	4.67	9.67	0.33	3	3.75	5	4.44	4	4.75	4.25	4.5	4	5	5	5	5
+SM_CHN_080	CHN	125	127	118	113	2	F	19	3	N/A	N/A	English	Humanities	N/A	N/A	40	B1_2	4.17	4.5	8.67	-0.33	3	3.88	3.88	4.44	3.11	4.5	5	2.5	3.5	5	5	5	6
+SM_CHN_081	CHN	136	145	142	133	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	40	B1_2	6	6	12	0	3	4.88	6	5.22	5.11	5.5	5.5	5.25	5.5	2	6	5	6
+SM_CHN_082	CHN	74	123	101	86	2	F	19	3	N/A	N/A	English	Humanities	N/A	N/A	39	B1_2	4.67	5.67	10.34	-1	2.5	4.38	5.5	5	4.33	5.25	5.25	4.25	5	6	6	6	6
+SM_CHN_083	CHN	112	111	100	87	1	F	22	3	N/A	N/A	English	Humanities	N/A	N/A	31	B1_1	4.67	5.5	10.17	-0.83	3.5	3	4	4.11	2.89	3.5	3.5	3.5	3.5	5	5	5	5
+SM_CHN_084	CHN	112	114	95	95	2	F	21	3	N/A	N/A	Automation	Sciences & Technology	N/A	0 	39	B1_2	5	4.5	9.5	0.5	3.5	3.88	3.38	4.33	2.89	4	3.75	3.25	3.5	2	4	4	4
+SM_CHN_085	CHN	144	142	97	51	1	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	44	B1_2	4.83	4.67	9.5	0.16	2	3.25	4.25	3.78	3.33	3.75	3.5	3.75	4	4	4	5	5
+SM_CHN_086	CHN	102	109	104	109	2	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	42	B1_2	5.5	5.67	11.17	-0.17	2.5	3.75	5	4.67	3.67	4.5	4.75	4	4.25	6	5	4	5
+SM_CHN_087	CHN	161	148	132	134	1	F	20	2	N/A	N/A	English Literature	Humanities	N/A	N/A	36	B1_2	5.17	5.33	10.5	-0.16	2	3.38	4.5	4.11	3.33	4.5	4.25	3.5	3.5	5	5	5	5
+SM_CHN_088	CHN	101	104	82	92	1	F	20	2	N/A	N/A	Business English	Humanities	TOEFL (iBT)	95 	40	B2_0	4.33	5.17	9.5	-0.84	1	1.5	4.25	2.89	2.44	2.75	3.25	2.25	3.25	5	5	5	5
+SM_CHN_089	CHN	123	137	133	134	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	4.67	5	9.67	-0.33	3	2.75	4.25	4	2.89	3.5	4.5	3	3	4	4	4	4
+SM_CHN_090	CHN	116	117	121	131	1	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	39	B1_2	5.17	5.17	10.34	0	3	3.13	4.13	3.89	3.22	4	4	3.25	3.25	2	5	5	5
+SM_CHN_091	CHN	142	165	144	144	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	5	5	10	0	5	4	5	4.56	4.56	4.5	4.5	4.5	4.5	0	2	2	4
+SM_CHN_092	CHN	115	145	116	125	2	M	16	2	N/A	N/A	Math	Sciences & Technology	N/A	N/A	23	A2_0	4	5	9	-1	4.5	3.25	2.88	2.22	4.22	3.75	3.25	2.75	2.5	5	2	2	4
+SM_CHN_093	CHN	136	143	128	122	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	33	B1_1	3.67	4.33	8	-0.66	3	2.88	3.88	3.22	3.44	3.5	3.5	3.25	3.25	5	4	5	4
+SM_CHN_094	CHN	136	150	119	136	2	F	19	2	N/A	N/A	Business English	Humanities	N/A	N/A	46	B1_2	4.67	5	9.67	-0.33	1.5	2	4.63	3.56	2.67	3.25	3.75	2.75	3.5	3	5	4	4
+SM_CHN_095	CHN	122	134	128	108	1	F	19	2	N/A	N/A	German	Humanities	N/A	N/A	43	B1_2	4.5	4.67	9.17	-0.17	4.5	4.13	3.25	4.22	3.33	4	3.75	3.5	3.5	6	6	6	6
+SM_CHN_096	CHN	137	141	114	118	0	F	19	2	0.5	N/A	English	Humanities	N/A	N/A	44	B1_2	4.83	5.5	10.33	-0.67	2.5	3	5.13	4.22	3.56	3.5	4.75	3.25	4.75	6	6	6	6
+SM_CHN_097	CHN	150	156	139	153	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	38	B1_2	4.67	4.5	9.17	0.17	4.5	4	5	4.67	4.33	4.5	5.5	3.5	4.5	6	6	6	6
+SM_CHN_098	CHN	113	144	142	131	1	F	20	2	N/A	N/A	Business English	Humanities	N/A	N/A	41	B1_2	5.83	6	11.83	-0.17	1.5	4	5.38	4.67	4	5.25	5.5	3	5	3	5	6	6
+SM_CHN_099	CHN	77	114	84	104	2	M	21	3	N/A	N/A	Automation	Sciences & Technology	N/A	0 	35	B1_1	5	4.33	9.33	0.67	3.5	3.75	2.38	3.78	2.44	4	3	2	3.25	1	4	3	3
+SM_CHN_100	CHN	132	122	119	126	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	28	B1_1	3.67	4.33	8	-0.66	1	2.63	3.88	3.67	2.33	3.5	3.75	2.75	3	6	3	5	5
+SM_CHN_101	CHN	85	100	108	97	1	F	19	2	N/A	N/A	Chinese Medicine	Life Sciences	TOEFL (iBT)	85 	39	B1_2	4.5	4	8.5	0.5	1	3.75	4.88	4.44	3.44	4.75	4	3.5	5	6	5	6	6
+SM_CHN_102	CHN	131	127	116	129	1	F	21	2	N/A	N/A	English	Humanities	N/A	N/A	42	B1_2	5	5	10	0	2	4	6	4.67	4.67	5	5	5	5	4	6	6	6
+SM_CHN_103	CHN	135	158	126	128	1	F	17	2	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	5.83	5.33	11.16	0.5	3	3.88	5.75	5.11	4.11	4.75	5.25	4.25	5	6	6	6	6
+SM_CHN_104	CHN	124	138	103	116	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	44	B1_2	4.67	4.83	9.5	-0.16	4	4.13	5.25	4.89	4.33	4.75	5	4.25	4.75	6	6	6	6
+SM_CHN_105	CHN	82	77	76	81	0	F	22	4	1	N/A	History	Humanities	N/A	N/A	31	B1_1	4.67	4	8.67	0.67	2	3.75	3	3.33	3.11	3.75	4.5	2.5	2.75	2	2	4	3
+SM_CHN_106	CHN	103	114	94	114	2	F	21	4	N/A	N/A	History	Humanities	N/A	N/A	28	B1_1	3	3.83	6.83	-0.83	2.5	3.63	3.88	4.33	2.89	4.5	3.75	2.75	4	6	6	5	6
+SM_CHN_107	CHN	152	179	117	122	0	F	18	2	N/A	N/A	English	Humanities	N/A	N/A	47	B2_0	4	4.83	8.83	-0.83	3.5	3	4.5	4.56	2.89	3.75	3.75	3.75	3.75	5	5	2	4
+SM_CHN_108	CHN	130	127	135	142	2	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	36	B1_2	4.17	4.5	8.67	-0.33	1.5	3.38	5.13	4.56	3.33	4.5	5.5	3	4	6	3	6	6
+SM_CHN_109	CHN	117	123	96	115	1	F	20	2	N/A	N/A	English	Humanities	IELTS	7 	37	B2_0	4.67	4.83	9.5	-0.16	2	4.38	5.38	4.89	4.22	5	5.25	4.25	5	1	6	4	4
+SM_CHN_110	CHN	132	154	137	144	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	25	B1_1	5.33	4.5	9.83	0.83	4.5	3.5	5.5	5.11	3.89	4.75	4.25	4.75	4.25	6	6	6	6
+SM_CHN_111	CHN	107	87	83	62	1	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	32	B1_1	3.83	5	8.83	-1.17	3.5	3.75	3.5	4.44	2.78	4	4	3.25	3.25	3	4	5	4
+SM_CHN_112	CHN	133	123	118	110	1	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	38	B1_2	5.67	6	11.67	-0.33	1.5	1	3	2.11	1.78	2.5	2	1.75	1.75	3	5	5	4
+SM_CHN_113	CHN	109	119	99	105	1	F	20	2	N/A	N/A	English	Humanities	N/A	N/A	21	A2_0	5.5	4.5	10	1	2	2.25	4	3.11	2.89	3.75	3.25	2.5	3	6	4	6	6
+SM_CHN_114	CHN	87	104	100	115	1	F	18	2	N/A	N/A	English	Humanities	N/A	N/A	43	B1_2	5.5	3.5	9	2	3	3.25	4.75	4.78	3	4	4.75	3.25	4	5	5	5	4
+SM_CHN_115	CHN	135	118	124	128	2	F	18	2	N/A	N/A	English	Humanities	N/A	N/A	36	B1_2	4.33	5.67	10	-1.34	1	3.38	5.13	4.56	3.22	4.25	4.5	3	5.25	5	5	5	4
+SM_CHN_116	CHN	150	180	147	166	2	F	19	1	N/A	N/A	English	Humanities	N/A	N/A	41	B1_2	5.67	5.5	11.17	0.17	5.5	3.88	6	5	5	4.75	5	5	5	6	6	6	6
+SM_CHN_117	CHN	94	106	93	103	2	F	19	2	N/A	N/A	English	Humanities	TOEFL (iBT)	90 	40	B2_0	4.83	5	9.83	-0.17	2	3	4	3.56	3.11	4	4.25	2.75	3	3	2	3	2
+SM_CHN_118	CHN	115	104	122	113	1	F	21	4	N/A	N/A	Chinese	Humanities	N/A	N/A	34	B1_1	4.5	4	8.5	0.5	4	3.88	3.75	3.78	3.89	4.25	3.5	3.5	4	4	4	5	5
+SM_CHN_119	CHN	108	140	101	111	1	F	23	4	N/A	N/A	Economics 	Social Sciences	N/A	N/A	29	B1_1	5.67	3.5	9.17	2.17	2	2.5	4.38	3.33	3.22	3.75	3.5	3.5	3	6	6	6	6
+SM_CHN_120	CHN	121	121	104	119	1	F	19	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	21	A2_0	4.5	5.33	9.83	-0.83	5	5	4	4.89	4.22	4.75	4.75	4.5	4	5	5	4	4
+SM_CHN_121	CHN	162	157	146	158	0	F	21	4	N/A	N/A	Math	Sciences & Technology	N/A	N/A	10	A2_0	5.83	4.83	10.66	1	4	4.75	5.13	5.22	4.44	5.5	5.25	4.5	4.5	6	4	4	4
+SM_CHN_122	CHN	88	111	100	118	1	F	21	4	N/A	N/A	Education	Humanities	N/A	N/A	31	B1_1	4.67	4.83	9.5	-0.16	3	3.75	3.63	4	3.22	4.25	4	3.25	3.25	2	5	4	5
+SM_CHN_123	CHN	88	90	72	80	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	35	B1_1	3.67	4.5	8.17	-0.83	1.5	2.88	2.88	3.22	2.22	3.5	2.5	2.25	3.25	1	1	2	2
+SM_CHN_124	CHN	82	91	81	73	1	F	23	4	N/A	N/A	Education	Humanities	N/A	N/A	22	A2_0	2.83	2.83	5.66	0	2	2	2.25	2.22	2	2.5	2	2	2	3	3	3	3
+SM_CHN_125	CHN	124	134	108	115	1	F	20	2	0.5	N/A	Media Studies	Humanities	N/A	N/A	27	B1_1	4.83	4	8.83	0.83	4	3.25	3	3.33	3.11	3.5	3	3	3	5	5	5	4
+SM_CHN_126	CHN	118	110	88	99	2	F	18	2	N/A	N/A	Economics	Social Sciences	TOEFL (iBT)	100 	39	B2_0	4.83	6	10.83	-1.17	3	5	4	4.78	3.89	5.25	4.5	4.25	4	1	5	5	3
+SM_CHN_127	CHN	84	98	86	90	1	F	21	2	N/A	N/A	Economics	Social Sciences	N/A	N/A	27	B1_1	6	5.5	11.5	0.5	3.5	4.5	5.38	5.22	4.33	4.75	5	5	5	1	5	5	6
+SM_CHN_128	CHN	108	111	105	108	2	F	19	2	N/A	N/A	Finance	Social Sciences	N/A	N/A	43	B1_2	5.83	5.5	11.33	0.33	4.5	5.25	5	5.11	5	5	5	5.25	5.25	6	6	6	6
+SM_CHN_129	CHN	102	90	90	92	1	F	20	2	N/A	N/A	Finance	Social Sciences	N/A	N/A	43	B1_2	4.5	4.67	9.17	-0.17	3	3	3.5	4.33	2.11	3.25	3.25	3.25	3.25	3	3	3	3
+SM_CHN_130	CHN	112	108	107	102	1	F	19	2	N/A	N/A	Finance	Social Sciences	N/A	N/A	43	B1_2	5.5	5.17	10.67	0.33	2.5	4	3.63	4.33	3	4.25	3.75	3.5	3.75	2	2	3	4
+SM_CHN_131	CHN	106	88	75	96	0	F	19	1	N/A	N/A	Chinese	Humanities	N/A	N/A	27	B1_1	5.67	6	11.67	-0.33	5	4.5	5.63	5.11	5	5.25	5.5	4.75	4.75	6	6	6	5
+SM_CHN_132	CHN	116	116	117	100	2	F	19	2	N/A	N/A	Electronic Information	Sciences & Technology	N/A	N/A	25	B1_1	4.67	3.67	8.34	1	3.5	5.13	5.25	4.78	5.22	5.25	5.5	4.75	5.25	3	4	4	4
+SM_CHN_133	CHN	90	98	89	85	1	F	19	1	N/A	N/A	Chemistry	Sciences & Technology	N/A	N/A	29	B1_1	5.17	4.17	9.34	1	4.5	3.5	3.63	4.22	3.11	3.75	3.5	3.5	3.5	5	5	5	5
+SM_CHN_134	CHN	108	105	98	105	1	F	20	2	N/A	N/A	Computer	Sciences & Technology	N/A	N/A	35	B1_1	5	5.33	10.33	-0.33	5	5.25	5	5.33	4.89	5	5	5.25	5.25	5	5	5	5
+SM_CHN_135	CHN	89	96	93	94	1	F	17	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	24	A2_0	5.5	3.83	9.33	1.67	3.5	4.5	4.25	4.44	4.11	5	4.75	3.25	4.5	1	6	3	6
+SM_CHN_136	CHN	133	141	144	128	1	F	21	4	0.5	N/A	Accounting	Social Sciences	N/A	N/A	32	B1_1	4.67	5.5	10.17	-0.83	3	3	3.38	3.33	3	3.5	3.25	3	3	5	5	5	5
+SM_CHN_137	CHN	124	135	106	122	1	M	22	4	N/A	N/A	History	Humanities	N/A	N/A	26	B1_1	4.17	5.17	9.34	-1	2	1.88	2.25	2.33	1.78	2.75	2	1.5	2	1	1	4	4
+SM_CHN_138	CHN	84	105	93	76	0	F	22	1	N/A	N/A	Law	Social Sciences	N/A	N/A	30	B1_1	4.67	4.5	9.17	0.17	5	4.88	3.25	4.44	3.89	4.5	4.5	3.5	3.75	2	5	5	5
+SM_CHN_139	CHN	99	102	119	104	0	F	20	2	N/A	N/A	Chinese	Humanities	N/A	N/A	24	A2_0	5	5.33	10.33	-0.33	4	4.88	4.75	4.78	4.67	5	4.5	4.75	5	4	5	5	5
+SM_CHN_140	CHN	107	117	118	129	1	F	20	2	N/A	N/A	Architecture	Sciences & Technology	N/A	N/A	20	A2_0	5.17	3	8.17	2.17	1	2.63	4.38	4	2.44	3	4.5	2.75	3.75	3	5	4	3
+SM_CHN_141	CHN	106	112	88	93	2	F	23	4	N/A	N/A	Chinese 	Humanities	N/A	N/A	37	B1_2	5.33	4.5	9.83	0.83	1	2.88	5.5	4.11	3.56	4.25	4.25	3.75	4.5	6	6	6	5
+SM_CHN_142	CHN	135	146	133	102	2	M	21	4	N/A	N/A	Economics	Social Sciences	N/A	N/A	38	B1_2	4.5	4.17	8.67	0.33	2	3.38	2.75	2.67	3.22	3.5	4	2	2.75	5	6	6	6
+SM_CHN_143	CHN	89	122	95	90	2	M	22	2	N/A	N/A	Math	Sciences & Technology	N/A	N/A	22	A2_0	5.17	3	8.17	2.17	1	2.63	4.38	4	2.44	3	4.5	2.75	3.75	3	5	4	3
+SM_CHN_144	CHN	109	80	89	107	1	M	22	4	N/A	N/A	Chinese 	Humanities	N/A	N/A	41	B1_2	4.5	4.83	9.33	-0.33	2	3.75	4	4.33	3	3.75	4	3.5	4.25	2	5	5	5
+SM_CHN_145	CHN	83	80	83	89	1	M	22	4	N/A	N/A	Chinese 	Humanities	N/A	N/A	35	B1_1	3.83	4.67	8.5	-0.84	3	3	3	3	3	3	3	3	3	5	5	3	5
+SM_CHN_146	CHN	127	121	106	114	1	M	22	4	N/A	N/A	Law	Social Sciences	N/A	N/A	27	B1_1	3.67	4.17	7.84	-0.5	1	3.38	3.13	3.56	2.44	3.75	4	2.25	3	5	5	5	5
+SM_CHN_147	CHN	141	169	109	123	1	M	23	4	N/A	N/A	Business Management	Social Sciences	N/A	N/A	44	B1_2	5	3.33	8.33	1.67	2.5	4.13	4.38	2.89	5.22	4	4.75	4.5	3.75	6	6	6	4
+SM_CHN_148	CHN	103	114	119	109	1	F	22	4	N/A	N/A	Psychology	Humanities	N/A	N/A	41	B1_2	5.33	5.5	10.83	-0.17	2	4.88	5	4.56	4.67	5	4.75	5	5	3	5	5	5
+SM_CHN_149	CHN	112	111	104	118	3	F	20	2	N/A	N/A	Chinese Literature	Humanities	N/A	N/A	23	A2_0	4.33	5.17	9.5	-0.84	3.5	3.25	3.75	4.56	2.44	4.5	3.5	3.25	2.75	6	6	6	6
+SM_CHN_150	CHN	111	107	86	77	1	F	22	4	N/A	N/A	Economics 	Social Sciences	N/A	N/A	42	B1_2	5.17	2	7.17	3.17	1.5	2.38	2.63	2.89	1.89	3	3	2	2	2	2	2	2
+SM_ENS_001	ENS_GBR	134	141	126	139	N/A	M	32	[BA]	N/A	Others	Translator	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_002	ENS_USA	207	186	159	163	N/A	M	34	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_003	ENS_CAN	116	132	124	123	N/A	M	63	[MA]	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_004	ENS_USA	161	174	163	170	N/A	M	34	[MA]	N/A	Teacher	College Professor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_005	ENS_AUS	145	174	177	181	N/A	M	25	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_006	ENS_USA	203	196	208	190	N/A	M	23	N/A	N/A	Student	Language	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_007	ENS_AUS	92	92	73	101	N/A	M	45	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_008	ENS_USA	102	122	94	109	N/A	M	35	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_009	ENS_USA	191	240	178	186	N/A	M	40	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_010	ENS_CAN	121	126	142	123	N/A	M	39	[MA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_011	ENS_USA	167	197	145	143	N/A	M	27	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_012	ENS_GBR	155	174	179	181	N/A	M	38	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_013	ENS_AUS	109	120	146	131	N/A	M	38	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_014	ENS_USA	129	120	113	135	N/A	M	40	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_015	ENS_GBR	182	192	149	153	N/A	F	34	[MA]	N/A	Others	Mother (No job)	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_016	ENS_USA	130	150	154	160	N/A	M	25	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_017	ENS_USA	160	147	137	150	N/A	M	46	[BA]	N/A	Teacher	English Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_018	ENS_USA	158	156	145	156	N/A	M	36	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_019	ENS_AUS	129	176	162	206	N/A	M	38	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_020	ENS_USA	169	173	153	168	N/A	M	36	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_021	ENS_GBR	151	182	186	182	N/A	F	25	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_022	ENS_CAN	126	133	118	132	N/A	M	29	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_023	ENS_USA	125	139	131	129	N/A	M	37	[MA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_024	ENS_USA	123	124	105	106	N/A	M	32	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_025	ENS_USA	153	170	146	134	N/A	M	34	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_026	ENS_GBR	220	229	217	180	N/A	M	54	[MA]	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_027	ENS_USA	94	92	100	93	N/A	M	40	[MA]	N/A	Others	Business Consultant	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_028	ENS_AUS	126	139	127	138	N/A	F	38	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_029	ENS_AUS	126	156	106	147	N/A	M	36	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_030	ENS_USA	188	197	195	218	N/A	M	35	[MA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_031	ENS_USA	198	208	199	231	N/A	M	33	[BA]	N/A	Others	Manager	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_032	ENS_AUS	200	175	182	172	N/A	M	34	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_033	ENS_CAN	138	145	116	121	N/A	M	36	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_034	ENS_USA	132	133	139	130	N/A	M	40	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_035	ENS_GBR	128	151	151	142	N/A	F	29	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_036	ENS_USA	134	143	150	161	N/A	F	25	[MA]	N/A	Others	Office Worker	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_037	ENS_USA	119	133	141	149	N/A	M	27	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_038	ENS_GBR	139	152	121	132	N/A	F	25	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_039	ENS_USA	137	149	168	141	N/A	M	28	[BA]	N/A	Others	Athlete	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_040	ENS_USA	145	156	147	168	N/A	M	30	[MA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_041	ENS_USA	133	151	144	151	N/A	M	34	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_042	ENS_GBR	82	88	100	107	N/A	M	39	[BA]	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_043	ENS_AUS	134	146	134	140	N/A	M	33	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_044	ENS_CAN	219	202	185	178	N/A	M	29	[MA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_045	ENS_GBR	131	144	167	166	N/A	M	47	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_046	ENS_GBR	168	163	159	150	N/A	M	40	[MA]	N/A	Teacher	College Professor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_047	ENS_CAN	136	142	144	136	N/A	F	28	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_048	ENS_USA	149	180	152	166	N/A	M	42	[BA]	N/A	Others	Office Worker	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_049	ENS_NZL	109	132	136	148	N/A	M	39	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_050	ENS_USA	127	147	135	153	N/A	M	32	[BA]	N/A	Others	Café Owner	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_051	ENS_GBR	162	156	157	166	N/A	F	34	N/A	N/A	Others	Mother (No job)	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_052	ENS_USA	160	167	161	148	N/A	M	44	N/A	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_053	ENS_CAN	180	187	178	184	N/A	M	39	N/A	N/A	Others	Textbook Developer	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_054	ENS_GBR	98	139	101	94	N/A	M	32	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_055	ENS_USA	108	121	128	150	N/A	M	40	N/A	N/A	Others	Writer	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_056	ENS_USA	123	190	165	187	N/A	M	34	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_057	ENS_GBR	186	203	218	190	N/A	M	54	N/A	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_058	ENS_CAN	172	151	202	189	N/A	M	36	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_059	ENS_USA	169	152	132	150	N/A	F	34	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_060	ENS_USA	152	146	135	147	N/A	M	28	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_061	ENS_NIG	120	84	140	79	N/A	M	24	N/A	N/A	Student	Law	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_062	ENS_USA	151	122	130	245	N/A	M	28	N/A	N/A	Student	Law	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_063	ENS_USA	141	159	153	204	N/A	M	36	N/A	N/A	Student	Engineering	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_064	ENS_USA	151	169	187	177	N/A	M	25	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_065	ENS_USA	87	137	118	113	N/A	M	22	N/A	N/A	Student	Engineering	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_066	ENS_AUS	130	126	139	149	N/A	F	18	N/A	N/A	Student	Engineering	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_067	ENS_USA	110	115	142	149	N/A	M	24	N/A	N/A	Student	Economics	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_068	ENS_USA	173	190	194	203	N/A	F	21	N/A	N/A	Student	Language	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_069	ENS_USA	134	176	120	128	N/A	M	32	N/A	N/A	Teacher	Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_070	ENS_USA	118	131	166	157	N/A	M	26	N/A	N/A	Student	Language	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_071	ENS_USA	127	179	130	144	N/A	M	27	N/A	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_072	ENS_USA	154	131	165	150	N/A	M	26	N/A	N/A	Student	Law	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_073	ENS_USA	130	138	137	117	N/A	M	24	N/A	N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_074	ENS_USA	154	175	137	185	N/A	M	27	N/A	N/A	Others	Information Engineer	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_075	ENS_CAN	137	139	147	158	N/A	M	50	N/A	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_076	ENS_CAN	133	140	137	128	N/A	M	64	[MA]	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_077	ENS_AUS	192	223	205	218	N/A	F	22		N/A	Student	Engineering	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_078	ENS_USA	135	156	134	144	N/A	M	34	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_079	ENS_USA	135	169	155	152	N/A	M	21	[BS]	N/A	Others	Consulting	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_080	ENS_USA	114	143	138	132	N/A	M	38	[MA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_081	ENS_AUS	130	147	139	151	N/A	M	39	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_082	ENS_USA	190	214	200	203	N/A	F	23		N/A	Student	Education	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_083	ENS_USA	114	123	153	167	N/A	M	35	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_084	ENS_USA	110	80	117	83	N/A	M	36	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_085	ENS_USA	195	163	169	140	N/A	M	24		N/A	Student	Business	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_086	ENS_USA	166	180	182	164	N/A	M	47	[BS]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_087	ENS_GBR	136	145	133	152	N/A	F	32	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_088	ENS_GBR	168	187	149	181	N/A	F	24		N/A	Student	Japanese	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_089	ENS_GBR	147	167	165	154	N/A	M	24	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_090	ENS_USA	159	161	172	181	N/A	F	28		N/A	Student	Education	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_091	ENS_GBR	134	142	132	148	N/A	M	48	[BA]	N/A	Others	Ceramics	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_092	ENS_GBR	143	172	151	162	N/A	M	27		N/A	Student	Japanese	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_093	ENS_USA	120	126	153	151	N/A	F	22		N/A	Student	Nursing	Life Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_094	ENS_USA	144	200	157	167	N/A	F	19		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_095	ENS_USA	161	158	132	160	N/A	F	22		N/A	Student	Government	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_096	ENS_USA	138	156	136	141	N/A	F	20		N/A	Student	Performance	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_097	ENS_USA	123	144	124	137	N/A	M	67	[BA]	N/A	Teacher	College Instructor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_098	ENS_AUS	125	145	100	125	N/A	M	40	[MA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_099	ENS_USA	188	182	175	194	N/A	F	35		N/A	Student	Japanese	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_100	ENS_USA	150	158	153	140	N/A	F	30	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_101	ENS_GBR	129	140	140	121	N/A	M	33	[BA]	N/A	Others	Factory Worker	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_102	ENS_GBR	194	189	205	201	N/A	F	31	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_103	ENS_USA	148	154	131	149	N/A	F	32		N/A	Student	Chinese	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_104	ENS_AUS	157	163	159	171	N/A	M	35	[BA]	N/A	Teacher	ALT	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_105	ENS_USA	131	151	133	133	N/A	F	22		N/A	Student	Liberal Studies	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_106	ENS_USA	145	190	166	165	N/A	F	25	[BA]	N/A	Others	Kindergarten Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_107	ENS_USA	174	174	189	205	N/A	F	23		N/A	Student	Christian Ministry	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_108	ENS_GBR	90	99	109	102	N/A	M	35	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_109	ENS_USA	163	121	150	146	N/A	F	31		N/A	Student	Education	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_110	ENS_USA	194	191	189	174	N/A	M	18		N/A	Student	TESOL	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_111	ENS_USA	135	145	121	162	N/A	F	22		N/A	Student	Professional Writing	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_112	ENS_AUS	170	161	177	165	N/A	M	33	[BA]	N/A	Others	Project Manager	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_113	ENS_GBR	185	183	179	151	N/A	M	18		N/A	Student	Business	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_114	ENS_USA	136	144	128	133	N/A	F	22		N/A	Student	Economics	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_115	ENS_GBR	97	132	115	134	N/A	M	23		N/A	Student	Computer	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_116	ENS_USA	170	208	181	176	N/A	F	42	[MA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_117	ENS_USA	167	209	185	210	N/A	M	35	[Ph.D.]	N/A	Others	Researcher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_118	ENS_USA	149	143	126	117	N/A	M	20		N/A	Student	Business	Social Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_119	ENS_USA	200	176	171	167	N/A	M	25	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_120	ENS_USA	139	160	145	162	N/A	F	65	[BA]	N/A	Others	Missionary	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_121	ENS_USA	125	149	148	149	N/A	F	28	[BA]	N/A	Others	Customer Service	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_122	ENS_USA	140	143	153	168	N/A	M	24		N/A	Student	History	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_123	ENS_USA	145	164	161	164	N/A	F	26	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_124	ENS_USA	113	147	172	174	N/A	M	25		N/A	Student	Psychology	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_125	ENS_GBR	212	250	208	235	N/A	M	19		N/A	Student	Japanese	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_126	ENS_USA	169	169	156	157	N/A	M	23		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_127	ENS_USA	132	171	115	153	N/A	M	23		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_128	ENS_USA	149	165	141	143	N/A	F	21		N/A	Student	Engineering	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_129	ENS_USA	159	185	176	155	N/A	M	23		N/A	Student	Medicine	Life Sciences	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_130	ENS_USA	133	136	134	127	N/A	F	20		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_131	ENS_AUS	125	151	164	169	N/A	F	32		N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_132	ENS_USA	130	138	143	157	N/A	F	28		N/A	Student	Christianity	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_133	ENS_USA	174	174	159	146	N/A	F	25		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_134	ENS_USA	179	191	177	187	N/A	M	34	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_135	ENS_GBR	133	140	128	124	N/A	M	35	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_136	ENS_USA	165	187	154	177	N/A	F	24		N/A	Student	TESOL	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_137	ENS_USA	134	155	172	178	N/A	F	22		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_138	ENS_USA	167	181	152	161	N/A	M	22		N/A	Student	Computer	Sciences & Technology	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_139	ENS_USA	164	182	181	191	N/A	F	23		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_140	ENS_USA	168	176	140	147	N/A	F	21		N/A	Student	Music	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_141	ENS_USA	170	162	141	149	N/A	M	72	[MA]	N/A	Others	Pastor	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_142	ENS_USA	135	151	151	138	N/A	F	74	[BA]	N/A	Others	Missionary	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_143	ENS_USA	201	203	184	214	N/A	M	30	[BA]	N/A	Others	Missionary	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_144	ENS_USA	160	184	135	170	N/A	M	25		N/A	Student	Pedagogy	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_145	ENS_USA	185	179	121	158	N/A	F	52	[MA]	N/A	Others	Missionary	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_146	ENS_USA	148	160	159	157	N/A	M	52	[MA]	N/A	Teacher	Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_147	ENS_USA	154	167	175	157	N/A	F	20		N/A	Student	Communication	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_148	ENS_USA	137	160	141	169	N/A	F	54	N/A	N/A	Others	Housewife	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_149	ENS_USA	173	197	168	173	N/A	M	22		N/A	Student	Art	Humanities	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_ENS_150	ENS_AUS	136	125	116	131	N/A	M	36	[BA]	N/A	Teacher	English Teacher	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+SM_HKG_001	HKG	148	170	113	136	3	F	21	3	N/A	N/A	English	Humanities	IELTS	8 	44	B2_0	5	5.33	10.33	-0.33	5.5	4.1	5.3	4.56	5	4.75	4.75	4	5.25	6	6	6	6
+SM_HKG_002	HKG	153	150	149	143	2	F	21	3	1	N/A	English	Humanities	N/A	N/A	47	B2_0	5.67	5	10.67	0.67	2	5.4	5.9	5.56	4.89	5.75	5.75	5.25	5.75	6	4	5	6
+SM_HKG_003	HKG	143	162	111	118	1	F	21	3	N/A	N/A	English 	Humanities	IELTS	8 	45	B2_0	5.33	4.83	10.16	0.5	1.5	3.6	4.6	4.11	3.56	4	5	2.75	4.75	6	6	6	6
+SM_HKG_004	HKG	133	149	104	126	1	F	21	3	0.5	N/A	English	Humanities	N/A	N/A	40	B1_2	4.83	4.67	9.5	0.16	3.5	4.4	5.3	5	4.33	5	5	4.5	4.75	5	5	5	5
+SM_HKG_005	HKG	124	125	117	110	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	3.17	4	7.17	-0.83	3	4.3	4.8	4.78	3.89	5.5	4.5	4	4	3	3	3	5
+SM_HKG_006	HKG	119	127	74	123	0	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	43	B1_2	5.5	4.83	10.33	0.67	1.5	4.8	5.3	4.56	4.67	5.25	5	4.25	5.5	5	4	5	6
+SM_HKG_007	HKG	89	105	85	96	0	F	20	3	N/A	N/A	English	Humanities	IELTS	8 	31	B2_0	4.83	4	8.83	0.83	2	1	3.6	2.67	1.89	2.75	2.25	2	2.25	3	3	5	4
+SM_HKG_008	HKG	154	166	152	142	1	M	21	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	4.83	4.5	9.33	0.33	2.5	3.9	5.1	4.44	4.11	5	4.25	4.5	4.25	5	3	3	3
+SM_HKG_009	HKG	121	135	106	128	2	M	21	3	N/A	N/A	English Education	Humanities	N/A	N/A	44	B1_2	4.5	4	8.5	0.5	4	4	5.5	5.44	3.89	4.75	4.75	4.75	4.75	4	5	5	6
+SM_HKG_010	HKG	127	93	89	82	2	M	20	3	0.5	N/A	English	Humanities	N/A	N/A	41	B1_2	4.17	4	8.17	0.17	2	3.3	4.1	4.33	2.67	4	4	3.5	3.25	5	5	4	6
+SM_HKG_011	HKG	123	112	102	91	1	F	21	3	0.5	N/A	English	Humanities	IELTS	7 	41	B2_0	4.33	5	9.33	-0.67	4.5	3	4.4	4.33	3.22	4	4.25	2.25	4.25	3	5	4	5
+SM_HKG_012	HKG	120	146	111	112	2	F	20	3	0.5	N/A	English	Humanities	TOEFL (iBT)	115 	45	B2_0	5.33	4.5	9.83	0.83	3.5	3.8	5.8	5.22	4	5.25	5.25	4	4.5	6	6	3	6
+SM_HKG_013	HKG	143	158	128	122	1	F	19	2	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	4.33	4.5	8.83	-0.17	1.5	4.4	4.6	4.78	3.56	4.25	4.5	4.5	4.75	5	4	5	4
+SM_HKG_014	HKG	105	131	120	106	1	F	21	3	N/A	N/A	English	Humanities	N/A	N/A	41	B1_2	5	4.67	9.67	0.33	3	3.6	4.8	3.89	4.22	4.75	4.5	3.5	4	5	5	5	5
+SM_HKG_015	HKG	121	128	98	100	1	F	21	3	0.5	N/A	English	Humanities	IELTS	7 	36	B2_0	4.83	4.5	9.33	0.33	3.5	5	4.4	4.78	4.33	4.75	4.75	4.75	4.5	5	5	5	5
+SM_HKG_016	HKG	146	137	97	118	2	F	22	4	1	N/A	English	Humanities	IELTS	8 	40	B2_0	4.33	3	7.33	1.33	3	3.5	4.8	4.33	3.67	3.75	4.75	3.75	4.25	6	5	5	5
+SM_HKG_017	HKG	135	117	108	117	1	F	20	3	N/A	N/A	English	Humanities	IELTS	8 	36	B2_0	5	5.33	10.33	-0.33	4	4.1	4.8	4.67	4.11	4.75	4.25	3.75	5	6	6	6	6
+SM_HKG_018	HKG	128	108	103	100	1	F	20	3	N/A	N/A	English	Humanities	TOEFL (iBT)	96 	41	B2_0	3.83	4.33	8.16	-0.5	2	2.8	4.3	4	2.67	3.75	3.5	3	3.75	6	6	5	6
+SM_HKG_019	HKG	134	141	156	159	1	M	22	3	N/A	N/A	English	Humanities	N/A	N/A	37	B1_2	3.33	3.5	6.83	-0.17	1	2.8	2.9	3.11	2.11	2.75	3.5	2.25	2.75	3	4	4	4
+SM_HKG_020	HKG	156	113	121	111	0	F	20	3	0.5	N/A	English	Humanities	IELTS	8 	45	B2_0	5.17	4	9.17	1.17	2.5	3.1	6	4.56	4.11	4.5	5.25	4	4.5	6	6	6	6
+SM_HKG_021	HKG	104	111	76	90	1	F	21	3	N/A	N/A	English	Humanities	IELTS	8 	43	B2_0	4.17	3.83	8	0.34	2	3.5	4.5	3.89	3.67	3.5	4.5	3.5	4.5	6	6	6	6
+SM_HKG_022	HKG	143	143	121	133	2	M	21	3	0.5	N/A	English	Humanities	IELTS	8 	44	B2_0	3.67	4	7.67	-0.33	3.5	4.3	4.4	4.22	4.22	4	4	5	4.25	5	3	5	4
+SM_HKG_023	HKG	106	125	108	106	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	4.33	5.17	9.5	-0.84	2	4	4.3	4.33	3.44	4.75	4.5	2.25	5	5	2	1	3
+SM_HKG_024	HKG	122	136	121	110	1	F	20	3	0.5	N/A	English	Humanities	IELTS	8 	44	B2_0	4.67	3.83	8.5	0.84	2.5	3.9	4.9	4.44	3.89	4.75	4.5	4	4.25	2	3	3	4
+SM_HKG_025	HKG	155	166	138	126	2	F	21	3	2+	N/A	English	Humanities	IELTS	8 	47	B2_0	5	4.67	9.67	0.33	3	3.9	4.8	4.56	3.78	4.75	5	3.25	4.25	4	4	5	6
+SM_HKG_026	HKG	94	92	97	99	1	F	21	3	N/A	N/A	English	Humanities	IELTS	8 	43	B2_0	3.33	5.17	8.5	-1.84	2	2.8	3.1	3.67	2	3.25	3.5	1.75	3.25	6	5	5	5
+SM_HKG_027	HKG	118	119	107	113	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	47	B2_0	5.17	3.83	9	1.34	3.5	3.9	4.3	4.67	3.33	3.75	4.5	3.25	4.75	4	4	4	5
+SM_HKG_028	HKG	148	181	128	121	1	F	20	3	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	45	B1_2	5	4.67	9.67	0.33	1.5	3.8	5.1	4	4.22	5	4.5	3.75	4.5	6	6	5	6
+SM_HKG_029	HKG	133	128	114	121	1	M	22	4	N/A	N/A	Chinese Language Education	Humanities	N/A	N/A	40	B1_2	4.17	5	9.17	-0.83	1.5	3.9	4.1	3.22	4.22	4.75	4	3.25	4	2	6	5	6
+SM_HKG_030	HKG	132	140	136	130	2	F	22	3	1	N/A	English	Humanities	N/A	N/A	43	B1_2	5	4.17	9.17	0.83	3	4	5.1	4.89	3.89	4.75	4.5	4	5	5	6	5	6
+SM_HKG_031	HKG	134	136	127	126	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	41	B1_2	4.17	3	7.17	1.17	1.5	3.4	2.9	3.67	2.22	4.25	3.25	2.25	2.75	5	3	4	3
+SM_HKG_032	HKG	147	176	142	157	1	F	21	3	N/A	N/A	English Studies	Humanities	N/A	N/A	38	B1_2	4.17	4.5	8.67	-0.33	2.5	4.1	6	5	4.56	5.25	5.25	4.75	5	5	5	5	5
+SM_HKG_033	HKG	87	106	79	94	1	F	21	3	N/A	N/A	English	Humanities	N/A	N/A	44	B1_2	4.33	5.5	9.83	-1.17	2.5	4.6	5	4.78	4.33	5.25	5.5	4	4.5	5	5	5	5
+SM_HKG_034	HKG	149	138	110	114	1	F	21	3	N/A	N/A	English	Humanities	N/A	N/A	43	B1_2	5.83	4.83	10.66	1	2	3.9	5.5	4.56	4.22	4.25	5.5	3.5	5.5	5	4	5	6
+SM_HKG_035	HKG	118	130	114	120	1	F	22	4	0.5	N/A	English	Humanities	IELTS	8 	46	B2_0	5.17	4.83	10	0.34	5	4.8	5.3	5.33	4.67	5	5.75	4.75	4.5	6	6	6	6
+SM_HKG_036	HKG	156	160	134	148	2	M	21	3	0.5	N/A	English Studies 	Humanities	IELTS	8 	35	B2_0	4.17	5.17	9.34	-1	2	1.8	4.1	3.44	2.22	2.75	3.5	3	2.5	5	5	5	5
+SM_HKG_037	HKG	88	135	69	102	1	F	21	3	N/A	N/A	English Studies 	Humanities	N/A	N/A	46	B1_2	4.33	5	9.33	-0.67	2	3.1	4	3.67	3.11	4	3.75	3.5	3	6	6	6	6
+SM_HKG_038	HKG	156	168	132	139	1	F	20	3	0.5	N/A	English	Humanities	IELTS	8 	45	B2_0	5.5	6	11.5	-0.5	6	4.1	6	4.89	5.44	5.25	5	4.75	5.25	6	6	6	6
+SM_HKG_039	HKG	164	165	135	144	1	M	21	3	N/A	N/A	English	Humanities	TOEFL (iBT)	92 	46	B2_0	5.5	4.67	10.17	0.83	5.5	4.9	4.1	4.56	4.67	4.75	4.25	4.25	4.75	5	5	5	5
+SM_HKG_040	HKG	115	114	114	101	1	F	22	2	2+	N/A	English	Humanities	IELTS	7 	41	B2_0	5.17	5.17	10.34	0	4	4.9	5.4	5.44	4.56	5	5.5	4.75	5.25	5	5	5	5
+SM_HKG_041	HKG	117	107	101	100	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	3.83	4	7.83	-0.17	1.5	4	4.8	4.44	3.67	4.5	4.5	3.5	5	4	4	3	5
+SM_HKG_042	HKG	168	159	150	158	1	F	21	3	N/A	N/A	English Education	Humanities	N/A	N/A	38	B1_2	4.17	4.5	8.67	-0.33	2.5	4.1	4.8	4.78	3.67	4.75	4.5	4	4.5	6	5	5	5
+SM_HKG_043	HKG	107	151	113	126	1	F	22	3	2+	N/A	English Studies 	Humanities	IELTS	8 	45	B2_0	5.83	4.17	10	1.66	2	5	4.1	5	3.56	4.5	4.75	4.5	4.5	4	5	6	6
+SM_HKG_044	HKG	146	137	135	143	1	M	21	3	N/A	N/A	English	Humanities	IELTS	8 	41	B2_0	4.5	4.83	9.33	-0.33	3	3.1	5.5	4.22	4.11	4.5	4.5	3.75	4.5	6	4	5	6
+SM_HKG_045	HKG	123	122	121	123	1	F	22	3	N/A	N/A	English	Humanities	IELTS	8 	35	B2_0	4	4.83	8.83	-0.83	1	4.1	5.1	4.44	4	4.5	5	4	5	4	4	5	5
+SM_HKG_046	HKG	140	151	118	122	2	F	20	3	0.5	N/A	English Education	Humanities	N/A	N/A	45	B1_2	4.5	5	9.5	-0.5	2.5	3.5	4.1	3.89	3.44	4.25	4.75	3.25	3	6	5	5	5
+SM_HKG_047	HKG	156	148	122	146	2	F	19	2	0.5	N/A	English	Humanities	IELTS	7 	35	B2_0	4.33	4.67	9	-0.34	2	3.9	5.4	4.44	4.22	5	4.5	4.25	4.75	4	5	5	5
+SM_HKG_048	HKG	150	201	118	152	1	F	20	3	0.5	N/A	English	Humanities	N/A	N/A	41	B1_2	5.33	5	10.33	0.33	2.5	3.3	4.4	4.11	3.22	4.25	4.75	3.25	3	4	3	4	5
+SM_HKG_049	HKG	173	165	160	152	1	F	20	3	N/A	N/A	English Education	Humanities	N/A	N/A	35	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_HKG_050	HKG	103	120	96	98	1	F	21	3	N/A	N/A	English	Humanities	N/A	N/A	44	B1_2	4.17	2.83	7	1.34	2	4.6	5	5.67	3.33	5	4.75	4.75	4.75	4	5	4	5
+SM_IDN_001	IDN	70	103	78	75	1	F	21	4	N/A	N/A	Letters	Humanities	N/A	N/A	33	B1_1	4.67	5.17	9.84	-0.5	2.5	3.38	5	4.11	3.89	4.75	5.25	4	2.75	3	4	5	3
+SM_IDN_002	IDN	55	36	81	69	1	F	23	4	N/A	N/A	Letters	Humanities	N/A	N/A	34	B1_1	5	4.67	9.67	0.33	3	4.5	5.63	5.56	4.11	5	5.25	5.25	4.75	2	6	6	6
+SM_IDN_003	IDN	163	176	160	151	3	F	21	2	N/A	N/A	Business	Social Sciences	N/A	N/A	30	B1_1	6	5.5	11.5	0.5	2	3.75	5.75	4.89	4	4.5	5	4.75	4.75	5	4	5	4
+SM_IDN_004	IDN	123	137	124	118	1	M	20	2	N/A	N/A	Business	Social Sciences	N/A	N/A	33	B1_1	5	5	10	0	3.5	4	5	5.33	3.44	4.5	4.5	4.5	4.5	3	5	6	4
+SM_IDN_005	IDN	71	89	85	73	2	F	21	3	N/A	N/A	Business	Social Sciences	N/A	N/A	38	B1_2	5.67	5	10.67	0.67	3.5	5.38	6	5.22	5.67	5.75	5.5	5.75	5.75	6	6	6	6
+SM_IDN_006	IDN	87	90	92	113	2	M	21	2	N/A	N/A	Business	Social Sciences	N/A	N/A	40	B1_2	5.67	4.83	10.5	0.84	4.5	5.13	5.38	5.44	4.89	5.5	5.5	4.75	5.25	6	6	6	6
+SM_IDN_007	IDN	124	124	139	142	3	F	20	1	N/A	N/A	Business	Social Sciences	N/A	N/A	39	B1_2	5	4.83	9.83	0.17	1	3.13	5.25	4.22	3.44	4.5	4.25	4	4	4	5	5	5
+SM_IDN_008	IDN	68	87	79	93	1	F	21	1	N/A	N/A	Business	Social Sciences	N/A	N/A	35	B1_1	5.33	5.17	10.5	0.16	2.5	4	4.63	4.22	4	4.5	4.25	4.25	4.25	5	5	5	5
+SM_IDN_009	IDN	87	87	82	86	2	M	18	1	N/A	N/A	Business	Social Sciences	N/A	N/A	37	B1_2	5.83	5	10.83	0.83	2	4.5	5.63	4.78	4.67	5.5	5.25	4.5	5	1	5	6	6
+SM_IDN_010	IDN	65	68	67	69	1	F	18	1	N/A	N/A	Business	Social Sciences	N/A	N/A	32	B1_1	4.83	4.83	9.66	0	2	3.38	4.63	4.22	3.33	4.75	4.25	2.75	4.25	5	5	4	5
+SM_IDN_011	IDN	59	46	50	50	1	F	21	1	N/A	N/A	Business	Social Sciences	N/A	N/A	30	B1_1	4.67	5	9.67	-0.33	3.5	4.5	5	4.56	4.67	5	5	4.5	4.5	5	5	5	5
+SM_IDN_012	IDN	108	112	115	86	2	F	22	1	N/A	N/A	Business	Social Sciences	N/A	N/A	33	B1_1	3.83	5	8.83	-1.17	3.5	4	4.25	4.78	3.33	4.75	4.25	3.75	3.75	3	3	4	3
+SM_IDN_013	IDN	121	124	131	96	0	M	22	1	N/A	N/A	Business	Social Sciences	N/A	N/A	45	B1_2	5.5	3.17	8.67	2.33	2.5	4.38	4.88	4.89	3.89	4.75	4.5	5	4.25	5	4	5	4
+SM_IDN_014	IDN	88	112	125	125	2	M	19	1	N/A	N/A	Business	Social Sciences	N/A	N/A	43	B1_2	4.83	5.67	10.5	-0.84	1	3.38	3.5	3.11	3.22	4.25	4.25	2.75	2.5	1	5	5	3
+SM_IDN_015	IDN	99	85	92	80	2	M	20	1	N/A	N/A	Business	Social Sciences	N/A	N/A	33	B1_1	5.33	4.83	10.16	0.5	5	4	4.25	5.11	3.33	4.5	4	4	4	2	4	5	4
+SM_IDN_016	IDN	101	101	119	113	2	F	19	1	N/A	N/A	Business	Social Sciences	TOEIC	750 	42	B1_2	5.67	4.5	10.17	1.17	5	5.38	5.5	5.33	5.44	5	5.75	5	6	4	5	4	6
+SM_IDN_017	IDN	125	105	107	103	1	M	19	2	N/A	N/A	Business	Social Sciences	N/A	N/A	37	B1_2	5.5	5.33	10.83	0.17	1	4.25	5.25	4.78	3.89	5.5	5.25	4	4.25	5	4	4	5
+SM_IDN_018	IDN	91	100	110	123	3	M	21	2	N/A	N/A	Business	Social Sciences	N/A	N/A	36	B1_2	4.33	5.5	9.83	-1.17	4.5	5.13	4.88	5.11	4.78	5	5.25	4.75	5	4	5	5	4
+SM_IDN_019	IDN	76	65	57	79	1	M	21	2	N/A	N/A	Business	Social Sciences	N/A	N/A	33	B1_1	3.17	3.33	6.5	-0.16	2	3.13	3.38	3.11	3.11	4	3	3	3	3	3	3	3
+SM_IDN_020	IDN	127	112	119	119	3	F	22	4	N/A	N/A	Letters	Humanities	N/A	N/A	19	A2_0	4.33	4.5	8.83	-0.17	5	6	4	5	5	5	5	5	5	4	5	5	5
+SM_IDN_021	IDN	98	108	106	53	1	F	22	4	N/A	N/A	Letters	Humanities	N/A	N/A	27	B1_1	5.17	5.17	10.34	0	1	2.25	4.38	3.44	2.67	4.5	3	2.75	3	2	3	5	5
+SM_IDN_022	IDN	121	129	93	105	2	F	21	4	N/A	N/A	Letters	Humanities	N/A	N/A	38	B1_2	4.5	3.5	8	1	1.5	2.88	5	3.67	3.67	3.75	4.5	3.5	4	3	3	4	3
+SM_IDN_023	IDN	70	66	73	68	3	F	21	4	N/A	N/A	Letters	Humanities	N/A	N/A	29	B1_1	5.83	4.67	10.5	1.16	3	4.25	5.5	4.89	4.44	4.75	5	5.25	4.5	5	6	6	6
+SM_IDN_024	IDN	117	152	118	113	1	M	18	1	N/A	N/A	Business	Social Sciences	N/A	N/A	32	B1_1	4.83	4.83	9.66	0	2	3.38	4.63	4.22	3.33	4.75	4.25	2.75	4.25	5	5	4	5
+SM_IDN_025	IDN	87	89	97	100	1	F	25	4	1	N/A	Letters	Humanities	TOEFL (PBT)	525 	32	B1_1	3.83	2.67	6.5	1.16	1	3	6	4.11	4.11	4.5	4.5	4.5	4.5	4	4	4	2
+SM_IDN_026	IDN	99	107	104	85	1	F	28	4	N/A	N/A	Letters	Humanities	N/A	N/A	26	B1_1	4.33	3.5	7.83	0.83	3	4	3.88	4.67	3	4.25	4.25	3.5	3.75	3	3	3	3
+SM_IDN_027	IDN	78	87	84	97	3	M	20	4	N/A	N/A	Informatics	Sciences & Technology	N/A	N/A	29	B1_1	3.67	5.83	9.5	-2.16	1	2.25	2.63	2	2.56	2.25	2	2	3.5	1	6	5	4
+SM_IDN_028	IDN	59	65	35	37	1	M	20	2	N/A	N/A	Informatics	Sciences & Technology	TOEFL (iBT)	70 	42	B1_1	3.67	5.83	9.5	-2.16	1	2.25	2.63	2	2.56	2.25	2	2	3.5	1	6	5	4
+SM_IDN_029	IDN	43	54	49	49	2	M	19	4	N/A	N/A	Informatics	Sciences & Technology	N/A	N/A	25	B1_1	5	5	10	0	4	5	4	4.44	4.44	4.5	4.5	4.5	4.5	5	5	5	5
+SM_IDN_030	IDN	96	108	82	91	1	F	30	4	N/A	N/A	Engineering	Sciences & Technology	TOEIC	870 	26	B2_0	4.5	5.5	10	-1	4.5	4.88	5.5	5.33	4.89	5.25	5.75	4.5	5.25	6	5	6	4
+SM_IDN_031	IDN	80	57	69	56	1	M	19	2	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	40	B1_2	5.33	4.67	10	0.66	3	3	3	3	3	3	3	3	3	3	3	3	3
+SM_IDN_032	IDN	79	71	84	68	2	M	23	4	N/A	N/A	Computer Science	Sciences & Technology	IELTS	8 	44	B2_0	4.5	3.33	7.83	1.17	1.5	3.38	3.63	1.89	4.67	3.25	3.75	3.5	3.5	3	4	4	5
+SM_IDN_033	IDN	74	79	75	70	3	M	19	2	N/A	N/A	Informatics	Sciences & Technology	N/A	N/A	39	B1_2	5	5	10	0	4	4	4	4	4	4	4	4	4	4	4	4	4
+SM_IDN_034	IDN	101	101	101	81	3	F	20	4	N/A	N/A	Product Design	Sciences & Technology	N/A	N/A	30	B1_1	3.67	5.83	9.5	-2.16	1	2.25	2.63	2	2.56	2.25	2	2	3.5	1	6	5	4
+SM_IDN_035	IDN	76	87	81	80	1	F	21	3	N/A	N/A	English	Humanities	TOEFL (PBT)	550 	34	B1_2	5	4.83	9.83	0.17	3	4.25	6	4.78	5	5.25	5.25	5	5	4	5	5	5
+SM_IDN_036	IDN	102	79	71	100	1	F	21	3	N/A	N/A	English	Humanities	TOEFL (PBT)	503 	30	B1_1	4.67	5.33	10	-0.66	4	2.88	5	4.22	3.67	3.5	4.25	3	5	5	3	5	6
+SM_IDN_037	IDN	146	145	143	124	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	515 	42	B1_1	4.67	4.83	9.5	-0.16	2.5	3.5	4.63	4	3.78	3.75	4.75	3.5	4.25	4	5	5	5
+SM_IDN_038	IDN	69	139	52	76	2	F	20	1	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	400 	40	A2_0	5.67	5.17	10.84	0.5	3	5.13	5.38	5.44	4.56	5.25	5.5	5	5.25	6	6	6	6
+SM_IDN_039	IDN	93	111	106	111	2	F	19	3	N/A	N/A	English	Humanities	TOEFL (PBT)	450 	28	A2_0	5.33	5.33	10.66	0	1.5	4.25	4.5	4	4.11	3.75	4.5	4.5	4.75	2	5	5	4
+SM_IDN_040	IDN	107	124	115	96	1	F	21	3	N/A	N/A	English 	Humanities	TOEFL (PBT)	480 	32	A2_0	5.5	3.67	9.17	1.83	3.5	2.63	4.88	3.89	3.56	4.25	3.75	3	4	5	5	5	5
+SM_IDN_041	IDN	134	146	133	135	2	F	24	M	N/A	N/A	Linguistics	Humanities	TOEFL (PBT)	560 	43	B1_2	5.5	5.83	11.33	-0.33	3	4.75	4.88	4.89	4.33	4.25	5.25	4	5.75	6	5	6	6
+SM_IDN_042	IDN	85	78	106	98	1	F	21	3	N/A	N/A	English 	Humanities	TOEFL (PBT)	491 	40	B1_1	4.83	3.67	8.5	1.16	3	4.38	4.38	4.22	4.22	4.5	5	3.75	4.25	3	5	5	5
+SM_IDN_043	IDN	89	86	92	96	2	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	557 	42	B1_2	5.17	4.83	10	0.34	4.5	5	5.13	5.22	4.78	5.5	5.25	4.75	4.75	6	6	6	6
+SM_IDN_044	IDN	100	104	102	102	1	F	21	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	470 	38	A2_0	4.83	5.17	10	-0.34	2	3.13	5	3.89	3.78	4.75	4.25	3.5	3.75	3	5	5	5
+SM_IDN_045	IDN	81	65	57	81	1	F	23	4	N/A	N/A	Education	Humanities	TOEFL (PBT)	423 	44	A2_0	5.17	5.5	10.67	-0.33	3	4.88	5	5	4.44	5.5	5	4.5	4.75	6	6	6	6
+SM_IDN_046	IDN	84	56	62	53	1	F	22	4	N/A	N/A	Arabic	Humanities	N/A	N/A	25	B1_1	5.67	4.33	10	1.34	1	1.88	4.25	3.33	2.33	3	3	3	3.25	5	5	6	5
+SM_IDN_047	IDN	89	98	86	87	2	M	21	4	N/A	N/A	English	Humanities	TOEFL (PBT)	449 	33	A2_0	5.17	5.5	10.67	-0.33	2.5	2.63	4.25	3.67	3	4.25	3	3.25	3.25	6	5	6	6
+SM_IDN_048	IDN	100	118	92	92	2	F	21	1	N/A	N/A	English	Humanities	TOEFL (PBT)	500 	35	B1_1	5.67	4	9.67	1.67	1	2	4.88	3.33	3	3.25	3.5	3.25	3.75	5	6	5	6
+SM_IDN_049	IDN	106	121	77	102	3	F	23	4	N/A	N/A	Arabic	Humanities	TOEFL (PBT)	483 	43	A2_0	5.5	5.17	10.67	0.33	3	4.63	4.63	4.56	4.33	5.25	5	4.25	4	6	6	6	6
+SM_IDN_050	IDN	113	134	116	101	2	F	22	4	N/A	N/A	English	Humanities	TOEFL (PBT)	517 	42	B1_1	5.67	4.83	10.5	0.84	2	4	5	4.11	4.33	4.25	4.75	5	4	6	4	5	5
+SM_IDN_051	IDN	85	84	82	93	1	M	24	4	N/A	N/A	English	Humanities	TOEFL (PBT)	483 	34	A2_0	4.67	5	9.67	-0.33	1	3.63	4.13	3.89	3.22	3.75	4.25	3.5	4	4	4	4	6
+SM_IDN_052	IDN	92	63	86	95	1	M	23	4	N/A	N/A	Islamic Studies	Humanities	N/A	N/A	21	A2_0	4	3.17	7.17	0.83	1	1.25	2.38	1.67	1.78	1.5	2.5	1.5	1.75	2	2	1	3
+SM_IDN_053	IDN	75	73	74	56	0	F	22	1	N/A	N/A	Arabic	Humanities	TOEFL (PBT)	413 	37	A2_0	5.33	5	10.33	0.33	2	4.13	5	4.67	3.89	4	5.25	4	5	6	6	5	5
+SM_IDN_054	IDN	97	79	95	96	1	F	20	4	N/A	N/A	English Linguistics	Humanities	TOEFL (PBT)	400 	38	A2_0	5.67	3.33	9	2.34	4	5.5	5.88	5.67	5.33	6	5.75	5.5	5.5	3	5	4	4
+SM_IDN_055	IDN	75	105	103	105	1	F	20	3	N/A	N/A	English	Humanities	TOEFL (PBT)	500 	40	B1_1	5	4.5	9.5	0.5	2	3.88	3.63	3.78	3.33	3.75	3.5	3	4.75	3	3	5	5
+SM_IDN_056	IDN	149	166	155	126	1	F	19	3	N/A	N/A	English	Humanities	TOEFL (PBT)	455 	37	A2_0	3.5	4.83	8.33	-1.33	2	4.13	5	4.44	4.11	4.75	4.75	4.5	4.25	5	5	6	5
+SM_IDN_057	IDN	81	90	75	71	0	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	520 	34	B1_1	4.67	4.5	9.17	0.17	2	2.63	3.88	3.11	3.11	4	3.75	2.25	3	5	5	4	4
+SM_IDN_058	IDN	117	140	135	123	1	F	21	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	500 	43	B1_1	4.5	3.83	8.33	0.67	5	3.75	4.38	4.22	4.11	4	4	4.75	3.5	5	5	5	5
+SM_IDN_059	IDN	157	109	119	145	2	F	19	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	460 	45	A2_0	4.83	5.17	10	-0.34	2	2.63	5	3.78	3.44	4	3.75	3.75	3.75	3	5	6	6
+SM_IDN_060	IDN	161	167	151	153	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	486 	24	A2_0	4.5	3.67	8.17	0.83	2	3	3.63	3.89	2.44	3.5	3.5	3	3.25	3	3	5	5
+SM_IDN_061	IDN	123	134	133	139	1	F	20	3	N/A	N/A	English	Humanities	TOEFL (PBT)	553 	44	B1_2	5.17	5.17	10.34	0	4	4.25	4.63	4.33	4.44	4.75	4.5	4.25	4.25	5	6	6	5
+SM_IDN_062	IDN	152	135	130	136	1	F	21	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	462 	45	A2_0	4.5	4.67	9.17	-0.17	3	4.5	5.13	4.78	4.44	5	5	4.25	5	6	6	6	6
+SM_IDN_063	IDN	116	82	82	91	2	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	450 	26	A2_0	5	5.67	10.67	-0.67	2.5	4.13	4	3.67	4.11	5	4	3.5	3.75	5	6	6	5
+SM_IDN_064	IDN	86	80	94	70	1	F	19	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	473 	40	A2_0	6	5.17	11.17	0.83	2.5	4.13	5	4.33	4.33	5	5.5	3	4.75	5	6	6	6
+SM_IDN_065	IDN	77	77	65	71	2	F	20	1	N/A	N/A	English	Humanities	TOEFL (PBT)	500 	41	B1_1	6	5.67	11.67	0.33	3	4.75	5	4.67	4.67	5	5	4.5	5	4	4	4	5
+SM_IDN_066	IDN	113	109	119	117	1	F	19	3	N/A	N/A	American Studies	Humanities	TOEFL (PBT)	503 	42	B1_1	4.5	5	9.5	-0.5	2.5	4.63	5.63	4.78	4.89	5.75	4.5	5	5.25	4	6	5	5
+SM_IDN_067	IDN	117	79	96	131	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	500 	39	B1_1	4.83	5	9.83	-0.17	2	3.25	5	4	3.78	4.75	4.5	3.5	3.75	5	6	6	6
+SM_IDN_068	IDN	179	191	139	141	2	F	19	3	N/A	N/A	American Studies	Humanities	TOEFL (PBT)	507 	37	B1_1	4.67	5.33	10	-0.66	2.5	4.63	5.5	5.11	4.44	5	5.25	4.75	5.25	3	4	5	5
+SM_IDN_069	IDN	132	129	121	102	2	F	20	4	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	453 	41	A2_0	4.33	4.83	9.16	-0.5	4	4.25	5.13	5	4.22	5.25	5.25	3.75	4.5	5	4	5	4
+SM_IDN_070	IDN	131	119	123	128	1	F	20	3	N/A	N/A	English	Humanities	TOEFL (PBT)	465 	45	A2_0	5	4.33	9.33	0.67	2	4.25	4.88	4.22	4.33	4.75	4.5	4.75	4.25	5	5	5	5
+SM_IDN_071	IDN	108	126	112	107	1	F	19	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	510 	43	B1_1	5.67	4.33	10	1.34	2	4.63	5.38	4.56	4.78	5.25	5.25	4.5	5	5	6	5	6
+SM_IDN_072	IDN	128	140	149	143	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	5.17	4.83	10	0.34	4.5	5.25	5.38	5.11	5.33	5.75	5.25	5.5	4.75	6	5	5	5
+SM_IDN_073	IDN	142	126	111	125	3	F	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	45	B1_2	5.33	5.33	10.66	0	3	4.75	5.5	4.89	4.89	5.5	5	5	5	4	5	5	5
+SM_IDN_074	IDN	111	114	107	93	2	F	20	3	N/A	N/A	English	Humanities	TOEFL (PBT)	500 	47	B1_1	4.67	4.83	9.5	-0.16	3.5	3.5	4.63	4.22	3.78	4.25	3.75	4.25	4	5	5	5	5
+SM_IDN_075	IDN	131	134	116	118	1	F	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	36	B1_2	5.17	4.83	10	0.34	4	3.75	4.25	3.22	4.78	4.25	4.25	3.25	4.25	5	5	5	5
+SM_IDN_076	IDN	75	72	60	78	2	F	25	1	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	500 	34	B1_1	5.33	5.17	10.5	0.16	3	3.63	4.75	4.11	4	4.5	4.5	3.5	4.25	5	5	5	5
+SM_IDN_077	IDN	131	139	115	139	2	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	470 	44	A2_0	5.83	5.17	11	0.66	5	5	5.38	5	5.33	5.75	5.5	4.75	4.75	5	5	6	5
+SM_IDN_078	IDN	66	63	58	67	0	F	20	3	N/A	N/A	Literature	Humanities	TOEFL (PBT)	405 	41	A2_0	4.83	5.5	10.33	-0.67	5	5	4	4.56	4.56	4.5	4.5	4.5	4.5	5	5	5	5
+SM_IDN_079	IDN	79	104	96	99	1	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	5	4.33	9.33	0.67	2	4.25	4.88	4.22	4.33	4.75	4.5	4.75	4.25	5	5	5	5
+SM_IDN_080	IDN	69	75	91	89	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	435 	43	A2_0	3.83	4.17	8	-0.34	5	3.38	4.38	4.11	3.89	4.75	3.75	3.5	3.5	3	4	4	3
+SM_IDN_081	IDN	110	90	92	78	1	F	19	3	N/A	N/A	English	Humanities	N/A	N/A	40	B1_2	4.33	3.5	7.83	0.83	3	2.5	4.38	3.44	3.33	3.75	3.25	3.5	3.25	2	4	4	5
+SM_IDN_082	IDN	86	76	86	100	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	450 	38	A2_0	4.67	5	9.67	-0.33	4	4.13	5	5	4	5	4.25	5	4	6	6	6	0
+SM_IDN_083	IDN	82	80	80	94	1	F	20	3	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	500 	37	B1_1	4.67	5.33	10	-0.66	3.5	4.38	4.75	5.11	3.78	5	4.25	4.25	4.75	6	5	5	5
+SM_IDN_084	IDN	108	139	113	116	2	F	21	3	N/A	N/A	English Literature	Humanities	N/A	N/A	41	B1_2	3.5	4.67	8.17	-1.17	2.5	3.25	4.13	3.78	3.33	4.75	3.75	2.25	4	3	4	5	3
+SM_IDN_085	IDN	124	129	105	111	2	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	4.67	4.83	9.5	-0.16	4	4.25	4.5	4.33	4.33	4.5	4.5	4.25	4.25	5	5	5	5
+SM_IDN_086	IDN	83	83	123	105	1	M	20	3	N/A	N/A	English	Humanities	N/A	N/A	45	B1_2	5.33	5	10.33	0.33	3.5	3.88	5.13	4.22	4.56	4.5	4.5	4.25	4.75	4	5	5	5
+SM_IDN_087	IDN	169	176	131	125	1	F	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	48	B2_0	4.67	5.33	10	-0.66	1	3.88	5.38	4.56	3.89	5.5	5	3.75	4.25	6	6	5	6
+SM_IDN_088	IDN	148	142	93	78	2	M	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	37	B1_2	4.5	5.33	9.83	-0.83	2.5	2.88	4.5	4	3.11	4.25	3.75	3.5	3.25	3	3	5	5
+SM_IDN_089	IDN	97	63	76	62	2	M	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	37	B1_2	4.5	5.33	9.83	-0.83	2.5	2.88	4.5	4	3.11	4.25	3.75	3.5	3.25	3	3	5	5
+SM_IDN_090	IDN	86	56	74	69	1	M	22	3	N/A	N/A	English Literature	Humanities	N/A	N/A	44	B1_2	4.5	4.83	9.33	-0.33	3	3.38	3	3.22	3.11	3.25	3.5	3	3	3	3	3	4
+SM_IDN_091	IDN	152	144	137	93	1	M	19	3	N/A	N/A	American Studies	Humanities	N/A	N/A	36	B1_2	5.17	4.67	9.84	0.5	3	2.88	4.13	3.89	3	4.5	3.25	3.75	2.5	5	6	5	6
+SM_IDN_092	IDN	118	110	114	91	1	F	19	4	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	472 	35	A2_0	4.67	5.17	9.84	-0.5	5.5	4.88	5.25	5.56	4.67	5	5.5	4.75	5	6	5	4	6
+SM_IDN_093	IDN	98	75	106	97	1	M	19	4	N/A	N/A	English Literature	Humanities	TOEFL (PBT)	472 	35	A2_0	4.67	5.17	9.84	-0.5	5.5	4.88	5.25	5.56	4.67	5	5.5	4.75	5	6	5	4	6
+SM_IDN_094	IDN	93	103	94	98	1	F	19	3	N/A	N/A	English	Humanities	N/A	N/A	38	B1_2	5	5.17	10.17	-0.17	2	2	4.38	3.22	2.89	3.25	3.25	3	3.25	5	5	5	5
+SM_IDN_095	IDN	147	151	92	106	1	F	19	3	N/A	N/A	English	Humanities	N/A	N/A	38	B1_2	5	5.17	10.17	-0.17	2	2	4.38	3.22	2.89	3.25	3.25	3	3.25	5	5	5	5
+SM_IDN_096	IDN	99	95	94	100	2	F	20	3	N/A	N/A	English	Humanities	N/A	N/A	37	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_IDN_097	IDN	140	147	127	137	2	F	20	1	N/A	N/A	English	Humanities	N/A	N/A	46	B1_2	5.17	5.33	10.5	-0.16	4	4.25	4.88	4.78	4.22	4.5	4.5	4.75	4.5	5	5	5	5
+SM_IDN_098	IDN	134	171	154	157	1	F	20	3	N/A	N/A	English Literature	Humanities	N/A	N/A	44	B1_2	4.5	5.17	9.67	-0.67	1	4.38	4.88	4.11	4.33	4.75	4.75	4.25	4.75	5	5	5	5
+SM_IDN_099	IDN	88	92	75	99	1	F	20	3	N/A	N/A	American Studies	Humanities	N/A	N/A	37	B1_2	6	4.5	10.5	1.5	4.5	5	5	5.44	4.44	5.5	5	5	4.5	3	6	5	5
+SM_IDN_100	IDN	75	64	60	78	1	M	20	4	N/A	N/A	English Literature	Humanities	N/A	N/A	44	B1_2	5.33	4.17	9.5	1.16	2	2.5	5	3.56	3.56	4.5	3.5	3.5	3.5	4	4	4	4
+SM_JPN_001	JPN	93	102	89	90	1	F	20	2	N/A	N/A	Economics	Social Sciences	TOEIC	800 	44	B2_0	5.67	4	9.67	1.67	3.5	3.25	4.25	2.11	5.33	3.75	4.25	3.5	3.5	6	5	6	6
+SM_JPN_002	JPN	35	41	45	44	1	M	20	3	N/A	N/A	Technology	Sciences & Technology	TOEIC	740 	41	B1_2	5.33	4.67	10	0.66	1	2.25	1.88	1.22	2.67	1.5	2.75	1.25	2.75	4	2	5	1
+SM_JPN_003	JPN	104	88	77	97	0	M	37	D	N/A	N/A	Science	Sciences & Technology	TOEIC	800 	30	B2_0	5.17	4	9.17	1.17	1	2.25	1.5	2.22	1.33	1.5	3	1.25	1.75	5	4	1	1
+SM_JPN_004	JPN	68	64	48	67	1	M	21	3	N/A	N/A	Human Development	Humanities	TOEIC	715 	47	B1_2	4	4	8	0	6	3.63	3.5	4.11	3.56	3.25	4.5	2.5	4	6	4	5	3
+SM_JPN_005	JPN	75	70	66	69	1	M	49	D	N/A	N/A	Culture	Humanities	TOEIC	905 	40	B2_0	5.67	3.5	9.17	2.17	1	3.63	1.5	2.78	2	3	3	2	2.25	5	3	5	5
+SM_JPN_006	JPN	86	70	67	69	2	M	22	3	N/A	N/A	Humanities	Humanities	TOEIC	825 	46	B2_0	5	4	9	1	1.5	1.88	3.63	2.78	2.44	3.25	3.25	2.75	1.75	3	3	5	1
+SM_JPN_007	JPN	59	60	55	65	1	F	24	M	N/A	N/A	Culture	Humanities	TOEIC	820 	36	B2_0	5.5	3.67	9.17	1.83	1.5	3.63	3.13	2.11	4.22	3.75	3.75	3	3	4	5	6	4
+SM_JPN_008	JPN	90	85	85	84	1	M	20	2	N/A	N/A	Culture	Humanities	TOEIC	810 	42	B2_0	4.5	2.17	6.67	2.33	1	3.75	2.5	2	3.78	3.75	4.5	1.75	2.5	4	1	1	4
+SM_JPN_009	JPN	73	99	69	75	1	M	19	1	N/A	N/A	Marine Science	Sciences & Technology	TOEIC	795 	29	B2_0	2.33	4	6.33	-1.67	1.5	3.13	2.13	3.33	1.67	2.25	4	2.25	2	6	1	1	1
+SM_JPN_010	JPN	85	111	60	92	1	M	20	1	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	760 	36	B1_2	4	4	8	0	2	3.38	1.75	3.11	1.89	2.75	2.75	2.5	2.25	5	1	5	5
+SM_JPN_011	JPN	114	144	99	120	2	M	23	4	N/A	N/A	Culture	Humanities	TOEIC	930 	33	B2_0	4.33	5	9.33	-0.67	1.5	2.88	2.25	2.56	2.33	2.5	3	2.25	2.5	4	3	2	2
+SM_JPN_012	JPN	68	84	68	67	1	M	21	2	N/A	N/A	Human Development	Humanities	TOEIC	745 	34	B1_2	5	2.67	7.67	2.33	1.5	3.5	4	4	3	4	4	3.5	3.5	5	4	6	5
+SM_JPN_013	JPN	59	78	66	73	1	F	21	3	N/A	N/A	Business	Social Sciences	TOEIC	790 	35	B2_0	6	5.67	11.67	0.33	2.5	3.75	2.75	3	3.33	3.75	3.75	3.25	2.25	3	3	1	1
+SM_JPN_014	JPN	75	107	45	78	0	M	23	4	N/A	N/A	Human Development	Humanities	TOEIC	830 	31	B2_0	3.5	4.67	8.17	-1.17	1	3.38	2.38	2.67	2.67	3.25	3.5	1.75	3	5	3	2	2
+SM_JPN_015	JPN	73	79	68	69	1	F	21	3	N/A	N/A	Culture	Humanities	TOEIC	765 	35	B1_2	2.67	4.17	6.84	-1.5	1	2.63	2	2.44	1.89	2	2.25	2.25	2.75	5	5	5	1
+SM_JPN_016	JPN	83	96	68	92	1	M	22	M	N/A	N/A	Culture	Humanities	TOEIC	705 	31	B1_2	4.33	4.33	8.66	0	1	3.63	1.5	2.33	2.44	2	3.75	2	2.5	2	1	1	1
+SM_JPN_017	JPN	64	70	56	45	1	M	22	3	N/A	N/A	Business	Social Sciences	TOEIC	770 	28	B1_2	5.67	5.17	10.84	0.5	1.5	3.25	3	2.44	3.44	3.25	4.25	2.25	2.75	3	3	1	1
+SM_JPN_018	JPN	86	124	76	121	0	F	19	2	N/A	N/A	Business	Social Sciences	TOEIC	620 	38	B1_1	4.5	4.5	9	0	1	3	4	3.89	2.56	3.75	4.75	2.25	3.25	1	6	6	6
+SM_JPN_019	JPN	50	55	43	58	1	M	18	1	N/A	N/A	Economics	Social Sciences	TOEIC	575 	39	B1_1	5.67	2.67	8.34	3	1	3.13	3.13	2.33	3.44	3.75	3.5	2.25	3	2	2	3	3
+SM_JPN_020	JPN	68	91	82	77	1	M	21	1	N/A	N/A	Science	Sciences & Technology	TOEIC	715 	37	B1_2	4.5	4.33	8.83	0.17	3	3.25	3	2.56	3.67	3.5	3.25	2.75	3	1	4	2	1
+SM_JPN_021	JPN	43	69	41	54	1	M	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	533 	34	B1_2	4	4.5	8.5	-0.5	1	2.38	2.13	2	2.22	2.25	2.5	2	2.25	3	4	4	2
+SM_JPN_022	JPN	56	75	42	73	1	M	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	533 	29	B1_2	3.67	4.5	8.17	-0.83	2	4	3.5	3.78	3.33	3.75	3.75	3.75	3.75	5	2	2	2
+SM_JPN_023	JPN	53	78	63	84	2	M	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	497 	32	B1_1	5.67	5.17	10.84	0.5	2	3.13	4	3.44	3.33	3.5	3.75	3.5	3.5	1	4	2	4
+SM_JPN_024	JPN	64	100	83	87	1	M	18	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	447 	33	A2_0	4.33	4.83	9.16	-0.5	1	4	2.63	2.89	3.22	2.75	3.75	3	3.75	3	3	3	1
+SM_JPN_025	JPN	87	86	83	112	1	F	18	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	493 	44	B1_1	3.33	3.83	7.16	-0.5	2	3.38	3.5	3.56	3	3.25	4	2.75	3.75	5	5	4	2
+SM_JPN_026	JPN	26	49	48	51	2	M	19	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	487 	35	B1_1	5	5.67	10.67	-0.67	2.5	3.25	4.75	3.89	3.78	4	4	4	4	4	4	3	3
+SM_JPN_027	JPN	22	68	51	68	1	F	18	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	473 	37	A2_0	3.17	3.67	6.84	-0.5	2	2.5	3.25	3.56	2	2.75	2.75	2.75	3.25	5	4	3	3
+SM_JPN_028	JPN	60	57	42	69	1	M	18	1	N/A	N/A	Science	Sciences & Technology	TOEIC	640 	36	B1_1	6	6	12	0	1	2.25	3.75	4.33	1.22	3.25	3	2.75	3	1	1	1	3
+SM_JPN_029	JPN	39	63	36	59	2	M	18	1	N/A	N/A	Science	Sciences & Technology	TOEIC	665 	26	B1_1	4.5	5.33	9.83	-0.83	2	3	3.38	4	2.11	3	3.75	3	3	6	4	2	2
+SM_JPN_030	JPN	44	68	37	63	1	M	18	1	N/A	N/A	Science	Sciences & Technology	TOEIC	495 	33	A2_0	5	5	10	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+SM_JPN_031	JPN	72	63	60	62	1	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	480 	43	A2_0	6	5.33	11.33	0.67	4	5.38	5.5	5.67	4.89	5.75	6	4	6	5	4	3	5
+SM_JPN_032	JPN	83	121	85	107	1	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	497 	40	B1_1	5.83	4	9.83	1.83	3.5	4.75	3.75	4.33	4	4.25	4.75	3.75	4.25	4	3	2	3
+SM_JPN_033	JPN	42	66	41	55	1	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	440 	43	A2_0	4.83	5.17	10	-0.34	3.5	5	2.38	4.11	3.22	4	4	3.5	3.25	4	4	4	3
+SM_JPN_034	JPN	47	59	43	65	0	F	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	517 	36	B1_1	5.83	4	9.83	1.83	3.5	3.13	2.75	2.89	3.11	3	3	3.25	2.5	6	6	5	2
+SM_JPN_035	JPN	67	102	89	91	1	F	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	513 	38	B1_1	4.33	4	8.33	0.33	1	3.88	2	2.67	2.78	1.75	3.75	2.75	3.5	1	4	4	2
+SM_JPN_036	JPN	60	63	52	61	1	M	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	503 	32	B1_1	5	4.5	9.5	0.5	2	2.75	3	3.78	1.78	3.5	3.25	2.5	2.25	4	3	4	2
+SM_JPN_037	JPN	79	82	73	76	1	M	18	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	500 	33	B1_1	3.67	4.67	8.34	-1	1	2.13	2.25	2.33	1.78	2	2.5	2	2.25	5	3	3	2
+SM_JPN_038	JPN	67	80	62	79	0	F	19	1	N/A	N/A	Science	Sciences & Technology	TOEIC	670 	32	B1_2	4.83	4	8.83	0.83	1.5	3.75	2.63	4.11	1.89	3.25	3.5	2.75	3.25	5	5	5	6
+SM_JPN_039	JPN	42	54	49	75	1	M	18	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	507 	35	B1_1	4.5	3.83	8.33	0.67	2.5	4.25	3.75	4.22	3.44	4.25	4.25	3.75	3.75	3	4	3	4
+SM_JPN_040	JPN	53	97	70	97	1	F	19	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	523 	20	B1_1	2.17	3.33	5.5	-1.16	1	3.38	2.63	2.67	2.89	4.25	3	2.5	2.25	1	2	1	1
+SM_JPN_041	JPN	74	113	73	82	3	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	497 	37	B1_1	5	4.83	9.83	0.17	5	4.88	4	5.11	3.89	4.5	5.25	4	4	6	6	6	6
+SM_JPN_042	JPN	72	97	75	85	1	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	517 	29	B1_1	4.33	4.17	8.5	0.16	4	2.88	3.13	4.11	2.11	2.75	3.25	2.75	3.25	6	2	3	1
+SM_JPN_043	JPN	48	75	60	59	2	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	477 	32	A2_0	4.5	3.33	7.83	1.17	2	2.75	3.88	3.33	3	3.5	3.25	2.75	3.75	1	2	2	3
+SM_JPN_044	JPN	64	81	68	88	1	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	470 	42	A2_0	5.33	5.5	10.83	-0.17	3	3.75	3.38	4	3	4.25	4.5	2.75	2.75	4	4	3	4
+SM_JPN_045	JPN	46	72	39	52	1	M	18	1	N/A	N/A	Economics	Social Sciences	TOEIC	630 	38	B1_1	4.67	3.83	8.5	0.84	1	4.63	3.13	3.56	3.56	4	4.75	2.75	4	3	5	3	4
+SM_JPN_046	JPN	49	69	48	73	2	F	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	500 	37	B1_1	4.33	4	8.33	0.33	2	3	3	3.78	2	3.25	3.25	3	2.5	5	5	2	3
+SM_JPN_047	JPN	57	122	61	74	1	M	19	2	N/A	N/A	Economics	Social Sciences	TOEIC	590 	36	B1_1	4.67	4.83	9.5	-0.16	1.5	3.5	3.63	3.44	3.22	3.75	4	2.5	4	4	3	3	3
+SM_JPN_048	JPN	76	84	71	67	1	M	19	2	N/A	N/A	Economics	Social Sciences	TOEIC	645 	39	B1_1	5	2.17	7.17	2.83	2	3.75	3.75	3.33	3.78	4.25	4.25	2.75	3.75	4	3	1	4
+SM_JPN_049	JPN	52	65	54	62	1	M	18	1	N/A	N/A	Medicine	Life Sciences	TOEFL (PBT)	480 	32	A2_0	5.67	5.17	10.84	0.5	3.5	3.75	3.25	4.89	2.11	3.75	3.75	2.75	3.75	6	5	4	3
+SM_JPN_050	JPN	36	56	34	36	0	M	18	1	N/A	N/A	Economics	Social Sciences	TOEIC	290 	29	A2_0	4.83	4.5	9.33	0.33	1	3	4.13	3.78	2.78	3.25	3.75	3.25	4	1	3	3	2
+SM_JPN_051	JPN	61	72	64	89	2	F	19	1	N/A	N/A	Business	Social Sciences	TOEIC	835 	35	B2_0	3.83	3.33	7.16	0.5	3	2.75	2.63	3.44	2	3.75	3	2	2	3	2	3	5
+SM_JPN_052	JPN	62	69	48	58	0	M	19	1	N/A	N/A	Business	Social Sciences	TOEIC	635 	36	B1_1	4.33	5.83	10.16	-1.5	1.5	1.88	3	2.78	1.89	2.75	3	1.5	2.5	1	2	1	3
+SM_JPN_053	JPN	46	98	86	89	0	M	22	4	N/A	N/A	Technology	Sciences & Technology	TOEIC	810 	34	B2_0	5.33	3.17	8.5	2.16	2	2.75	2.5	2.67	2.44	2.25	3.75	2.25	2.25	3	2	2	2
+SM_JPN_054	JPN	91	113	87	87	3	M	22	4	N/A	N/A	Technology	Sciences & Technology	TOEIC	790 	41	B2_0	5.5	4.17	9.67	1.33	3	2.88	3.25	2.56	3.56	2.5	3	3	3.75	2	3	4	3
+SM_JPN_055	JPN	61	73	87	69	1	M	22	3	N/A	N/A	Science	Sciences & Technology	TOEIC	825 	36	B2_0	5	5.33	10.33	-0.33	3	2.75	3.63	2.78	3.56	3.75	3.75	2.75	2.5	4	3	4	4
+SM_JPN_056	JPN	47	59	43	61	1	M	25	3	N/A	N/A	Technology	Sciences & Technology	TOEIC	615 	29	B1_1	5.5	3.5	9	2	1	3.63	2.75	3	2.89	2.25	4.25	2	4.25	2	5	1	6
+SM_JPN_057	JPN	48	30	40	26	0	M	20	2	N/A	N/A	Technology	Sciences & Technology	TOEIC	545 	30	A2_0	3.5	4	7.5	-0.5	1	1	3.5	1.89	2.33	2.25	2.25	2.25	2.25	3	3	3	2
+SM_JPN_058	JPN	30	39	33	39	0	M	19	1	N/A	N/A	Technology	Sciences & Technology	TOEIC	770 	34	B1_2	3.17	4.17	7.34	-1	2	2.63	2.63	2.78	2.33	3	2.75	2.5	2.25	2	3	2	3
+SM_JPN_059	JPN	72	80	60	68	0	F	25	M	0.5	N/A	Economics	Social Sciences	TOEIC	925 	41	B2_0	5.17	5.83	11	-0.66	1	1.75	4.13	3.33	2.11	2.5	4	2.25	3	3	3	4	5
+SM_JPN_060	JPN	49	46	38	44	0	M	18	1	N/A	N/A	Marine Science	Sciences & Technology	TOEIC	620 	36	B1_1	3.5	5.17	8.67	-1.67	4	4	3.5	3.67	3.89	4.25	4.25	3	3.5	5	4	5	4
+SM_JPN_061	JPN	60	53	63	69	0	F	22	4	N/A	N/A	Science	Sciences & Technology	TOEIC	635 	33	B1_1	4.17	4.5	8.67	-0.33	2	3.88	4.13	3.56	4	4	4.75	2.75	4.5	5	3	3	2
+SM_JPN_062	JPN	64	79	88	86	0	F	19	2	0.5	N/A	Economics	Social Sciences	TOEIC	800 	35	B2_0	5	5.33	10.33	-0.33	2.5	4.13	2	2.67	3.33	3.25	3	3.25	2.75	5	5	5	4
+SM_JPN_063	JPN	39	44	37	39	0	M	18	1	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	540 	30	A2_0	4	5	9	-1	1	2.88	3.13	3.56	2	4	4.25	1.75	2	1	6	4	1
+SM_JPN_064	JPN	73	90	60	75	1	M	19	1	N/A	N/A	Business	Social Sciences	TOEIC	485 	21	A2_0	5.17	2.67	7.84	2.5	1	2.13	2.63	2.78	1.67	2.25	3	1.5	2.75	3	2	4	2
+SM_JPN_065	JPN	81	87	72	66	1	M	23	4	N/A	N/A	Economics	Social Sciences	TOEIC	905 	43	B2_0	4	3.83	7.83	0.17	2	2.5	3.5	3	2.78	3	3.5	2.25	3.25	5	5	4	4
+SM_JPN_066	JPN	70	90	80	94	1	M	20	1	N/A	N/A	Technology	Sciences & Technology	TOEIC	725 	32	B1_2	4.5	4	8.5	0.5	1.5	1.75	2.63	1.78	2.44	1.5	2.5	2	2.75	5	4	3	4
+SM_JPN_067	JPN	38	57	46	57	1	F	20	2	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	690 	42	B1_2	4.5	4.33	8.83	0.17	1.5	4	1	2.22	2.56	2.5	2.75	2.25	2.5	6	6	4	5
+SM_JPN_068	JPN	113	95	90	87	1	M	20	2	N/A	N/A	Agriculture	Sciences & Technology	TOEFL (iBT)	81 	33	B1_2	5.17	5.17	10.34	0	1	1	3.13	1	2.89	2.25	2.25	2	1.75	4	3	1	4
+SM_JPN_069	JPN	102	105	80	87	2	M	21	3	N/A	N/A	Culture	Humanities	TOEIC	880 	47	B2_0	6	5.33	11.33	0.67	1.5	2.38	3.63	3	2.67	3	3.25	2.75	3	5	2	2	1
+SM_JPN_070	JPN	54	61	50	63	1	F	22	4	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	690 	36	B1_2	5.67	4	9.67	1.67	3.5	4.75	4.5	3.67	5.33	4.75	5	4.5	4.25	6	5	5	1
+SM_JPN_071	JPN	74	76	53	64	0	M	22	3	N/A	N/A	Culture	Humanities	TOEIC	805 	33	B2_0	5	4.5	9.5	0.5	2	3.5	3.88	3.67	3.33	3.5	3.75	3.5	4	2	3	4	4
+SM_JPN_072	JPN	63	79	52	57	1	M	18	1	N/A	N/A	Human Development	Humanities	TOEIC	660 	34	B1_1	5.17	4	9.17	1.17	1	3.88	5.38	4.89	3.56	4.25	4.75	4.25	5.25	6	4	5	5
+SM_JPN_073	JPN	51	66	40	53	0	F	20	3	N/A	N/A	Law	Social Sciences	TOEIC	725 	31	B1_2	3	4	7	-1	1	2.25	1.25	2.11	1.22	1	2.75	1	2.25	1	1	3	3
+SM_JPN_074	JPN	52	64	50	53	2	M	21	1	N/A	N/A	Human Development	Humanities	TOEIC	700 	33	B1_2	5.5	4.67	10.17	0.83	1.5	1.63	5.75	3.67	3.22	4	4	3.5	3.25	6	6	5	4
+SM_JPN_075	JPN	49	45	31	49	0	M	22	3	N/A	N/A	Human Development	Humanities	TOEIC	685 	32	B1_2	2.5	1.83	4.33	0.67	1	3.5	1.75	2.22	2.67	2	3.5	1.5	3.5	6	6	6	6
+SM_JPN_076	JPN	88	88	79	70	1	F	19	2	0.5	N/A	Business	Social Sciences	TOEFL (iBT)	59 	33	B1_1	5.33	4.33	9.66	1	5.5	3.5	4.75	4.67	3.89	4.25	4	4.25	4	4	4	4	5
+SM_JPN_077	JPN	74	84	65	75	0	M	22	4	1	N/A	Science	Sciences & Technology	TOEFL (iBT)	82 	33	B1_2	5.17	4.5	9.67	0.67	2	1.25	3.25	2	2.44	2.5	2.5	2	2	5	2	3	1
+SM_JPN_078	JPN	117	106	122	76	1	M	22	3	N/A	N/A	Technology	Sciences & Technology	TOEIC	755 	33	B1_2	4.67	4.17	8.84	0.5	3	3.63	2.88	3.22	3.22	3.5	3.75	2.75	3	4	4	2	3
+SM_JPN_079	JPN	76	94	77	86	0	F	21	3	0.5	N/A	Economics	Social Sciences	TOEIC	800 	40	B2_0	4.83	4.5	9.33	0.33	2.5	4.25	3.63	3.33	4.22	4.25	4	3.5	4	4	4	5	4
+SM_JPN_080	JPN	79	67	56	68	1	F	24	M	N/A	N/A	Medicine	Life Sciences	TOEIC	845 	37	B2_0	5	4	9	1	1	1.75	1.63	1.89	1.33	1.75	2	1.5	1.5	2	2	2	2
+SM_JPN_081	JPN	64	66	63	80	1	F	19	2	N/A	N/A	Economics	Social Sciences	TOEIC	695 	34	B1_2	5.67	5.33	11	0.34	4	4	2	4.22	2	3	3	3	3	6	4	4	2
+SM_JPN_082	JPN	49	39	48	39	0	M	22	4	N/A	N/A	Technology	Sciences & Technology	TOEIC	665 	25	B1_1	4.5	4.5	9	0	1.5	2	1.75	1.89	1.78	1.25	2.25	1.75	2.25	2	2	2	2
+SM_JPN_083	JPN	60	44	60	48	1	M	22	4	N/A	N/A	Technology	Sciences & Technology	TOEIC	385 	30	A2_0	4.17	3	7.17	1.17	1	4.5	2	3.22	2.78	3.5	3.5	3	3	3	4	4	3
+SM_JPN_084	JPN	110	137	99	89	2	M	20	2	1	N/A	Culture	Humanities	TOEFL (iBT)	77 	41	B1_2	4.83	5.33	10.16	-0.5	1.5	2.88	2.88	2.78	2.67	3.25	2.75	3.25	2.25	5	3	3	3
+SM_JPN_085	JPN	88	75	81	64	2	M	19	1	N/A	N/A	Science	Sciences & Technology	TOEIC	825 	41	B2_0	5	6	11	-1	1	5	2.75	4	3.11	4.5	3.75	4	3.25	6	6	6	1
+SM_JPN_086	JPN	58	59	52	42	0	F	20	2	N/A	N/A	Human Development	Humanities	TOEIC	625 	29	B1_1	4.17	4.17	8.34	0	2	4.25	3.25	4.22	2.89	3.5	4.5	2.75	4.25	4	2	4	2
+SM_JPN_087	JPN	77	100	69	79	0	F	22	4	N/A	N/A	Culture	Humanities	TOEIC	830 	37	B2_0	4.67	2.83	7.5	1.84	1	1.25	3.63	1.56	3	2.25	2.75	2.25	2.5	1	3	3	2
+SM_JPN_088	JPN	97	102	78	68	0	M	21	2	0.5	N/A	Law	Social Sciences	IELTS	6 	35	B2_0	4.5	3.83	8.33	0.67	1	2.63	3.63	2.89	2.89	3.25	4.75	2.25	2.25	4	2	2	3
+SM_JPN_089	JPN	58	60	36	53	0	F	20	2	N/A	N/A	Human Development	Humanities	TOEIC	700 	30	B1_2	5	4.17	9.17	0.83	3	4.13	3.25	4.78	2.44	4	4.75	2.25	3.75	6	2	2	3
+SM_JPN_090	JPN	40	42	42	41	0	M	24	4	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	630 	31	B1_1	3.83	4	7.83	-0.17	1.5	2.25	2.25	2.78	1.56	2.5	2.5	1.5	2.5	1	3	2	2
+SM_JPN_091	JPN	48	64	54	50	0	M	24	M	N/A	N/A	Agriculture	Sciences & Technology	TOEIC	650 	32	B1_1	4.5	4.83	9.33	-0.33	1.5	3.88	3.38	3.67	3.11	3.75	5	2	3.75	3	4	3	3
+SM_JPN_092	JPN	42	47	46	57	0	M	20	3	N/A	N/A	Technology	Sciences & Technology	TOEIC	550 	23	B1_1	3.83	4.33	8.16	-0.5	1.5	3.75	2.88	3.67	2.56	3.25	4	3	3	5	3	5	2
+SM_JPN_093	JPN	59	75	62	82	0	M	21	3	N/A	N/A	Technology	Sciences & Technology	TOEIC	665 	36	B1_1	4	4.5	8.5	-0.5	3	2.63	2.88	2.78	2.78	3	3	2.5	2.5	1	3	1	1
+SM_JPN_094	JPN	73	46	50	49	0	F	21	3	N/A	N/A	Science	Sciences & Technology	TOEIC	490 	32	A2_0	2.33	3.17	5.5	-0.84	2	3.75	5.38	5.22	3.33	4.5	4.75	4.25	4.75	3	2	3	1
+SM_JPN_095	JPN	57	39	52	62	0	F	20	3	N/A	N/A	Science	Sciences & Technology	TOEIC	740 	36	B1_2	5.17	5.33	10.5	-0.16	1	3.5	1.25	2	2.44	2.25	3.25	1.25	2.75	1	1	1	3
+SM_JPN_096	JPN	101	94	68	77	1	F	19	2	N/A	N/A	Human Development	Humanities	TOEIC	615 	31	B1_1	5.33	3.67	9	1.66	1.5	3.5	4.88	4.22	3.56	4.5	4.25	3.75	4.25	6	4	6	6
+SM_JPN_097	JPN	73	81	76	61	0	F	30	D	2	N/A	Economics	Social Sciences	TOEIC	815 	46	B2_0	4.67	4.17	8.84	0.5	1.5	2.38	3.88	3	2.89	3.25	3.75	2.75	2.75	2	2	3	2
+SM_JPN_098	JPN	60	70	51	69	0	F	21	2	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	520 	34	B1_1	4.5	4.17	8.67	0.33	1	4.13	1.5	2.33	2.89	2.5	3	2.5	3.25	4	4	5	4
+SM_JPN_099	JPN	71	75	69	81	0	M	21	4	N/A	N/A	Technology	Sciences & Technology	TOEIC	765 	31	B1_2	5	4	9	1	2	3.75	2.25	2.89	2.89	3	3.5	2.25	3.25	2	2	2	2
+SM_JPN_100	JPN	61	65	50	59	0	F	19	1	N/A	N/A	Law	Social Sciences	TOEFL (PBT)	527 	34	B1_2	4.17	4.5	8.67	-0.33	1	3.63	2.88	3.44	2.56	3.25	4.25	1.5	4	5	5	2	5
+SM_JPN_101	JPN	55	70	48	66	2	M	23	M	N/A	N/A	Information Systems	Sciences & Technology	TOEIC	450 	32	A2_0	2.5	4.67	7.17	-2.17	1	1.9	1	1.78	1	1.5	1.5	1.25	1.5	1	1	1	1
+SM_JPN_102	JPN	85	83	76	82	0	M	18	1	N/A	N/A	Letters	Humanities	TOEFL (PBT)	560	38	B1_2	4.67	3.67	8.34	1	1.5	4.5	3.9	4	3.78	5	3.25	4.25	4.25	5	5	5	5
+SM_JPN_103	JPN	65	91	65	78	0	F	19	1	N/A	N/A	Law	Social Sciences	TOEIC	695	38	B1_2	3.67	5.17	8.84	-1.5	1	3.1	3	3.44	2.22	3.25	3.25	2.75	3	4	3	2	3
+SM_JPN_104	JPN	89	91	72	78	0	F	24	M	0.5	N/A	Humanities	Humanities	TOEIC	765	39	B1_2	4.67	3.5	8.17	1.17	1.5	2.6	4.3	2.89	3.56	3.75	3.75	3	3.25	5	5	5	5
+SM_JPN_105	JPN	73	72	49	67	0	M	23	1	N/A	N/A	Law	Humanities	TOEFL (PBT)	467 	28	A2_0	5	3.83	8.83	1.17	3.5	3.6	2	2.22	3.56	2.5	3.25	3	2.5	6	2	5	5
+SM_JPN_106	JPN	121	116	51	51	0	F	19	1	N/A	N/A	Engineering	Sciences & Technology	TOEIC	505	27	A2_0	5.17	4.83	10	0.34	3	4.4	3.4	3.89	3.67	4	4.25	3.25	4	5	5	4	3
+SM_JPN_107	JPN	58	53	65	49	1	F	19	1	N/A	N/A	Law	Social Sciences	TOEIC	505	38	A2_0	4	4.5	8.5	-0.5	2.5	2.9	3.4	3.89	2.22	3.5	3.25	3	2.75	5	5	2	2
+SM_JPN_108	JPN	76	78	86	81	1	M	19	1	N/A	N/A	Business Administration	Social Sciences	TOEIC	645	37	B1_1	3.67	5.83	9.5	-2.16	1	3.9	1.3	2.33	2.44	2.25	3	2	3	3	2	1	1
+SM_JPN_109	JPN	99	88	87	81	0	F	18	1	1	N/A	Engineering	Sciences & Technology	TOEIC	740	33	B1_2	4.67	3.83	8.5	0.84	3	3.6	4	3.89	3.56	4.5	4.25	3.5	3	5	4	2	2
+SM_JPN_110	JPN	98	108	71	69	1	M	19	2	N/A	N/A	Human Development	Sciences & Technology	TOEIC	740	38	B1_2	5.67	4.5	10.17	1.17	2.5	1.9	4.5	2.56	3.67	2.5	4.5	2.25	3.5	5	6	4	1
+SM_JPN_111	JPN	84	93	83	89	1	M	19	1	N/A	N/A	Human Development	Humanities	TOEIC	675	35	B1_2	5.67	4.5	10.17	1.17	1	1.4	2.6	2.78	1	1.5	2.25	1.75	2.5	1	1	1	1
+SM_JPN_112	JPN	63	57	53	50	1	F	20	1	N/A	N/A	Economics	Social Sciences	TOEIC	660	30	B1_1	4.67	4.83	9.5	-0.16	2.5	4.5	3.9	4.33	3.67	3.75	5.5	3.25	4.25	6	2	4	5
+SM_JPN_113	JPN	76	62	70	52	0	F	23	M	N/A	N/A	Law	Social Sciences	TOEIC	665	45	B1_1	4.17	4.33	8.5	-0.16	2	3.5	2.3	2.67	2.89	3.5	2.75	3	2.25	5	3	3	4
+SM_JPN_114	JPN	87	79	78	66	0	M	20	1	N/A	N/A	Business	Social Sciences	TOEIC	670	37	B1_2	5.5	4.33	9.83	1.17	2.5	3.5	5.3	4	4.33	5.25	5	3.5	3.75	6	4	5	2
+SM_JPN_115	JPN	97	115	90	101	0	F	19	1	N/A	N/A	Business	Social Sciences	TOEIC	675	34	B1_2	3.83	4.17	8	-0.34	2.5	3.5	2.1	2.78	2.78	3	2.75	3.5	2	6	4	4	2
+SM_JPN_116	JPN	65	79	64	75	0	F	19	1	N/A	N/A	Economics	Humanities	TOEIC	575	25	B1_1	4.5	5	9.5	-0.5	1	2.5	3.8	3.11	2.67	3.25	4.25	2.25	2.75	2	3	4	3
+SM_JPN_117	JPN	58	82	62	62	1	F	21	3	N/A	N/A	Intercultural studies	Social Sciences	TOEFL (iBT)	72	42	B1_2	5.67	4.83	10.5	0.84	2.5	3.4	4.4	3.33	4.11	4	4.75	3	3.75	4	5	4	5
+SM_JPN_118	JPN	73	79	63	85	0	F	21	3	N/A	N/A	agriculture	Life Sciences	TOEFL (PBT)	503	31	A2_0	5	5.17	10.17	-0.17	1	4.5	1.3	3.22	2.11	3	3.75	2	2.75	5	5	5	6
+SM_JPN_119	JPN	84	104	80	84	0	M	23	3	N/A	N/A	Business	Social Sciences	TOEIC	835 	35	B2_0	4.67	3.83	8.5	0.84	1	1.1	1.1	1.22	1	1	1.5	1	1	5	5	5	4
+SM_JPN_120	JPN	62	60	46	63	0	F	18	1	N/A	N/A	Management	Social Sciences	TOEIC	550 	31	B1_1	3.5	3.33	6.83	0.17	4	4.5	3.8	4.56	3.67	3.75	4.5	4.25	4	3	2	2	3
+SM_JPN_121	JPN	46	50	47	58	1	M	19	1	N/A	N/A	Marine science	Sciences & Technology	TOEIC	355 	25	A2_0	5	5.33	10.33	-0.33	3.5	4	3.1	4.67	2.44	3.25	4	3.25	3.75	5	5	2	4
+SM_JPN_122	JPN	50	64	60	65	0	F	18	1	N/A	N/A	Business	Social Sciences	TOEIC	490 	33	A2_0	4.33	3.83	8.16	0.5	1	3.1	2.1	2.56	2.33	3	2.75	2.5	2.25	2	2	1	1
+SM_JPN_123	JPN	39	51	40	37	0	F	24	M	N/A	N/A	Agriculture	Life Sciences	TOEIC	595	30	B1_1	4.33	4.5	8.83	-0.17	2	3.9	3.8	3.44	3.78	3.5	5	3.25	3.5	5	5	2	2
+SM_JPN_124	JPN	53	56	49	58	1	M	22	M	N/A	N/A	Engineering	Sciences & Technology	TOEIC	730	28	B1_2	4.5	3.5	8	1	2.5	3.6	3.3	3.89	2.78	3.25	4.25	2.75	3.5	5	2	5	3
+SM_JPN_125	JPN	67	69	56	64	0	F	18	1	N/A	N/A	business	Humanities	TOEIC	515 	27	A2_0	3.83	4	7.83	-0.17	1	1.3	2	2.11	1	1.5	1.5	1.5	2	1	1	1	1
+SM_JPN_126	JPN	55	80	56	53	0	F	18	1	N/A	N/A	Student	Life Sciences	TOEFL (PBT)	440 	42	A2_0	5	4.17	9.17	0.83	1.5	4.6	3.4	4	3.44	4	4.5	3.5	4	2	3	2	2
+SM_JPN_127	JPN	85	86	73	68	0	M	22	4	1	N/A	Engineering	Sciences & Technology	TOEFL (iBT)	89 	37	B1_2	5.67	3.67	9.34	2	1.5	2.4	3.5	2.11	3.44	2.5	3.75	2.75	2.75	5	2	2	4
+SM_JPN_128	JPN	67	76	64	70	0	F	18	1	N/A	N/A	Maritime sciences	Sciences & Technology	TOEIC	615 	30	B1_1	5.5	5	10.5	0.5	2	3.8	3.4	3.67	3.11	4	3.25	3.5	3.5	5	4	3	4
+SM_JPN_129	JPN	41	53	37	46	0	M	18	1	N/A	N/A	Science	Sciences & Technology	TOEIC	465 	33	A2_0	3.83	4.17	8	-0.34	1	2	2.4	2.22	1.89	2.25	2.25	2.25	2	1	2	3	1
+SM_JPN_130	JPN	67	61	68	67	1	M	18	1	N/A	N/A	science	Sciences & Technology	TOEIC	685 	29	B1_2	3.67	3.5	7.17	0.17	1	2.4	1.8	2.67	1.22	2.5	2.25	1.75	1.75	2	1	2	1
+SM_JPN_131	JPN	34	53	29	33	0	F	18	1	N/A	N/A	Intercultural studies	Humanities	TOEFL (PBT)	493	32	B1_1	5	3.83	8.83	1.17	1	1.6	3.3	1.89	2.67	2.75	2.25	2.5	2.25	4	5	2	0
+SM_JPN_132	JPN	53	60	53	61	1	F	18	1	N/A	N/A	intercultural studies	Humanities	TOEFL (PBT)	520 	38	A2_0	4.5	5.5	10	-1	2	2.9	3.5	3.44	2.67	3.25	2.75	3.25	3.5	6	4	2	4
+SM_JPN_133	JPN	58	68	49	64	0	M	18	1	N/A	N/A	law	Social Sciences	TOEIC	615 	29	B1_1	4	5.17	9.17	-1.17	1.5	2.6	3	3.11	2.22	3	2.75	2.75	2.75	5	4	5	5
+SM_JPN_134	JPN	87	95	85	85	0	M	24	M	N/A	N/A	Economics	Social Sciences	TOEIC	855	36	B2_0	5.67	4.83	10.5	0.84	1.5	1	2.9	1.33	2.44	1.75	2	2	2	3	4	5	5
+SM_JPN_135	JPN	64	74	60	80	0	M	18	1	N/A	N/A	Engineering	Humanities	TOEIC	415	31	A2_0	2.5	5.33	7.83	-2.83	3.5	2.4	2.6	3.67	1.56	2.5	2.75	1.25	3.5	3	3	1	1
+SM_JPN_136	JPN	48	73	56	49	1	F	19	1	2+	N/A	Agriculture	Sciences & Technology	TOEFL (PBT)	560	38	B1_2	4.83	3.33	8.16	1.5	2	2.6	2.4	3	1.89	2.5	2.75	2.25	2.5	5	5	4	2
+SM_JPN_137	JPN	38	35	36	36	0	M	18	1	N/A	N/A	agriculture	Life Sciences	TOEFL (PBT)	440	21	A2_0	3.17	3.33	6.5	-0.16	1.5	2.3	1.9	3	1	2.25	2	2	2	3	3	2	1
+SM_JPN_138	JPN	74	87	66	54	1	M	18	1	N/A	N/A	agriculture	Sciences & Technology	TOEFL (PBT)	473	32	A2_0	4.5	4	8.5	0.5	2.5	4.5	3.8	4.56	3.33	3.75	4.5	3.5	4.75	4	5	4	3
+SM_JPN_139	JPN	77	71	72	72	1	M	21	4	N/A	N/A	Engineering	Sciences & Technology	TOEIC	735	37	B1_2	4.67	3.83	8.5	0.84	2	2	4.9	3.11	3.44	3.25	3.75	3.5	3.25	2	3	4	2
+SM_JPN_140	JPN	79	80	67	68	0	F	18	1	N/A	N/A	Medical	Life Sciences	TOEFL (PBT)	463	39	A2_0	5.17	5	10.17	0.17	1	2.6	4.3	3.33	3	3	3.25	3.5	4	5	1	5	5
+SM_JPN_141	JPN	64	71	54	59	0	F	18	1	N/A	N/A	literature	Humanities	TOEFL (PBT)	527 	30	B1_2	3.5	3.83	7.33	-0.33	1.5	3.4	3.4	4.11	2.22	3.25	3.75	3	3.5	3	3	2	3
+SM_JPN_142	JPN	39	49	43	50	0	M	18	1	N/A	N/A	Engineering	Sciences & Technology	TOEIC	630	28	B1_1	4.83	5.5	10.33	-0.67	1	1.5	2.8	2.78	1.22	2.25	2	2.25	2	3	5	3	4
+SM_JPN_143	JPN	89	87	74	85	1	F	20	2	N/A	N/A	Agriculture	Life Sciences	TOEFL (PBT)	523	33	B1_1	5.67	4.5	10.17	1.17	1	3.6	2.8	3.33	2.56	3.25	4.5	2	3	6	6	6	5
+SM_JPN_144	JPN	89	100	88	108	1	F	22	4	N/A	N/A	Intercultural Studies	Social Sciences	TOEIC	870	44	B2_0	5.67	5.17	10.84	0.5	2	4.4	4.4	3.56	4.67	5	4	4.5	4	6	4	5	5
+SM_JPN_145	JPN	92	95	68	95	0	M	18	1	N/A	N/A	Economics	Humanities	TOEIC	640	30	B1_1	4	4.33	8.33	-0.33	1	2.1	3.5	3	2.22	3.25	2.5	2.5	3	1	1	2	1
+SM_JPN_146	JPN	66	93	63	75	0	M	19	1	N/A	N/A	Engineering	Sciences & Technology	TOEIC	635	31	B1_1	5.83	6	11.83	-0.17	2.5	3	2.8	2.78	2.89	2.75	3.25	2.5	3	1	2	2	3
+SM_JPN_147	JPN	23	40	36	45	0	M	22	4	N/A	N/A	Engineering	Sciences & Technology	TOEIC	745	37	B1_2	2.17	3.33	5.5	-1.16	4	4.9	1	2.78	3.33	2.75	3.25	2.5	3.25	3	4	2	4
+SM_JPN_148	JPN	59	62	54	65	1	M	19	1	N/A	N/A	Engineering	Sciences & Technology	TOEIC	400	22	A2_0	3.33	4.5	7.83	-1.17	2	2	3	2.44	2.44	2.5	2.5	2.5	2.5	3	3	3	3
+SM_JPN_149	JPN	102	94	89	110	1	F	23	4	2	N/A	Business	Social Sciences	TOEIC	895	38	B2_0	5.33	5	10.33	0.33	1	3.1	2.5	2.67	2.56	2.5	4.25	1.75	2.75	3	2	4	3
+SM_JPN_150	JPN	58	75	60	66	0	M	21	4	N/A	N/A	Business	Humanities	TOEIC	790	35	B2_0	5.17	5.5	10.67	-0.33	1	2.8	1.5	2.22	1.78	2.25	2.25	1.75	2.25	2	2	4	2
+SM_KOR_001	KOR	48	51	45	47	0	M	22	3	N/A	N/A	Military Science	Sciences & Technology	TOEIC	695 	31	B1_2	3.33	3.67	7	-0.34	2	2	2.8	2.33	2.33	2.5	2.5	2.5	2	3	3	3	3
+SM_KOR_002	KOR	62	52	58	43	1	M	22	3	N/A	N/A	Military Science	Sciences & Technology	TOEIC	700 	31	B1_2	3.17	3.67	6.84	-0.5	3	3	2.8	2.78	3	3.25	2.75	3	2.5	2	2	1	1
+SM_KOR_003	KOR	68	78	47	55	0	M	28	4	N/A	N/A	Law	Social Sciences	TOEIC	740 	38	B1_2	4.33	4.67	9	-0.34	4.5	3	3.4	3.56	3.11	3.25	3.5	3	3	5	5	6	4
+SM_KOR_004	KOR	79	90	78	82	1	F	23	1	N/A	N/A	English	Humanities	TOEIC	665 	30	B1_1	4.5	4.33	8.83	0.17	3	1.6	4.5	3.33	2.78	4	3	2.5	2.75	6	6	6	3
+SM_KOR_005	KOR	73	39	58	56	0	M	26	1	N/A	N/A	Culture	Humanities	TOEIC	660 	29	B1_1	3	4.33	7.33	-1.33	2.5	2	2.5	2.22	2.33	2.25	2.25	2.25	2.25	3	3	4	2
+SM_KOR_006	KOR	63	49	41	47	0	M	28	4	N/A	N/A	Social Welfare	Social Sciences	TOEIC	750 	38	B1_2	4.67	5.5	10.17	-0.83	6	4.6	5	5.11	4.78	5	4.5	4.75	5	2	6	6	6
+SM_KOR_007	KOR	72	55	45	59	0	M	25	3	N/A	N/A	Electronic Engineering	Sciences & Technology	TOEIC	870 	37	B2_0	3.83	5.83	9.66	-2	5	4.5	4.6	5.11	4.11	4.5	6	1.75	6	3	4	3	4
+SM_KOR_008	KOR	52	59	57	44	1	M	31	4	N/A	N/A	Acting	Humanities	N/A	N/A	14	A2_0	2.83	3.33	6.16	-0.5	1	1.9	1.4	1.78	1.33	1.75	2	1.5	1.25	3	3	2	1
+SM_KOR_009	KOR	92	64	104	80	0	M	21	3	0.5	N/A	Military Science	Sciences & Technology	TOEIC	895 	44	B2_0	5.5	5.33	10.83	0.17	2.5	3.4	3.4	3.67	2.89	3.75	3.75	2.75	3.25	5	5	5	4
+SM_KOR_010	KOR	73	104	73	87	0	F	27	1	0.5	N/A	Economics	Social Sciences	N/A	N/A	34	B1_1	4.83	5.17	10	-0.34	3	3.1	2.9	3.67	2.33	4	2.75	2.75	2.5	2	2	2	2
+SM_KOR_011	KOR	80	70	54	81	0	M	27	4	N/A	N/A	Political Science	Social Sciences	N/A	N/A	35	B1_1	4.17	4.83	9	-0.66	2	2	2	2	2	2	2	2	2	2	2	2	2
+SM_KOR_012	KOR	95	101	92	96	0	M	24	2	0.5	N/A	English	Humanities	TOEIC	600 	23	B1_1	4.67	4.5	9.17	0.17	6	3.9	4.8	5.44	3.56	4.5	3.75	4.5	4.5	4	3	4	4
+SM_KOR_013	KOR	28	26	36	23	1	F	20	2	N/A	N/A	Military Science	Sciences & Technology	TOEIC	710 	38	B1_2	4	4.67	8.67	-0.67	2	2.1	3.4	2.89	2.44	2.75	3	2.75	2.5	3	4	4	3
+SM_KOR_014	KOR	53	37	26	36	0	F	20	2	N/A	N/A	Military Science	Sciences & Technology	TOEIC	760 	38	B1_2	3.67	4.83	8.5	-1.16	3.5	2.9	2.9	3.33	2.56	3.25	3	2.5	2.75	3	4	4	2
+SM_KOR_015	KOR	39	40	36	32	1	F	21	2	1	N/A	Military Science	Sciences & Technology	TOEIC	775 	42	B1_2	4.67	5.33	10	-0.66	4.5	1.6	3.6	3.56	2.11	2.5	3	2.25	2.75	3	3	2	3
+SM_KOR_016	KOR	136	113	87	103	1	F	23	4	N/A	N/A	English	Humanities	TOEIC	850 	35	B2_0	5.5	5	10.5	0.5	3.5	2.9	4.9	4.11	3.56	3.5	4.5	3.25	4.25	5	5	5	4
+SM_KOR_017	KOR	100	125	79	99	1	F	22	2	N/A	N/A	Social Sciences	Social Sciences	N/A	N/A	13	A2_0	4.2	4.67	8.87	-0.47	2.5	2.4	3	3.11	2.22	2.25	3	2.75	2.75	2	3	3	3
+SM_KOR_018	KOR	85	77	74	70	0	M	24	2	N/A	N/A	Music	Humanities	N/A	N/A	16	A2_0	4.8	4.17	8.97	0.63	3.5	2	3.6	3.22	2.56	2.5	3	3	2.75	3	3	4	5
+SM_KOR_019	KOR	91	98	75	84	1	M	25	4	0.5	N/A	English	Humanities	TOEIC	740 	42	B1_2	4	3.83	7.83	0.17	1	1.4	3.3	2.67	1.67	2.75	2.25	2.25	2	5	5	6	5
+SM_KOR_020	KOR	80	99	69	71	0	M	24	4	N/A	N/A	Statistics	Sciences & Technology	TEPS	575 	33	B1_2	3.33	4	7.33	-0.67	1	2.5	1	1.89	1.44	1.75	1.75	1.75	1.75	1	1	1	1
+SM_KOR_021	KOR	59	45	71	36	0	M	28	4	0.5	N/A	Public Administration	Social Sciences	N/A	N/A	37	B1_2	2.67	5	7.67	-2.33	3	3.1	2.8	2.44	3.44	2.5	4.25	2	3	1	1	1	1
+SM_KOR_022	KOR	48	39	52	42	1	M	27	4	N/A	N/A	Business Management	Social Sciences	TOEIC	765 	29	B1_2	2.33	2.5	4.83	-0.17	1	1.3	1.5	1.67	1	1.5	1.5	1.25	1.25	1	1	1	1
+SM_KOR_023	KOR	42	36	35	38	0	M	29	1	N/A	N/A	Law	Social Sciences	N/A	N/A	36	B1_2	4.5	4.83	9.33	-0.33	2.5	2.5	3.4	3.56	2.22	3.25	3	2.5	3	5	4	5	2
+SM_KOR_024	KOR	87	81	76	80	1	M	28	4	0.5	N/A	Business Administration	Social Sciences	TOEIC	740 	27	B1_2	2.67	3	5.67	-0.33	1.5	2.1	3.4	2.67	2.56	3	2.75	2.25	3	5	4	3	2
+SM_KOR_025	KOR	53	50	46	54	0	M	27	4	0.5	N/A	Business Administration	Social Sciences	TOEIC	825 	43	B2_0	4.17	4.33	8.5	-0.16	2.5	2.8	3.5	4.11	2	3.25	3	3.25	3	1	4	4	6
+SM_KOR_026	KOR	73	90	58	81	1	M	23	2	N/A	N/A	German	Humanities	TOEIC	855 	42	B2_0	5.33	4.67	10	0.66	1.5	3	3	2.89	2.78	3	3	3	3	3	3	3	2
+SM_KOR_027	KOR	106	120	116	109	1	F	22	4	N/A	N/A	French	Humanities	TEPS	830 	44	B2_0	4.33	3.83	8.16	0.5	1	1.6	1	1.56	1	2	1.25	1	1	5	6	3	4
+SM_KOR_028	KOR	70	65	34	51	0	F	25	4	N/A	N/A	Philosophy	Humanities	TOEIC	795 	31	B2_0	4.83	3.83	8.66	1	1	1.3	1.6	1.33	1.44	2	1.75	1	1	3	3	2	1
+SM_KOR_029	KOR	106	111	71	85	1	M	27	4	N/A	N/A	Japanese 	Humanities	TOEIC	730 	34	B1_2	4.83	5	9.83	-0.17	2.5	3.1	3.6	3.33	3.22	3.5	4	3	3	2	3	3	3
+SM_KOR_030	KOR	102	135	102	96	1	M	26	1	N/A	N/A	Business Management	Social Sciences	TOEIC	935 	46	B2_0	4.17	5	9.17	-0.83	2	2.6	3.6	3.56	2.44	3.5	4	2.5	2.5	4	3	4	4
+SM_KOR_031	KOR	80	63	51	45	0	M	23	2	N/A	N/A	Civil and Environmental Engineering	Sciences & Technology	N/A	N/A	28	B1_1	2	3	5	-1	2.5	2.3	2.5	2.67	2.11	3.25	2.5	2	1.75	1	1	1	1
+SM_KOR_032	KOR	37	40	37	38	0	M	28	4	N/A	N/A	Business	Social Sciences	TOEIC	715 	39	B1_2	3.33	5.5	8.83	-2.17	2.5	2.4	2.9	2.44	2.78	2.75	2.25	2	3.5	1	1	1	1
+SM_KOR_033	KOR	75	77	68	75	1	F	22	3	N/A	N/A	English	Humanities	TOEIC	815 	36	B2_0	5	5.33	10.33	-0.33	1	2.3	4.6	3.22	3.11	3.5	4	3	3.25	4	6	6	6
+SM_KOR_034	KOR	113	113	105	95	1	F	24	4	N/A	N/A	English	Humanities	TOEIC	830 	37	B2_0	4.5	4.33	8.83	0.17	2	2.5	4.1	3.33	3	3.75	3.5	3	3	4	3	3	3
+SM_KOR_035	KOR	56	70	34	34	1	M	27	3	N/A	N/A	Philosophy	Humanities	N/A	N/A	36	B1_2	5.17	4.5	9.67	0.67	2	2	1.5	2	1.56	2.25	2.25	1.25	1.25	3	3	3	3
+SM_KOR_036	KOR	84	68	75	71	0	F	24	4	N/A	N/A	Secondary Special Education	Humanities	TOEIC	780 	39	B1_2	5.5	4.83	10.33	0.67	1.5	2.8	3.4	3.44	2.33	3.25	3.5	3	2.5	6	5	3	2
+SM_KOR_037	KOR	106	130	83	89	0	M	25	2	N/A	N/A	English	Humanities	TOEIC	770 	33	B1_2	3	5.17	8.17	-2.17	1.5	2	3.1	2.78	2.11	3.25	3.75	1.75	1.5	3	3	2	4
+SM_KOR_038	KOR	97	81	63	71	0	M	21	1	N/A	N/A	Electronic Engineering	Sciences & Technology	TOEIC	745 	36	B1_2	4.67	5.33	10	-0.66	4	5	4	4.44	4.44	4.5	4.5	4.5	4.5	5	5	3	3
+SM_KOR_039	KOR	55	64	64	75	1	M	27	4	N/A	N/A	Social Physical Education	Humanities	N/A	N/A	33	B1_1	3.67	4.83	8.5	-1.16	1.5	2.4	2.5	2.67	2	2.5	2.5	2	2.75	3	3	3	2
+SM_KOR_040	KOR	34	49	36	31	1	M	26	4	N/A	N/A	Multimedia	Humanities	TOEIC	750 	33	B1_2	3.67	3.67	7.34	0	2	2	2	2	2	2	2	2	2	3	3	3	3
+SM_KOR_041	KOR	77	83	93	85	2	F	24	4	N/A	N/A	Finance	Social Sciences	TOEIC	765 	31	B1_2	5	5.5	10.5	-0.5	2.5	2.8	2.8	3.22	2.22	2.75	3	2.5	2.75	5	3	5	2
+SM_KOR_042	KOR	61	56	53	61	1	M	21	2	0.5	N/A	Social Welfare	Social Sciences	TOEIC	845 	36	B2_0	5.67	6	11.67	-0.33	1.5	2.8	2	2.44	2.11	2.5	4	2	1	5	3	3	2
+SM_KOR_043	KOR	89	89	81	92	1	F	23	3	N/A	N/A	English	Humanities	TOEIC	705 	35	B1_2	4	5	9	-1	5	3.4	4.3	4.44	3.44	4.25	4.5	3	3.5	5	5	4	4
+SM_KOR_044	KOR	93	95	76	87	0	F	22	3	N/A	N/A	English Literature	Humanities	TOEIC	860 	41	B2_0	3.5	5.67	9.17	-2.17	2.5	2.3	4.8	4.44	2.33	4	3.75	2.5	3.75	5	4	4	6
+SM_KOR_045	KOR	99	96	78	66	1	M	20	1	N/A	N/A	Electronics	Sciences & Technology	TOEIC	785 	36	B2_0	4.83	5.83	10.66	-1	2.5	2	3.3	3.11	2.11	2.75	2.5	2.75	2.5	2	2	4	2
+SM_KOR_046	KOR	87	93	87	91	1	F	23	4	N/A	N/A	English	Humanities	TOEIC	825 	39	B2_0	4.33	5.83	10.16	-1.5	6	4.4	4.5	5	4.22	4.5	4.5	4.5	4.25	4	5	3	3
+SM_KOR_047	KOR	88	94	78	108	1	F	21	2	N/A	N/A	Adolescent Studies	Social Sciences	TOEIC	875 	40	B2_0	3.83	4	7.83	-0.17	4	4	3.9	3.78	4.11	4	4	4	3.75	4	5	5	4
+SM_KOR_048	KOR	79	97	81	76	1	F	21	3	N/A	N/A	English	Humanities	TOEIC	830 	46	B2_0	5	4.83	9.83	0.17	2	3.1	4	3.33	3.44	3.5	3.5	3.5	3.75	4	4	4	4
+SM_KOR_049	KOR	138	128	118	138	1	M	26	3	N/A	N/A	English	Humanities	TOEIC	825 	40	B2_0	4.67	5.33	10	-0.66	2	2.3	4.8	3.56	3.11	3.5	4	3	3.5	4	4	5	5
+SM_KOR_050	KOR	86	109	89	105	2	F	22	4	0.5	N/A	Social Welfare	Social Sciences	TOEIC	780 	37	B1_2	4.33	4.67	9	-0.34	1.5	3	3.5	3	3.11	2.75	4.25	2.75	3.25	2	5	4	3
+SM_KOR_051	KOR	67	76	31	49	1	F	24	4	N/A	N/A	Environmental Engineering	Sciences & Technology	N/A	N/A	38	B1_2	3.33	4.67	8	-1.34	4.5	3	3.5	3.56	3.22	3.25	3.75	3.25	2.75	3	4	4	3
+SM_KOR_052	KOR	97	82	77	64	0	M	24	2	1	N/A	Public administration	Social Sciences	TOEIC	900 	40	B2_0	5.33	4.83	10.16	0.5	1.5	2.4	3	2.44	2.67	3	2.5	2.5	2.75	5	3	3	3
+SM_KOR_053	KOR	46	60	61	48	1	F	24	4	1	N/A	Food and Nutrition	Sciences & Technology	N/A	N/A	39	B1_2	4.33	5.5	9.83	-1.17	2	3.5	1.3	2.33	2.33	2.75	3	1.5	2.25	6	5	4	3
+SM_KOR_054	KOR	113	107	98	95	0	F	19	1	N/A	N/A	Policy 	Social Sciences	TEPS	854 	42	B2_0	4.67	4.5	9.17	0.17	3	4.4	2.4	3.67	3	3.75	3.75	3	3	5	4	4	4
+SM_KOR_055	KOR	87	41	25	32	0	M	24	2	N/A	N/A	Landscape Architecture	Sciences & Technology	TOEIC	855 	35	B2_0	4.17	5.83	10	-1.66	2	2.9	2	2.67	2.11	3.25	2.75	2	1.75	6	5	2	2
+SM_KOR_056	KOR	75	82	56	75	1	F	25	4	N/A	N/A	English	Humanities	N/A	N/A	47	B2_0	5.83	4.5	10.33	1.33	4	2.1	5.4	4.33	3.22	3.5	4.25	3.75	3.5	6	6	4	4
+SM_KOR_057	KOR	97	117	86	64	0	F	22	4	N/A	N/A	English	Humanities	TOEIC	960 	43	B2_0	4.83	4.17	9	0.66	4	4	4	4	4	4	4	4	4	4	4	4	4
+SM_KOR_058	KOR	51	55	54	55	0	F	22	3	N/A	N/A	English	Humanities	TOEIC	600 	45	B1_1	4.67	5.33	10	-0.66	4	4.1	4.9	4.89	4	4.5	4.5	4.25	4.75	6	5	5	4
+SM_KOR_059	KOR	66	59	64	47	1	F	23	3	0.5	N/A	English	Humanities	TOEIC	695 	43	B1_2	5	5.5	10.5	-0.5	5	4.1	5.4	5.11	4.44	4.5	6	3	5.5	6	6	6	6
+SM_KOR_060	KOR	98	88	75	88	1	F	21	1	N/A	N/A	Nursing	Life Sciences	N/A	N/A	43	B1_2	5	5.67	10.67	-0.67	4	3.4	2.4	3	3	3.25	3.5	2	2.75	3	4	3	3
+SM_KOR_061	KOR	79	80	81	80	3	F	24	M	N/A	N/A	English	Humanities	TOEIC	875 	34	B2_0	4.67	4.67	9.34	0	5	2.9	5.9	4.56	4.33	4	4.75	4.25	4.5	5	6	6	5
+SM_KOR_062	KOR	58	38	46	51	0	M	21	1	N/A	N/A	Civil and Environmental Engineering	Sciences & Technology	N/A	N/A	28	B1_1	3.83	5	8.83	-1.17	1	2.5	2.8	2.78	2.11	3	3	2.5	2	5	5	5	5
+SM_KOR_063	KOR	78	90	81	96	0	F	21	1	1	N/A	Nursing	Life Sciences	TOEIC	915 	43	B2_0	4.83	6	10.83	-1.17	2	3.8	3.3	2.11	4.56	4.25	4.25	2.75	2.75	6	3	5	6
+SM_KOR_064	KOR	77	95	69	53	0	F	23	4	1	N/A	Food and Nutrition	Sciences & Technology	TOEIC	905 	46	B2_0	5.17	5.5	10.67	-0.33	3	3.1	3.5	2.89	3.67	4.25	4	2.25	2.75	5	3	5	5
+SM_KOR_065	KOR	47	44	24	29	0	F	23	3	N/A	N/A	Food and Nutrition	Sciences & Technology	N/A	N/A	31	B1_1	4	5.33	9.33	-1.33	2	3	3.1	2.78	3.11	3	3.5	2.75	3	5	5	5	5
+SM_KOR_066	KOR	63	50	61	66	0	F	24	4	N/A	N/A	Food and Nutrition	Sciences & Technology	TOEIC	750 	39	B1_2	3.5	4.83	8.33	-1.33	3.5	3.8	3	3.33	3.44	3.5	4	3	3	4	3	3	3
+SM_KOR_067	KOR	74	96	74	65	0	F	24	4	N/A	N/A	Food and Nutrition	Sciences & Technology	TOEIC	810 	37	B2_0	5.33	5.83	11.16	-0.5	2.5	3.3	4.4	3.22	4.11	4.25	5	2.75	3.25	5	5	5	5
+SM_KOR_068	KOR	86	61	106	100	0	F	25	4	N/A	N/A	Politics	Social Sciences	TOEIC	915 	37	B2_0	4.33	5.17	9.5	-0.84	1.5	3	3.6	2.78	3.44	3.5	4.5	3.5	1.75	3	4	5	4
+SM_KOR_069	KOR	118	84	95	103	0	F	24	4	N/A	N/A	Public administration	Social Sciences	TOEIC	930 	36	B2_0	4	5.33	9.33	-1.33	2.5	3.3	4	3.11	3.89	3.75	4.5	3	3.25	4	3	4	3
+SM_KOR_070	KOR	99	109	79	106	1	F	20	1	N/A	N/A	Nursing	Life Sciences	TEPS	772 	43	B2_0	4.67	5.5	10.17	-0.83	2	2.5	1	2	1.56	2.25	1.75	1.5	1.5	6	5	6	6
+SM_KOR_071	KOR	104	105	88	99	2	M	27	1	N/A	N/A	Public administration	Social Sciences	N/A	N/A	42	B1_2	3.5	3.83	7.33	-0.33	3	1.5	3	2.44	2.22	2.5	2.25	2.25	2	3	3	2	2
+SM_KOR_072	KOR	94	110	80	91	2	M	24	1	N/A	N/A	Public administration	Social Sciences	TOEIC	790 	37	B2_0	5.33	5.83	11.16	-0.5	2	2.4	3.5	3	2.67	3.25	3.75	2.5	2.25	4	5	4	2
+SM_KOR_073	KOR	91	60	80	62	2	F	22	2	N/A	N/A	English	Humanities	TOEIC	720 	40	B1_2	4.83	4	8.83	0.83	1.5	1.9	4.6	3.78	2.33	4	3	3	3	5	5	5	3
+SM_KOR_074	KOR	130	138	107	112	0	M	26	4	N/A	N/A	Business Administration	Social Sciences	TOEIC	910 	32	B2_0	4	5.17	9.17	-1.17	2	2.6	3.8	2.78	3.33	3.5	3	2.75	3.5	2	3	3	2
+SM_KOR_075	KOR	128	139	94	112	0	M	25	3	0.5	N/A	Psychology	Humanities	TOEIC	950 	38	B2_0	5.67	5.5	11.17	0.17	2.5	2.1	4.3	2.78	3.44	2.75	4.25	2.5	3.25	1	5	5	4
+SM_KOR_076	KOR	80	66	86	70	0	M	18	1	1	N/A	Nursing	Life Sciences	N/A	N/A	43	B1_2	5.83	5.5	11.33	0.33	5	5.3	3.5	3.78	5.11	4.5	4.5	4.25	4.25	6	6	6	6
+SM_KOR_077	KOR	86	120	113	120	1	F	21	2	N/A	N/A	German	Humanities	TOEIC	640 	41	B1_1	5	4.83	9.83	0.17	4.5	4	2.8	3.11	3.89	3.5	3	3.5	3.5	2	5	5	5
+SM_KOR_078	KOR	92	100	75	78	1	F	20	1	N/A	N/A	Nursing	Life Sciences	N/A	N/A	45	B1_2	3.67	5.83	9.5	-2.16	5	6	2.5	4.11	4.56	4.25	4.25	4.25	4.25	6	6	6	6
+SM_KOR_079	KOR	98	112	83	73	1	F	25	1	N/A	N/A	Digital Media	Sciences & Technology	N/A	N/A	35	B1_1	5.33	5.67	11	-0.34	2.5	3.8	3.4	2.78	4.11	4.25	4.25	2.5	3.25	1	3	1	1
+SM_KOR_080	KOR	96	70	72	57	1	F	21	1	N/A	N/A	Nursing	Life Sciences	N/A	N/A	44	B1_2	5.67	4.67	10.34	1	2.5	2.5	2.9	2.78	2.56	2.5	3.5	2.5	2.25	4	4	3	5
+SM_KOR_081	KOR	82	93	49	46	1	F	20	1	N/A	N/A	Nursing	Life Sciences	N/A	N/A	32	B1_1	4.67	5.33	10	-0.66	4	4.6	4.3	5	3.78	4.25	4.75	4.25	4.5	3	4	4	3
+SM_KOR_082	KOR	33	50	32	44	2	F	21	2	N/A	N/A	Japanese 	Humanities	N/A	N/A	44	B1_2	4.17	5.17	9.34	-1	2.5	3.5	1	1.44	3.11	2.25	2.25	2.25	2.25	6	1	3	2
+SM_KOR_083	KOR	66	85	62	100	1	F	21	3	N/A	N/A	Textile Fashion Design	Humanities	N/A	N/A	38	B1_2	3	4.67	7.67	-1.67	3.5	4.8	2.8	3.89	3.56	4.25	3.5	3.25	4	2	3	3	2
+SM_KOR_084	KOR	41	52	40	39	1	F	21	2	N/A	N/A	Japanese 	Humanities	N/A	N/A	24	A2_0	3.33	5	8.33	-1.67	2.5	2.4	1.6	2.56	1.56	3.25	1.5	1.5	1.75	2	2	2	2
+SM_KOR_085	KOR	49	39	46	62	1	F	22	1	N/A	N/A	Business	Social Sciences	TOEFL (iBT)	113 	43	B2_0	4.83	4	8.83	0.83	2	1.9	5.3	3.56	3.22	3.75	4	3	3.5	5	5	6	4
+SM_KOR_086	KOR	77	81	62	66	1	F	25	3	1	N/A	Textile Fashion Design	Humanities	TOEFL (iBT)	84 	45	B1_2	5.5	3.67	9.17	1.83	5	4.1	4.3	3.56	5	4.5	4.25	4	4	6	6	6	5
+SM_KOR_087	KOR	90	103	76	97	1	M	19	1	N/A	N/A	Management Sciences	Social Sciences	N/A	N/A	39	B1_2	4.83	5	9.83	-0.17	3	3.4	4.8	4.11	3.78	4.25	4.5	3.25	4.25	3	2	2	2
+SM_KOR_088	KOR	55	67	67	68	1	F	21	1	N/A	N/A	Business Administration	Social Sciences	N/A	N/A	39	B1_2	4.67	5.67	10.34	-1	5	4.5	4.8	4.44	4.89	4.75	4.5	4.5	4.75	5	5	4	3
+SM_KOR_089	KOR	82	87	82	96	1	F	22	4	0.5	N/A	Fashion Design	Humanities	N/A	N/A	20	A2_0	5.17	4.33	9.5	0.84	3	3.8	3.5	3.11	4	3.75	2.5	5	3.25	5	5	4	3
+SM_KOR_090	KOR	80	60	65	69	1	F	20	1	N/A	N/A	Nursing	Life Sciences	N/A	N/A	29	B1_1	3.67	4.83	8.5	-1.16	1	2.3	1	1.44	1.67	1.25	3.25	1	1	2	2	2	2
+SM_KOR_091	KOR	56	66	56	58	1	F	21	4	N/A	N/A	Japanese 	Humanities	N/A	N/A	23	A2_0	4.5	4.67	9.17	-0.17	1	1.9	1	1.78	1	1.25	1.75	1	1.75	1	1	1	1
+SM_KOR_092	KOR	66	54	57	59	2	F	22	4	N/A	N/A	Japanese 	Humanities	N/A	N/A	45	B1_2	6	6	12	0	3	2.5	2.6	2.22	3	2.75	2.75	2.75	2	4	4	3	2
+SM_KOR_093	KOR	53	70	39	50	1	F	23	4	1	N/A	Japanese 	Humanities	N/A	N/A	40	B1_2	4.17	3.83	8	0.34	4.5	3.3	2.4	3.11	2.89	3.5	2.75	2.5	2.5	3	2	3	2
+SM_KOR_094	KOR	44	48	57	64	1	F	24	4	N/A	N/A	Japanese 	Humanities	N/A	N/A	42	B1_2	4.17	3.33	7.5	0.84	5	4.5	2	4.11	2.78	3.25	3.25	3.25	3.25	2	2	2	2
+SM_KOR_095	KOR	87	115	73	82	0	F	21	3	N/A	N/A	Japanese 	Humanities	TOEIC	675 	38	B1_2	5.5	5.5	11	0	3.5	2.3	1	2.67	1	2.25	2.25	1	1	6	6	1	1
+SM_KOR_096	KOR	112	126	88	86	0	M	22	1	N/A	N/A	Political Science	Social Sciences	TEPS	859 	35	B2_0	2.67	4.83	7.5	-2.16	2	2.9	1.1	2.56	1.44	2.75	2.5	1.5	1.25	3	2	1	3
+SM_KOR_097	KOR	65	70	51	52	0	F	20	3	N/A	N/A	Japanese 	Humanities	TOEIC	655 	35	B1_1	3.67	5.5	9.17	-1.83	2.5	3.6	2.3	2.56	3.22	4.25	3.25	1.75	2.5	3	3	4	1
+SM_KOR_098	KOR	112	109	90	103	0	F	21	1	0.5	N/A	Business	Social Sciences	TOEIC	885 	44	B2_0	5	5.17	10.17	-0.17	3.5	4.8	5.4	5.22	4.56	5	5.75	4.5	5	6	6	6	6
+SM_KOR_099	KOR	58	58	44	53	1	F	22	4	N/A	N/A	Japanese 	Humanities	N/A	N/A	41	B1_2	4.67	4.33	9	0.34	2	3	2	2.89	2	2.5	3	2	2.5	4	2	1	1
+SM_KOR_100	KOR	77	73	49	63	1	M	23	2	N/A	N/A	Business Administration	Social Sciences	TOEIC	840 	34	B2_0	4.83	4.83	9.66	0	1	2.6	3	3.22	2	3.25	3.25	2.25	2.5	3	2	2	2
+SM_PAK_001	PAK	114	166	142	139	1	M	25	4	N/A	N/A	English	Humanities	N/A	N/A	33	B1_1	5	4	9	1	2.5	3.1	2.9	2.56	3.33	3.75	3.25	2.75	2.25	2	1	3	2
+SM_PAK_002	PAK	130	159	133	121	2	F	24	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	45	B1_2	3.33	5.67	9	-2.34	3	3.1	3.6	4.33	2.33	3.75	3	3	3.75	1	6	6	6
+SM_PAK_003	PAK	145	164	159	151	2	F	23	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	44	B1_2	4.83	5	9.83	-0.17	5	2.8	4.5	3.67	3.89	4.5	3.5	3.25	3.25	6	5	5	3
+SM_PAK_004	PAK	129	136	137	116	2	M	23	1	N/A	N/A	Linguistics	Humanities	N/A	N/A	45	B1_2	6	5.67	11.67	0.33	2.5	3.1	4.5	4.33	3	4	3.75	3.75	3.75	1	4	5	6
+SM_PAK_005	PAK	122	137	103	122	2	F	21	2	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	5	4.67	9.67	0.33	3	2.9	4.1	3.33	3.56	4	3.25	3	3.75	2	3	4	4
+SM_PAK_006	PAK	113	105	111	90	2	F	20	1	N/A	N/A	Literature	Humanities	N/A	N/A	45	B1_2	5.83	4.33	10.16	1.5	3	3.3	5.4	5	3.33	4.25	4	4.5	4.5	1	5	5	6
+SM_PAK_007	PAK	148	154	125	122	1	F	22	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	44	B1_2	5.83	4.17	10	1.66	3.5	3.6	4.6	5	3.11	4.75	4.25	3	4.5	1	5	5	6
+SM_PAK_008	PAK	121	120	121	143	2	F	20	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	45	B1_2	5.17	4.5	9.67	0.67	1	1.4	3.8	3	1.78	2.75	2.75	2	2.75	1	1	4	3
+SM_PAK_009	PAK	131	151	136	145	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	47	B2_0	3.67	4.83	8.5	-1.16	2	2	4	3.11	2.67	3.25	3.25	2.75	2.75	1	5	5	5
+SM_PAK_010	PAK	123	122	112	123	2	M	23	4	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	3.67	4	7.67	-0.33	1.5	2.1	2.6	2.78	1.78	2.5	2.25	2	2.75	1	6	5	3
+SM_PAK_011	PAK	162	145	161	130	2	F	22	4	N/A	N/A	linguistics	Humanities	N/A	N/A	34	B1_1	5	4.33	9.33	0.67	3	2.9	4.4	4.33	2.78	3.75	4	3.25	3.5	1	1	2	5
+SM_PAK_012	PAK	105	128	111	109	2	M	22	4	N/A	N/A	English Linguistics	Humanities	N/A	N/A	36	B1_2	4.33	2.83	7.16	1.5	1.5	2.4	3.1	2.67	2.56	3.5	2.5	2.25	2.75	2	5	5	5
+SM_PAK_013	PAK	144	148	139	149	3	F	22	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	42	B1_2	4.67	5.33	10	-0.66	2.5	3	3.1	4.11	1.89	3.25	3	2.25	3.75	1	5	5	5
+SM_PAK_014	PAK	113	137	121	128	2	F	25	4	N/A	N/A	English linguistics	Humanities	N/A	N/A	35	B1_1	4	5	9	-1	3.5	3.5	4.3	3.89	3.78	4.5	4.5	3.25	3.25	1	5	5	5
+SM_PAK_015	PAK	139	125	114	117	2	F	21	4	N/A	N/A	Linguistics	Humanities	N/A	N/A	28	B1_1	5	5	10	0	4.5	2	3	2.78	2.67	2.5	2.5	2.5	2.5	2	3	3	0
+SM_PAK_016	PAK	118	111	119	119	3	F	22	4	N/A	N/A	Literature	Humanities	N/A	N/A	42	B1_2	5.5	5	10.5	0.5	3.5	3.3	4.6	4.44	3.33	5	4.25	3.25	3.25	1	6	6	6
+SM_PAK_017	PAK	127	129	141	130	2	F	23	1	N/A	N/A	Linguistics	Humanities	N/A	N/A	44	B1_2	5.17	4.5	9.67	0.67	2	2.8	4.1	3.78	2.78	3.75	4.25	2.25	3.5	1	5	5	6
+SM_PAK_018	PAK	110	124	113	118	2	F	20	4	N/A	N/A	English linguistics	Humanities	N/A	N/A	21	A2_0	5.33	5	10.33	0.33	4.5	3.3	3.3	3.44	3.33	3	4.25	2.5	3.25	1	5	5	5
+SM_PAK_019	PAK	72	75	79	78	2	F	20	1	N/A	N/A	Linguistics	Humanities	N/A	N/A	41	B1_2	5.67	4.83	10.5	0.84	3	4.9	6	5.44	4.89	5.25	5.5	5.5	5.5	4	5	6	6
+SM_PAK_020	PAK	103	74	80	117	2	F	20	2	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.67	5	9.67	-0.33	4	2.3	4	4	2.44	3.5	3.5	2.5	3	1	5	5	5
+SM_PAK_021	PAK	147	141	134	133	3	F	22	2	N/A	N/A	Literature	Humanities	N/A	N/A	43	B1_2	4.83	4.17	9	0.66	3	2.8	3.4	3.89	2.22	3.5	3.75	2	3	1	5	6	5
+SM_PAK_022	PAK	128	130	155	137	2	F	24	1	N/A	N/A	linguistics	Humanities	N/A	N/A	38	B1_2	4.33	2.83	7.16	1.5	2	2.1	3	3.44	1.56	2.75	2.75	1.75	3	1	5	5	4
+SM_PAK_023	PAK	146	184	150	165	2	F	23	2	N/A	N/A	English Linguistics    	Humanities	N/A	N/A	41	B1_2	4.67	4.67	9.34	0	3	3.3	4.3	4.67	2.67	3.5	4.25	3	4.25	2	5	5	4
+SM_PAK_024	PAK	116	118	95	115	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	5	5.17	10.17	-0.17	3	2.8	3.8	4	2.44	3.75	3.5	2.5	3.25	1	4	5	5
+SM_PAK_025	PAK	155	171	150	158	2	F	21	2	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5	4.33	9.33	0.67	3	3	4.5	4	3.33	3.75	4	3.5	3.75	1	5	5	5
+SM_PAK_026	PAK	138	111	108	102	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	44	B1_2	5.33	4.83	10.16	0.5	2	2.6	3.6	3.56	2.44	3	3.25	3	3.25	1	5	5	5
+SM_PAK_027	PAK	144	166	143	155	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4	4.67	8.67	-0.67	1.5	2.1	3.9	3.33	2.33	3	3.25	2.5	3.25	1	4	5	4
+SM_PAK_028	PAK	132	126	132	151	2	F	22	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.17	5	9.17	-0.83	3	2.9	3.9	4	2.67	4	3.75	2.25	3.5	1	5	5	4
+SM_PAK_029	PAK	130	136	117	136	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	22	A2_0	4.5	4	8.5	0.5	3	3	3.9	3.89	2.89	3.75	3.25	3	3.75	1	5	4	4
+SM_PAK_030	PAK	118	137	117	144	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4	4.67	8.67	-0.67	1.5	2.1	4	3.33	2.44	3.25	3.25	2.5	3.25	1	4	5	4
+SM_PAK_031	PAK	141	158	144	151	2	F	25	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.5	4.83	9.33	-0.33	2.5	3.3	3.3	3.44	2.89	3	3	3	4	3	4	4	5
+SM_PAK_032	PAK	108	144	117	115	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4.17	5	9.17	-0.83	2.5	3	4.4	3.89	3.22	4.25	3.75	3.25	3.5	1	5	5	4
+SM_PAK_033	PAK	120	126	118	153	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	42	B1_2	4.83	5.83	10.66	-1	3	4.9	4.6	4.67	4.44	5.25	4.25	4.5	5	1	2	4	4
+SM_PAK_034	PAK	111	133	125	144	1	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	42	B1_2	4.83	5.83	10.66	-1	3.5	3.9	4.6	4.56	3.78	4	4	4.25	4.75	1	2	4	4
+SM_PAK_035	PAK	127	145	145	141	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4.33	4.5	8.83	-0.17	3	2.8	3.8	3.89	2.56	3.5	3.25	2.75	3.5	1	5	3	4
+SM_PAK_036	PAK	148	153	152	154	1	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4.5	4.83	9.33	-0.33	3	2.8	3.8	3.89	2.56	3.5	3.25	2.75	3.5	1	5	3	4
+SM_PAK_037	PAK	163	172	145	146	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4.17	5	9.17	-0.83	3	2.4	4.3	3.56	3	3.75	3.5	2.75	3.25	1	5	5	4
+SM_PAK_038	PAK	130	128	128	131	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4.33	4.5	8.83	-0.17	2.5	2.8	3.8	3.89	2.44	3.5	3.25	2.75	3.5	1	5	3	4
+SM_PAK_039	PAK	135	135	131	121	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4	4.67	8.67	-0.67	3	2.1	4.5	3.56	3	3.75	3.25	3	3.25	1	5	5	4
+SM_PAK_040	PAK	176	179	181	187	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	44	B1_2	4	3.33	7.33	0.67	3.5	3.6	3.8	4	3.33	3.75	3.75	3.25	4	1	2	5	4
+SM_PAK_041	PAK	159	173	150	155	3	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	5.33	5	10.33	0.33	3	3	4.3	3.78	3.33	3.5	4	3.75	3.25	1	5	5	5
+SM_PAK_042	PAK	139	139	154	173	2	F	22	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4	4.5	8.5	-0.5	2.5	3.8	4.1	3.56	4	4	4.25	4	3.5	1	5	5	5
+SM_PAK_043	PAK	174	159	167	170	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	35	B1_1	4	4.67	8.67	-0.67	3	2.6	4.4	4.11	2.78	3.75	3.25	3.25	3.75	1	5	5	4
+SM_PAK_044	PAK	128	140	123	166	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.17	4.33	8.5	-0.16	2	2.6	3.3	3.56	2.11	3	3.5	1.75	3.5	1	4	5	4
+SM_PAK_045	PAK	127	145	133	137	3	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5.17	4.83	10	0.34	3	3.3	4.3	4	3.33	3.75	3.75	3.5	4	1	5	5	5
+SM_PAK_046	PAK	100	109	116	109	2	F	23	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4	4.67	8.67	-0.67	3	2.1	3.6	3.33	2.44	3.25	3	2.25	3	1	3	3	5
+SM_PAK_047	PAK	119	129	143	143	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4.33	4.5	8.83	-0.17	2.5	2.8	3.8	3.89	2.44	3.5	3.25	2.75	3.5	1	5	3	4
+SM_PAK_048	PAK	140	143	120	173	3	M	23	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	42	B1_2	4.67	4.83	9.5	-0.16	2.5	4.4	4.3	4.22	4	4.75	4.25	4	4.25	1	5	5	5
+SM_PAK_049	PAK	102	117	117	123	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	5.67	5	10.67	0.67	3	4	4.1	4.11	3.78	3.75	4	4.25	4.25	1	5	5	5
+SM_PAK_050	PAK	145	171	138	167	1	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4	4.33	8.33	-0.33	2	2.6	3.3	3.56	2.11	3	3.5	1.75	3.5	1	5	5	4
+SM_PAK_051	PAK	156	140	153	139	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	4.67	4.5	9.17	0.17	2.5	3.3	4	4.22	2.78	3.25	3.5	3.75	4	2	5	5	5
+SM_PAK_052	PAK	135	165	174	122	2	M	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	45	B1_2	4.17	3.33	7.5	0.84	2	2.5	3	3.33	2	2.75	3.5	2	2.75	1	3	2	3
+SM_PAK_053	PAK	136	136	133	141	3	F	23	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.17	4.67	8.84	-0.5	1.5	2.1	4	3.33	2.44	3.25	3.25	2.5	3.25	1	4	5	4
+SM_PAK_054	PAK	134	137	136	149	2	M	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4	4.67	8.67	-0.67	2	2.6	3.3	3.56	2.11	3	3.5	1.75	3.5	1	4	5	4
+SM_PAK_055	PAK	87	80	91	89	2	M	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.17	4.33	8.5	-0.16	2.5	2.6	3.3	3.67	2.11	3	3.5	1.75	3.5	1	4	5	4
+SM_PAK_056	PAK	137	154	113	114	3	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5.17	5.33	10.5	-0.16	2	3.3	3.6	3.78	2.78	4.25	3.5	2.75	3.25	1	5	5	5
+SM_PAK_057	PAK	129	143	121	139	3	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.33	4.67	9	-0.34	3	2.1	4.5	3.56	3	3.75	3.25	3	3.25	1	5	5	4
+SM_PAK_058	PAK	94	122	103	97	3	M	21	4	N/A	N/A	English	Humanities	N/A	N/A	37	B1_2	4.33	4.67	9	-0.34	3.5	2.1	3.5	3.22	2.56	3.25	2.75	2.25	3	1	3	5	4
+SM_PAK_059	PAK	178	184	167	173	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	4	4.67	8.67	-0.67	3	2.1	3.6	3.44	2.33	3	2.5	3	3	1	4	5	6
+SM_PAK_060	PAK	152	167	143	123	2	F	21	2	N/A	N/A	English Linguistics	Humanities	N/A	N/A	42	B1_2	4.5	4.83	9.33	-0.33	3	2.1	4.5	3.56	3	3.75	3.25	3	3.25	1	5	5	4
+SM_PAK_061	PAK	182	191	175	166	3	F	21	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.83	4.83	9.66	0	3.5	3.3	3.9	4.11	3	3.5	3.75	3.5	3.5	1	3	3	3
+SM_PAK_062	PAK	168	164	156	157	1	F	22	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	5.17	5	10.17	0.17	3.5	3.5	4.1	4.22	3.33	4	3.75	3.75	3.75	1	4	4	5
+SM_PAK_063	PAK	118	149	138	161	3	F	22	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5.17	5	10.17	0.17	3	3.3	4	4.11	3	3.75	3.5	3.5	3.75	1	4	4	3
+SM_PAK_064	PAK	174	197	182	138	1	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.83	4.5	9.33	0.33	3.5	4	4.3	4.11	4	4.25	4.5	4	3.75	1	5	5	5
+SM_PAK_065	PAK	173	170	172	191	3	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4	4.5	8.5	-0.5	3	2.1	4.5	3.56	3	3.75	3.25	3	3.25	1	5	5	4
+SM_PAK_066	PAK	131	148	146	174	1	F	21	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5.17	5.33	10.5	-0.16	3	3.4	3.3	4.11	2.44	3.25	3	3.75	3.25	1	4	3	4
+SM_PAK_067	PAK	178	185	164	149	2	M	22	3	N/A	N/A	ENglish Literature	Humanities	N/A	N/A	40	B1_2	5.33	4.83	10.16	0.5	2.5	2.9	3.9	3.78	2.78	3.25	4	3	3.25	1	5	5	4
+SM_PAK_068	PAK	193	205	182	154	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	44	B1_2	4.33	4.67	9	-0.34	3	1.9	4.1	3.11	2.89	3	3.5	2.75	2.75	1	5	4	5
+SM_PAK_069	PAK	102	132	100	190	1	M	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.5	4.5	9	0	2.5	2.8	3.8	3.78	2.56	3.5	3.25	2.75	3.5	1	5	4	3
+SM_PAK_070	PAK	154	165	158	149	1	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5.33	5	10.33	0.33	3	3.1	4.3	3.89	3.33	3.25	4	3.5	4	1	5	5	5
+SM_PAK_071	PAK	163	194	182	164	2	M	21	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.83	5	9.83	-0.17	2.5	3.3	3.1	3.89	2.33	3.25	3.5	2.75	3.25	1	3	4	5
+SM_PAK_072	PAK	166	168	175	183	2	M	23	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	5	5	10	0	2	3.8	2.8	3.78	2.44	3.5	3.25	2.75	3.5	1	4	4	4
+SM_PAK_073	PAK	165	169	162	152	3	M	21	4	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.5	4.67	9.17	-0.17	2.5	2.1	3.9	3.56	2.33	3	3.5	2.5	3	1	4	3	4
+SM_PAK_074	PAK	100	140	118	168	3	M	22	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.17	4.33	8.5	-0.16	2.5	2.9	3.4	3.78	2.33	3	3.75	2.25	3.5	1	4	5	5
+SM_PAK_075	PAK	130	145	137	114	2	F	25	M	N/A	N/A	English Linguistics	Humanities	N/A	N/A	44	B1_2	3.67	4.33	8	-0.66	3	3.5	3.5	3.78	3.11	3.5	3.75	3	3.75	1	5	5	5
+SM_PAK_076	PAK	157	151	129	127	2	M	22	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	4.67	5	9.67	-0.33	3	2.5	4	3.67	2.78	3	3.5	3.25	3.25	1	5	4	5
+SM_PAK_077	PAK	160	124	138	133	1	F	20	3	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4.83	4	8.83	0.83	2.5	4.5	4.1	4	4.22	4.5	4.75	3.5	4.5	1	5	6	6
+SM_PAK_078	PAK	136	127	117	142	3	F	23	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	43	B1_2	4.67	4.67	9.34	0	2.5	2.8	4.1	4	2.67	3.75	3.5	2.75	3.75	1	4	5	4
+SM_PAK_079	PAK	127	140	121	139	2	F	20	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	41	B1_2	4.33	4.5	8.83	-0.17	3	2.9	3.8	3.89	2.67	3.5	3.25	3	3.5	1	4	4	4
+SM_PAK_080	PAK	93	91	102	146	2	F	21	4	N/A	N/A	English Linguistics	Humanities	N/A	N/A	37	B1_2	4.33	3.5	7.83	0.83	2	2.5	3.5	3.22	2.56	4	3.25	2	2.75	1	5	5	5
+SM_PAK_081	PAK	131	132	133	109	2	F	23	M	N/A	N/A	English Linguistics	Humanities	N/A	N/A	22	A2_0	4.67	3.83	8.5	0.84	3	3.3	3.5	3.78	2.89	3.75	3.25	3	3.5	1	5	5	4
+SM_PAK_082	PAK	105	117	129	136	3	F	22	2	N/A	N/A	Education	Humanities	N/A	N/A	34	B1_1	4.67	5	9.67	-0.33	3	2.6	3.8	3.56	2.78	3.5	3.25	2.5	3.5	1	4	5	4
+SM_PAK_083	PAK	120	112	137	136	3	F	22	2	N/A	N/A	Mathematics	Sciences & Technology	N/A	N/A	40	B1_2	4.83	4.67	9.5	0.16	2.5	3	3.6	3.78	2.67	4	3.75	2.5	3	1	4	5	5
+SM_PAK_084	PAK	139	123	119	154	2	F	22	2	N/A	N/A	Accounting	Social Sciences	N/A	N/A	42	B1_2	4.33	5	9.33	-0.67	2.5	3.5	3.6	4.22	2.67	3.25	4.25	3	3.75	1	2	4	5
+SM_PAK_085	PAK	132	140	143	125	3	F	24	M	N/A	N/A	English Linguistics	Humanities	N/A	N/A	39	B1_2	4.5	4.5	9	0	2.5	3	3.5	3.78	2.56	3	3.5	3.5	3	1	6	5	5
+SM_PAK_086	PAK	127	150	127	158	3	F	24	1	N/A	N/A	Literature	Humanities	N/A	N/A	40	B1_2	4.83	4.5	9.33	0.33	2	3.13	3.5	3.56	2.78	3.25	4	2.75	3.25	3	4	5	3
+SM_PAK_087	PAK	109	124	105	132	2	F	21	1	N/A	N/A	Accounting	Social Sciences	N/A	N/A	38	B1_2	4.33	4.83	9.16	-0.5	2.5	2.8	3.5	3.67	2.44	3	3.25	2.5	3.75	1	3	4	4
+SM_PAK_088	PAK	126	135	117	135	3	F	22	1	N/A	N/A	Accounting	Social Sciences	N/A	N/A	40	B1_2	4.83	5	9.83	-0.17	2	2.8	3.5	3.89	2.11	3.25	3.25	2.5	3.5	1	2	4	5
+SM_PAK_089	PAK	100	82	105	96	2	F	21	1	N/A	N/A	English Linguistics	Humanities	N/A	N/A	40	B1_2	4.67	5.17	9.84	-0.5	3	2.8	3.6	3.78	2.56	3	3	3	3.75	1	2	3	5
+SM_PAK_090	PAK	139	123	118	100	N/A	M	20	3	N/A	N/A	Physical Therapy	Life Sciences	N/A	N/A	38	B1_2	4.83	4.67	9.5	0.16	4	3.88	3.63	4	3.56	3.5	3.75	4.25	3.5	3	4	3	3
+SM_PAK_091	PAK	114	113	105	91	N/A	M	22	2	N/A	N/A	Business Administration	Social Sciences	N/A	N/A	38	B1_2	5	5	10	0	3	3.25	4	3.78	3.33	3.5	2.5	4.5	4	5	4	5	3
+SM_PAK_092	PAK	163	182	139	155	N/A	F	22	M	N/A	N/A	Psychology	Humanities	N/A	N/A	23	A2_0	4.67	3.5	8.17	1.17	3.5	3.25	3.25	3.44	3.11	2.75	3.5	3.5	3.25	5	5	2	3
+SM_PAK_093	PAK	104	126	118	124	N/A	M	21	2	N/A	N/A	Business Administration	Social Sciences	N/A	N/A	38	B1_2	5	5	10	0	3	3.25	4	3.78	3.33	3.5	2.5	4.5	4	5	4	5	3
+SM_PAK_094	PAK	139	131	131	140	N/A	M	22	1	0.5	N/A	Business	Social Sciences	N/A	N/A	40	B1_2	4.83	4.33	9.16	0.5	2	3	3.38	3.44	2.67	3.25	3.75	2.75	3	3	4	5	3
+SM_PAK_095	PAK	129	144	132	129	N/A	F	19	3	N/A	N/A	Physical Therapy	Life Sciences	N/A	N/A	46	B1_2	5.17	5	10.17	0.17	4	4.13	3.75	4.11	3.78	4	4	4.5	3.25	5	5	6	3
+SM_PAK_096	PAK	157	163	150	153	N/A	M	20	3	N/A	N/A	Physical Therapy	Life Sciences	N/A	N/A	40	B1_2	4.67	5	9.67	-0.33	1.5	2	3.13	2.44	2.44	2.75	1.75	2.75	3	5	5	5	3
+SM_PAK_097	PAK	106	142	102	107	N/A	F	24	2	N/A	N/A	English Linguistics	Humanities	N/A	N/A	38	B1_2	4.67	5	9.67	-0.33	4	3.88	4.63	4.11	4.33	4.5	4	4.25	4.25	5	5	5	3
+SM_PAK_098	PAK	101	75	96	90	N/A	M	21	3	N/A	N/A	Psychology	Humanities	N/A	N/A	24	A2_0	4.5	4.83	9.33	-0.33	2	3.13	3.25	3.67	2.44	3.5	2.75	3.25	3.25	2	2	6	3
+SM_PAK_099	PAK	135	158	149	158	N/A	M	23	1	N/A	N/A	Economics	Social Sciences	N/A	N/A	37	B1_2	5	3.17	8.17	1.83	4	3.25	3.38	4	2.78	3.5	3.25	3.25	3.25	4	3	5	1
+SM_PAK_100	PAK	139	106	109	120	N/A	F	22	M	N/A	N/A	Psychology	Humanities	N/A	N/A	44	B1_2	4.67	5.67	10.34	-1	1.5	2	2.25	2.11	2	2.5	1.5	2.75	1.75	5	4	3	3
+SM_PHL_001	PHL	128	153	157	123	1	M	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	42	B1_2	4.33	2.67	7	1.66	1	3.25	3.5	3.44	2.78	3.25	3.25	2.75	4.25	1	3	3	4
+SM_PHL_002	PHL	155	161	151	157	3	F	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	44	B1_2	5.5	4.67	10.17	0.83	4.5	5.38	5.88	5	6	5.75	5.75	5	6	2	6	4	6
+SM_PHL_003	PHL	143	127	135	135	2	F	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	41	B1_2	3.83	3.33	7.16	0.5	3	3.38	2.5	3.33	2.56	3	3.5	2.25	3	2	3	1	3
+SM_PHL_004	PHL	121	113	89	85	1	M	17	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	35	B1_1	5.5	5.17	10.67	0.33	5	3	4.63	4.22	3.67	3.75	3.5	4	4	3	3	4	5
+SM_PHL_005	PHL	181	195	165	162	3	F	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	47	B2_0	6	5.33	11.33	0.67	5	5.88	5.75	5.67	5.78	6	5.5	5.75	6	5	6	6	6
+SM_PHL_006	PHL	154	193	166	152	3	M	18	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	43	B1_2	6	6	12	0	4	6	5.63	5.67	5.56	6	6	5.75	5.5	6	5	6	6
+SM_PHL_007	PHL	112	118	88	117	1	F	16	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	45	B1_2	5.83	5.33	11.16	0.5	6	4.75	4.63	5.11	4.56	5.5	4.75	4.25	4.25	4	5	5	6
+SM_PHL_008	PHL	125	92	123	124	2	F	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	44	B1_2	5.33	4.5	9.83	0.83	2	4	3.88	3.89	3.56	4.5	4.25	2.75	4.25	5	5	5	5
+SM_PHL_009	PHL	119	139	78	124	2	M	17	1	N/A	N/A	International Studies	Humanities	N/A	N/A	42	B1_2	6	5	11	1	3	4.88	6	5.44	4.89	5	6	5.5	5.25	6	6	6	6
+SM_PHL_010	PHL	119	152	129	136	2	F	17	1	N/A	N/A	International Studies	Humanities	N/A	N/A	46	B1_2	5	5.5	10.5	-0.5	6	5.13	5.5	5.56	5.22	5	6	4.25	6	4	6	6	6
+SM_PHL_011	PHL	69	101	89	70	2	M	18	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	46	B1_2	5	3.83	8.83	1.17	5	4.25	5	4.78	4.56	4.75	4.75	4.5	4.5	2	5	3	6
+SM_PHL_012	PHL	97	136	125	134	2	F	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	44	B1_2	5.33	5.83	11.16	-0.5	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_PHL_013	PHL	130	147	127	117	3	M	17	1	N/A	N/A	Computer	Sciences & Technology	N/A	N/A	41	B1_2	5.83	4.17	10	1.66	5	5.5	6	5.44	5.89	5.75	5.75	5.75	5.75	6	6	6	6
+SM_PHL_014	PHL	116	129	121	122	2	F	16	1	N/A	N/A	International Studies	Humanities	N/A	N/A	46	B1_2	5.17	4.5	9.67	0.67	3	3.88	3.75	4.44	3	4	4.75	3.5	3	2	4	4	4
+SM_PHL_015	PHL	143	159	77	113	2	F	21	3	N/A	N/A	Human Resource Management	Social Sciences	N/A	N/A	45	B1_2	3.5	3.83	7.33	-0.33	5.5	4.63	5	5	4.78	4.5	4.75	5.25	4.75	2	5	5	5
+SM_PHL_016	PHL	125	148	112	106	3	M	19	1	N/A	N/A	Business and Computer Applications	Social Sciences	N/A	N/A	47	B2_0	6	5	11	1	5	3.88	5	4.33	4.67	4	4	5.25	4.5	1	5	5	5
+SM_PHL_017	PHL	99	133	95	117	1	F	21	1	N/A	N/A	Photography	Humanities	N/A	N/A	45	B1_2	4.67	4.17	8.84	0.5	4	3.75	4.13	4.78	3.11	3.75	4.5	3.25	4.25	4	5	5	5
+SM_PHL_018	PHL	134	111	69	67	3	M	18	1	N/A	N/A	Humanities	Humanities	N/A	N/A	43	B1_2	4.67	5	9.67	-0.33	4	3.88	4.88	4.22	4.44	4.5	4.25	4	4.75	5	5	5	5
+SM_PHL_019	PHL	63	68	85	82	2	M	18	1	N/A	N/A	Business and Computer Applications	Social Sciences	N/A	N/A	35	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_PHL_020	PHL	135	136	102	129	2	F	18	1	N/A	N/A	International Studies	Humanities	N/A	N/A	42	B1_2	5.67	5.83	11.5	-0.16	4	4.63	5	5.44	4	4.5	5.5	4	5.25	6	6	6	6
+SM_PHL_021	PHL	142	146	158	146	2	F	17	1	N/A	N/A	International Studies	Humanities	N/A	N/A	46	B1_2	5.33	5.33	10.66	0	6	6	6	6	6	6	6	6	6	4	6	6	6
+SM_PHL_022	PHL	132	147	143	146	2	M	19	1	N/A	N/A	Export Management	Social Sciences	N/A	N/A	45	B1_2	1.17	1.5	2.67	-0.33	1	1.5	1.13	1.11	1.44	1	1.75	1.25	1.25	2	1	2	2
+SM_PHL_023	PHL	123	143	131	128	3	F	18	1	N/A	N/A	International Studies	Humanities	N/A	N/A	40	B1_2	5.83	6	11.83	-0.17	6	5.5	5.5	6	5.11	5.5	5.5	5.5	5.5	6	6	6	6
+SM_PHL_024	PHL	119	112	118	99	2	F	17	1	N/A	N/A	European Studies	Social Sciences	N/A	N/A	45	B1_2	4.83	5.33	10.16	-0.5	3.5	4.88	5.63	5.33	4.78	5.75	5.75	4.75	4.75	5	6	6	6
+SM_PHL_025	PHL	152	161	132	127	3	F	16	1	N/A	N/A	European Studies	Social Sciences	N/A	N/A	45	B1_2	5.83	4.67	10.5	1.16	4	3.5	4.88	4.89	3.44	4.5	4.75	3.25	4.25	5	4	5	6
+SM_PHL_026	PHL	99	85	67	69	1	M	20	1	N/A	N/A	Computer Application	Sciences & Technology	N/A	N/A	45	B1_2	5.17	6	11.17	-0.83	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_PHL_027	PHL	92	116	79	115	3	F	19	1	N/A	N/A	Export Management	Social Sciences	N/A	N/A	44	B1_2	5.17	4.5	9.67	0.67	4.5	4.5	4.38	4.56	4.33	4.25	4.5	4	5	3	5	5	6
+SM_PHL_028	PHL	77	97	103	102	3	M	17	1	N/A	N/A	Biology	Sciences & Technology	N/A	N/A	44	B1_2	4.83	5.33	10.16	-0.5	4	4.38	4.5	4.89	3.89	4.25	4.5	4	5	5	5	5	5
+SM_PHL_029	PHL	188	202	159	180	2	F	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	43	B1_2	4.83	2.67	7.5	2.16	1	3.75	3.63	3.56	3.22	3.75	4	2.75	4.25	1	3	3	4
+SM_PHL_030	PHL	127	127	125	117	1	F	17	1	N/A	N/A	International Studies	Humanities	N/A	N/A	35	B1_1	3.83	4.17	8	-0.34	3.5	3.75	4.88	4.33	4.11	4.5	4	4.5	4.25	3	3	3	4
+SM_PHL_031	PHL	111	150	106	106	2	F	16	1	N/A	N/A	International Studies	Humanities	N/A	N/A	45	B1_2	6	6	12	0	4.5	5.25	5.5	5.67	4.89	5.5	5.75	4.75	5.5	4	6	6	6
+SM_PHL_032	PHL	94	125	127	135	2	F	16	1	N/A	N/A	International Studies	Humanities	N/A	N/A	43	B1_2	5	5.33	10.33	-0.33	4.5	4.63	4.75	5.33	4	5	5.5	3.5	4.75	4	6	6	6
+SM_PHL_033	PHL	113	109	99	116	3	F	16	1	N/A	N/A	European Studies	Social Sciences	N/A	N/A	44	B1_2	5.83	5	10.83	0.83	6	6	6	6	6	6	6	6	6	5	6	6	6
+SM_PHL_034	PHL	106	113	111	99	2	F	17	1	N/A	N/A	Philosophy	Humanities	N/A	N/A	35	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_PHL_035	PHL	97	122	125	97	3	M	18	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	47	B2_0	5.67	5.83	11.5	-0.16	4.5	5.25	5.38	5.56	4.89	5.25	6	4	6	1	4	5	5
+SM_PHL_036	PHL	163	185	156	165	2	M	18	1	N/A	N/A	Education	Humanities	N/A	N/A	45	B1_2	5.83	5.67	11.5	0.16	6	4.5	5.38	5.56	4.56	4.75	5	5.25	4.75	6	2	6	6
+SM_PHL_037	PHL	128	107	104	133	3	F	19	1	N/A	N/A	Literature	Humanities	N/A	N/A	35	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_PHL_038	PHL	142	165	153	146	2	F	18	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	25	B1_1	5	3.5	8.5	1.5	5.5	5.88	5.38	5.78	5.44	5.75	5	5.75	6	5	6	6	6
+SM_PHL_039	PHL	106	131	113	112	2	M	18	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	42	B1_2	5.5	4.83	10.33	0.67	4	4.5	5	4.89	4.44	4.75	4.75	4.75	4.75	2	5	5	5
+SM_PHL_040	PHL	97	130	90	99	2	M	16	1	N/A	N/A	Chemistry	Sciences & Technology	N/A	N/A	38	B1_2	4.17	5	9.17	-0.83	1.5	2.5	3.88	3.56	2.44	4	3	2.5	3.25	4	5	3	4
+SM_PHL_041	PHL	117	142	106	123	2	F	18	1	N/A	N/A	Math	Sciences & Technology	TOEFL (iBT)	90 	43	B2_0	4.67	5.17	9.84	-0.5	3.5	4.75	5.25	5.33	4.33	5	5.5	4.75	4.75	5	6	6	6
+SM_PHL_042	PHL	86	77	79	97	2	F	17	1	N/A	N/A	Math	Sciences & Technology	TOEFL (iBT)	90 	43	B2_0	4.67	5.17	9.84	-0.5	3.5	4.75	5.25	5.33	4.33	5	5.5	4.75	4.75	5	6	6	6
+SM_PHL_043	PHL	111	125	94	102	2	M	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	46	B1_2	4.67	4.17	8.84	0.5	2	3.75	5.5	5.11	3.56	5.25	4.75	4.25	4.25	5	5	5	5
+SM_PHL_044	PHL	177	228	204	202	3	F	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	44	B1_2	5.17	4.5	9.67	0.67	4.5	4.75	5	5	4.67	5.25	4.5	4.25	5.5	4	4	6	6
+SM_PHL_045	PHL	136	169	156	172	3	M	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	41	B1_2	4.33	3.83	8.16	0.5	3	4.5	4.5	4.56	4.11	4.25	5	3.75	5	4	5	5	5
+SM_PHL_046	PHL	107	125	125	127	2	M	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	45	B1_2	5.17	5.17	10.34	0	2.5	2.88	3.5	3.56	2.67	4.25	3	2.25	3.25	5	6	6	6
+SM_PHL_047	PHL	121	136	149	158	2	M	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	43	B1_2	5.83	5	10.83	0.83	4	5.25	5.5	5.89	4.56	5.5	5.5	5.25	5.25	4	6	6	6
+SM_PHL_048	PHL	114	123	120	111	2	F	16	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	40	B1_2	5.67	5.67	11.34	0	5.5	5.88	5.88	6	5.67	5.5	6	6	6	4	5	5	6
+SM_PHL_049	PHL	76	96	74	59	1	F	17	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	42	B1_2	5.17	3.33	8.5	1.84	1	4.25	4.13	4	3.67	4.25	5	3.75	3.75	4	4	5	4
+SM_PHL_050	PHL	103	114	124	135	1	M	17	1	N/A	N/A	Information Technology	Sciences & Technology	N/A	N/A	40	B1_2	5.67	4.33	10	1.34	3	3.13	4.38	3.89	3.44	3.75	3.5	3	4.75	1	5	4	5
+SM_PHL_051	PHL	143	145	137	146	2	F	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	44	B1_2	5	4.17	9.17	0.83	5	4.63	4.75	5.22	4.22	5.5	4.75	3.75	4.75	5	5	5	5
+SM_PHL_052	PHL	76	89	87	71	3	M	17	1	2+	N/A	Math	Sciences & Technology	N/A	N/A	46	B1_2	5.67	4.17	9.84	1.5	4	5.25	5.75	5.11	5.56	5.5	6	4.5	6	1	6	6	6
+SM_PHL_053	PHL	128	101	110	112	3	M	16	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	43	B1_2	6	6	12	0	5.5	6	6	6	5.89	6	6	6	6	2	6	6	6
+SM_PHL_054	PHL	198	161	169	153	3	M	18	2	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	44	B1_2	5.17	5.17	10.34	0	4	4.38	4.25	4.89	3.67	4	4.5	4.25	4.5	2	6	6	6
+SM_PHL_055	PHL	107	87	77	104	2	F	17	1	2+	N/A	Civil Engineering	Sciences & Technology	N/A	N/A	46	B1_2	6	4.83	10.83	1.17	4.5	5.5	5.88	5.78	5.33	5.75	6	5.25	5.75	4	6	6	6
+SM_PHL_056	PHL	83	88	89	90	0	M	17	1	2+	N/A	Information Technology	Sciences & Technology	N/A	N/A	45	B1_2	5.67	5.17	10.84	0.5	3.5	4	4.38	5.11	3.11	4.25	5.25	4.25	3	1	5	5	5
+SM_PHL_057	PHL	137	168	133	129	2	M	18	2	N/A	N/A	Information Systems	Sciences & Technology	N/A	N/A	45	B1_2	5	5	10	0	2.5	5.13	5.5	5.33	4.67	5.25	6	4.5	5.5	5	6	6	6
+SM_PHL_058	PHL	95	100	82	101	2	F	19	1	N/A	N/A	Export Management	Social Sciences	N/A	N/A	44	B1_2	5.5	4.83	10.33	0.67	3	4.38	4.63	4.67	4	5	4.5	4	4.5	5	5	5	5
+SM_PHL_059	PHL	114	130	120	133	2	F	17	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	43	B1_2	4.67	5.17	9.84	-0.5	3.5	4.75	5.25	5.33	4.33	5	5.5	4.75	4.75	5	6	6	6
+SM_PHL_060	PHL	92	82	94	99	3	F	17	1	2+	N/A	Math	Sciences & Technology	N/A	N/A	44	B1_2	5	5.33	10.33	-0.33	3	5.25	4.88	5.67	4	6	6	3.75	4.5	6	6	1	6
+SM_PHL_061	PHL	144	143	147	142	2	F	17	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	43	B1_2	4.67	5.17	9.84	-0.5	3.5	4.75	5.25	5.33	4.33	5	5.5	4.75	4.75	5	6	6	6
+SM_PHL_062	PHL	130	120	118	118	2	F	17	2	N/A	N/A	Information Systems	Sciences & Technology	N/A	N/A	25	B1_1	5.83	6	11.83	-0.17	4	5.38	6	5.67	5.33	5.5	6	5.25	6	5	6	5	6
+SM_PHL_063	PHL	73	90	106	115	3	F	19	1	2+	N/A	International Economics	Social Sciences	N/A	N/A	47	B2_0	6	6	12	0	6	6	5.88	6	5.89	6	6	5.75	6	6	6	6	6
+SM_PHL_064	PHL	159	179	168	148	3	F	16	1	N/A	N/A	Math	Sciences & Technology	TOEFL (iBT)	90 	43	B2_0	4.67	5.17	9.84	-0.5	3.5	4.75	5.25	5.33	4.33	5	5.5	4.75	4.75	5	6	6	6
+SM_PHL_065	PHL	119	128	130	123	1	F	16	1	2+	N/A	Biology	Sciences & Technology	N/A	N/A	41	B1_2	4.67	5.17	9.84	-0.5	4.5	4.63	6	5.22	5.22	5	5.5	5.5	5.25	5	6	5	4
+SM_PHL_066	PHL	104	80	90	84	2	M	19	2	N/A	N/A	Information Systems	Sciences & Technology	N/A	N/A	39	B1_2	5.67	5.5	11.17	0.17	3	5.25	3.5	4	4.44	4.75	4	3.75	5	6	6	6	6
+SM_PHL_067	PHL	102	102	90	85	2	M	18	2	N/A	N/A	Information Systems	Sciences & Technology	N/A	N/A	39	B1_2	5.67	5.17	10.84	0.5	1	2.63	3.5	3	2.67	3.75	2	3	3.5	6	6	6	6
+SM_PHL_068	PHL	115	148	103	123	1	M	17	1	2+	N/A	Information Technology	Sciences & Technology	N/A	N/A	44	B1_2	4.17	5.5	9.67	-1.33	6	3.75	4.25	4.67	3.78	3.5	3.75	5.25	3.5	4	6	4	5
+SM_PHL_069	PHL	146	146	123	130	1	M	21	1	2+	N/A	Information Technology	Sciences & Technology	N/A	N/A	44	B1_2	5	4.83	9.83	0.17	3	3	4.5	3.67	3.67	3.5	3.5	4.5	3.5	4	6	4	5
+SM_PHL_070	PHL	132	170	128	140	1	F	16	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	4	4.83	8.83	-0.83	4	5.5	5.5	5.44	5.22	5.25	6	4.75	6	4	6	6	6
+SM_PHL_071	PHL	140	139	136	137	3	M	17	1	N/A	N/A	Political Science	Social Sciences	N/A	N/A	42	B1_2	5.83	5.33	11.16	0.5	4	4.5	4.75	5	4.11	4.75	4.75	4	5	5	6	5	6
+SM_PHL_072	PHL	78	129	128	141	1	M	18	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	47	B2_0	4.67	3.33	8	1.34	3.5	3.88	4.5	4.67	3.56	4.25	4.75	4	3.75	3	4	4	5
+SM_PHL_073	PHL	135	160	129	161	3	M	17	2	2+	N/A	Computer Science	Sciences & Technology	N/A	N/A	44	B1_2	5.5	5.67	11.17	-0.17	3.5	6	5	5.22	5.33	5.5	5.5	5.5	5.5	5	5	5	5
+SM_PHL_074	PHL	162	182	173	172	3	M	16	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	44	B1_2	5.33	4.5	9.83	0.83	4	4.63	4.63	5.11	4	4.75	5.5	3.5	4.75	2	6	6	6
+SM_PHL_075	PHL	112	134	112	148	3	M	16	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	5.67	5	10.67	0.67	4	4.63	4.75	4.67	4.56	4.75	5	4	5	5	5	5	6
+SM_PHL_076	PHL	117	170	155	139	3	F	16	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	5.33	5	10.33	0.33	3.5	5	5.38	5.78	4.22	5.75	5.75	4.75	4.5	6	6	6	6
+SM_PHL_077	PHL	114	119	129	161	3	F	17	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	4.83	5.5	10.33	-0.67	4.5	5.13	5.38	5.56	4.78	5.25	5.25	5	5.5	5	5	6	6
+SM_PHL_078	PHL	149	157	145	155	2	F	17	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	4.5	4.83	9.33	-0.33	4	4.63	5	5.11	4.33	4.75	5	4.75	4.75	4	6	6	6
+SM_PHL_079	PHL	141	127	135	140	3	F	16	1	2+	N/A	Political Science	Social Sciences	N/A	N/A	45	B1_2	5.5	6	11.5	-0.5	5	5.25	5.63	5.11	5.67	5	5.75	5.25	5.75	4	5	5	5
+SM_PHL_080	PHL	127	150	156	157	2	F	16	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	48	B2_0	4.67	5.83	10.5	-1.16	4.5	5.25	5.38	5.44	5	5.25	5.25	5	5.75	4	6	6	6
+SM_PHL_081	PHL	161	163	142	157	1	F	17	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	44	B1_2	4.67	5.17	9.84	-0.5	4	4.88	6	5.33	5.22	5.5	5.5	5.25	5.5	4	4	4	4
+SM_PHL_082	PHL	88	116	109	113	1	M	17	1	N/A	N/A	Marketing	Social Sciences	N/A	N/A	42	B1_2	5.33	4.17	9.5	1.16	2	2.13	2	2.11	2	3.5	1.25	2	1.5	3	4	4	5
+SM_PHL_083	PHL	109	130	111	115	1	F	18	1	N/A	N/A	Marketing	Social Sciences	N/A	N/A	46	B1_2	4.67	5.17	9.84	-0.5	4	5	5.13	4.78	5.11	5.5	5.25	4.5	5	5	5	5	5
+SM_PHL_084	PHL	121	119	127	132	2	F	17	1	2+	N/A	Marketing	Social Sciences	N/A	N/A	45	B1_2	4.5	5.67	10.17	-1.17	3.5	4	4.63	5.22	3.22	5	4.5	3.5	4.25	3	5	3	4
+SM_PHL_085	PHL	94	96	99	88	1	M	16	1	N/A	N/A	Marketing Management	Social Sciences	N/A	N/A	43	B1_2	5.67	5	10.67	0.67	2	4.63	4.88	4.78	4.11	5.25	4.75	4.25	4.75	3	5	5	4
+SM_PHL_086	PHL	95	104	104	112	2	M	18	1	2+	N/A	Marketing	Social Sciences	N/A	N/A	45	B1_2	5.83	6	11.83	-0.17	0	4.75	5.38	4.56	4.44	5	5.75	4	5.5	6	6	6	6
+SM_PHL_087	PHL	100	102	112	132	3	F	17	1	2+	N/A	Advertising Management	Social Sciences	N/A	N/A	48	B2_0	4.5	3	7.5	1.5	6	6	5.13	5.78	5.44	5.5	5.5	5.5	5.75	6	6	6	6
+SM_PHL_088	PHL	123	118	106	137	2	F	17	1	N/A	N/A	Marketing Management	Social Sciences	N/A	N/A	45	B1_2	5.83	5.17	11	0.66	4.5	4	4.5	4.44	4.11	5.25	4.75	3.25	3.75	6	4	5	5
+SM_PHL_089	PHL	111	159	150	152	2	F	17	1	2+	N/A	International Business	Social Sciences	N/A	N/A	45	B1_2	3.83	2.67	6.5	1.16	1	4.75	5.75	4.33	5.22	5.25	5.5	4.75	5.5	6	5	4	5
+SM_PHL_090	PHL	126	116	128	138	1	F	17	1	N/A	N/A	Marketing	Social Sciences	N/A	N/A	44	B1_2	5.17	5.83	11	-0.66	1	1.88	2.88	2	2.44	4.25	2.5	1	1.75	2	5	4	4
+SM_PHL_091	PHL	88	104	94	112	1	F	16	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	45	B1_2	5.67	4.67	10.34	1	3.5	4.88	5.75	5.56	4.67	5.25	5.75	4.5	5.75	5	6	6	6
+SM_PHL_092	PHL	124	108	135	147	1	F	16	1	N/A	N/A	Marketing Management	Social Sciences	N/A	N/A	43	B1_2	5.83	5.17	11	0.66	3	4.5	4.75	4.67	4.22	4.75	4.75	4	5	4	4	4	4
+SM_PHL_093	PHL	81	91	77	97	2	F	17	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	46	B1_2	5.17	5.17	10.34	0	4.5	4.5	4.5	4.78	4.22	5	4.5	3.75	4.75	2	5	5	5
+SM_PHL_094	PHL	121	146	103	114	1	F	16	1	2+	N/A	Marketing	Social Sciences	N/A	N/A	44	B1_2	3.83	4.5	8.33	-0.67	2	4.13	4.25	4.11	3.78	4.75	5	3	4	4	4	4	4
+SM_PHL_095	PHL	150	145	154	169	2	F	17	1	N/A	N/A	Marketing	Social Sciences	N/A	N/A	41	B1_2	5	4.83	9.83	0.17	3.5	4.88	5	4.89	4.67	5	5.5	4.25	5	4	5	5	5
+SM_PHL_096	PHL	123	129	118	111	2	M	17	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	46	B1_2	4.83	4.67	9.5	0.16	5	5.13	5.25	5.56	4.78	4.5	6	4.5	5.75	5	6	6	6
+SM_PHL_097	PHL	61	71	98	75	3	M	17	1	N/A	N/A	Marketing	Social Sciences	N/A	N/A	47	B2_0	4.83	5.5	10.33	-0.67	4.5	4.88	4.88	4.89	4.78	5	5	4.5	5	6	5	5	5
+SM_PHL_098	PHL	113	120	139	109	1	F	16	1	N/A	N/A	Advertising Management	Humanities	N/A	N/A	46	B1_2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_PHL_099	PHL	124	85	99	95	3	M	18	1	N/A	N/A	Marketing Management	Social Sciences	N/A	N/A	47	B2_0	4.5	5.5	10	-1	4.5	4.88	4.75	5	4.56	5	5	4.5	4.75	0	0	0	0
+SM_PHL_100	PHL	128	127	140	131	2	M	18	1	2+	N/A	Marketing Management	Social Sciences	N/A	N/A	38	B1_2	4.17	4.67	8.84	-0.5	2.5	3.38	3.63	3.78	3	3.5	3.5	3.5	3.5	5	6	6	6
+SM_SIN_001	SIN	204	208	191	193	2	M	23	2	0.5	N/A	Psychology	Humanities	N/A	N/A	46	B1_2	4.17	4.5	8.67	-0.33	6	6	6	6	6	6	6	6	6	2	4	5	5
+SM_SIN_002	SIN	175	183	179	160	1	M	22	2	1	N/A	Political Science	Social Sciences	N/A	N/A	48	B2_0	4.33	4	8.33	0.33	6	5.13	5	5.22	5.11	5	5	5.25	5	2	5	5	5
+SM_SIN_003	SIN	137	144	120	143	2	M	23	3	0.5	N/A	Economics	Social Sciences	N/A	N/A	44	B1_2	4.83	5	9.83	-0.17	3	4.5	5.5	5.22	4.33	5	5.25	4.75	5	5	6	3	4
+SM_SIN_004	SIN	150	170	144	164	2	F	21	2	0.5	N/A	Psychology	Humanities	N/A	N/A	47	B2_0	4.33	5.83	10.16	-1.5	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_005	SIN	171	190	153	154	1	F	20	1	0.5	N/A	Economics	Social Sciences	N/A	N/A	47	B2_0	5.5	4.83	10.33	0.67	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_006	SIN	150	186	179	165	2	F	21	2	1	N/A	Sociology	Humanities	N/A	N/A	44	B1_2	4.83	5.33	10.16	-0.5	6	6	6	6	6	6	6	6	6	4	6	6	6
+SM_SIN_007	SIN	198	208	157	198	1	F	20	1	0.5	N/A	Chemistry	Sciences & Technology	N/A	N/A	47	B2_0	4.5	5.5	10	-1	6	6	6	6	6	6	6	6	6	5	4	5	6
+SM_SIN_008	SIN	106	126	105	90	2	F	20	1	1	N/A	History	Humanities	N/A	N/A	46	B1_2	5.33	4.83	10.16	0.5	5	4.75	6	5.44	5.22	5.25	5.75	5	5.5	4	4	5	5
+SM_SIN_009	SIN	138	143	137	130	1	M	22	1	1	N/A	Economics	Social Sciences	N/A	N/A	48	B2_0	6	5.5	11.5	0.5	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_010	SIN	179	164	155	155	3	F	22	3	1	N/A	Geography	Humanities	N/A	N/A	44	B1_2	5.17	5.33	10.5	-0.16	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_011	SIN	183	188	151	142	3	F	22	3	1	N/A	Geography	Humanities	N/A	N/A	44	B1_2	5.17	5.33	10.5	-0.16	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_012	SIN	194	190	161	189	1	F	19	1	0.5	N/A	Political Science	Social Sciences	N/A	N/A	47	B2_0	5	5.5	10.5	-0.5	6	5.88	5.75	5.89	5.78	6	6	6	5.25	6	6	6	6
+SM_SIN_013	SIN	134	139	121	137	2	F	21	2	1	N/A	Geography	Humanities	N/A	N/A	48	B2_0	5.33	4.67	10	0.66	2.5	4.63	5.63	5.22	4.44	5.25	5.25	4.5	5.5	5	5	5	6
+SM_SIN_014	SIN	120	106	122	101	2	F	20	1	0.5	N/A	Sociology	Humanities	N/A	N/A	46	B1_2	5.17	4.83	10	0.34	4.5	5.5	6	5.78	5.44	5.75	5.75	5.75	5.75	2	5	5	5
+SM_SIN_015	SIN	238	218	209	195	1	F	20	1	0.5	N/A	History	Humanities	N/A	N/A	46	B1_2	3.17	4.33	7.5	-1.16	4	5.13	5.25	5.22	4.89	5.5	5	5	5.25	5	5	5	6
+SM_SIN_016	SIN	83	81	82	83	1	F	21	1	1	N/A	Social Work	Social Sciences	N/A	N/A	46	B1_2	5.83	5.17	11	0.66	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_017	SIN	135	178	161	139	2	M	22	1	0.5	N/A	Business Administration	Social Sciences	N/A	N/A	46	B1_2	4.33	4.17	8.5	0.16	6	6	6	6	6	6	6	6	6	1	4	5	5
+SM_SIN_018	SIN	131	181	115	122	1	M	21	1	1	N/A	Psychology	Humanities	N/A	N/A	46	B1_2	5	4.67	9.67	0.33	5	4.75	4.75	5	4.56	5	4.25	5	4.75	5	5	5	5
+SM_SIN_019	SIN	106	126	99	114	2	M	24	3	0.5	N/A	Finance	Social Sciences	N/A	N/A	48	B2_0	4.83	3.5	8.33	1.33	4.5	5.88	6	5.89	5.67	6	6	5.75	6	3	4	4	4
+SM_SIN_020	SIN	156	152	138	141	2	F	21	2	1	N/A	Medicine	Life Sciences	N/A	N/A	47	B2_0	5	4.67	9.67	0.33	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_021	SIN	151	179	149	137	1	F	23	4	0.5	N/A	Economics	Social Sciences	N/A	N/A	46	B1_2	3.83	4.33	8.16	-0.5	2	4.75	4.75	4.89	4	5.5	4.5	4.75	4.25	3	4	4	4
+SM_SIN_022	SIN	119	130	121	125	1	M	23	2	0.5	N/A	Statistics	Sciences & Technology	N/A	N/A	45	B1_2	3.17	4.5	7.67	-1.33	3.5	4.63	5.38	5.78	3.89	4.5	5	5	5.5	5	5	5	5
+SM_SIN_023	SIN	165	181	158	155	1	M	21	1	0.5	N/A	Real Estate	Social Sciences	N/A	N/A	45	B1_2	5.67	2.67	8.34	3	6	6	6	6	6	6	6	6	6	6	6	6	6
+SM_SIN_024	SIN	135	148	134	114	0	F	20	2	0.5	N/A	Economics	Social Sciences	N/A	N/A	46	B1_2	4.33	4.33	8.66	0	4.5	4.5	4.88	5.78	3.56	5.25	4.5	4.5	4.5	3	3	3	5
+SM_SIN_025	SIN	164	196	140	156	1	F	20	2	0.5	N/A	Psychology	Humanities	N/A	N/A	43	B1_2	4.33	4.17	8.5	0.16	4	4.63	5.5	5.22	4.67	5	5.5	4.5	5.25	4	3	5	5
+SM_SIN_026	SIN	152	169	136	125	2	F	20	2	0.5	N/A	Psychology	Humanities	N/A	N/A	45	B1_2	4.17	4.33	8.5	-0.16	6	5	5.25	5.56	4.89	5.75	5.25	5.25	4.25	4	3	4	5
+SM_SIN_027	SIN	150	159	145	153	1	M	23	2	0.5	N/A	Psychology	Humanities	N/A	N/A	46	B1_2	5.33	4.17	9.5	1.16	4.5	4.88	5.75	5.67	4.78	5.25	5.75	5	5.25	4	5	5	5
+SM_SIN_028	SIN	148	147	149	136	2	M	22	1	0.5	N/A	Geography	Humanities	N/A	N/A	46	B1_2	4.33	4.83	9.16	-0.5	4	4.75	4.75	5	4.33	4.75	4.75	4.5	5	5	3	4	4
+SM_SIN_029	SIN	152	198	190	171	1	F	22	3	0.5	N/A	Psychology	Humanities	N/A	N/A	47	B2_0	5.83	5.67	11.5	0.16	5	5.13	5.25	5.33	5	5	5.25	5	5.5	3	2	5	5
+SM_SIN_030	SIN	191	192	170	186	1	F	22	3	0.5	N/A	Psychology	Humanities	N/A	N/A	47	B2_0	5.83	5.67	11.5	0.16	5	5.13	5.25	5.33	5	5	5.25	5	5.5	3	2	5	5
+SM_SIN_031	SIN	82	97	100	99	1	F	22	3	0.5	N/A	Psychology	Humanities	N/A	N/A	46	B1_2	5.33	4.67	10	0.66	4.5	5.5	5.5	6	4.78	5.5	5.5	5.5	5.5	1	4	5	5
+SM_SIN_032	SIN	128	176	140	145	0	F	21	3	0.5	N/A	Psychology	Humanities	IELTS	8 	45	B2_0	5.17	5.17	10.34	0	5.5	6	6	6	5.89	6	6	6	6	5	4	5	6
+SM_SIN_033	SIN	177	179	211	179	1	M	21	1	0.5	N/A	Finance	Social Sciences	N/A	N/A	47	B2_0	5.67	4.5	10.17	1.17	6	6	6	6	6	6	6	6	6	5	5	6	6
+SM_SIN_034	SIN	140	164	149	157	2	F	23	4	0.5	N/A	Political Science	Social Sciences	N/A	N/A	46	B1_2	3.17	4	7.17	-0.83	3.5	5.38	5	5.78	4.22	5.75	6	4.75	4.25	2	3	6	5
+SM_SIN_035	SIN	128	148	119	129	0	F	20	1	0.5	N/A	Global Studies	Humanities	N/A	N/A	46	B1_2	5	5.33	10.33	-0.33	4	5.88	5.75	5.78	5.44	6	6	5.75	5.5	5	4	5	6
+SM_SIN_036	SIN	151	156	132	124	1	F	21	2	0.5	N/A	Economics	Social Sciences	N/A	N/A	45	B1_2	5	5.33	10.33	-0.33	5.5	6	6	6	5.89	6	6	6	6	2	6	6	6
+SM_SIN_037	SIN	125	148	113	113	1	F	19	1	0.5	N/A	Psychology	Humanities	N/A	N/A	44	B1_2	4.67	3.17	7.84	1.5	5.5	4.75	5.38	5.44	4.78	5	5.25	4.75	5.25	4	5	5	5
+SM_SIN_038	SIN	126	142	114	125	1	F	21	1	0.5	N/A	Sociology	Humanities	N/A	N/A	46	B1_2	5.33	3.5	8.83	1.83	6	6	6	6	6	6	6	6	6	6	6	6	5
+SM_SIN_039	SIN	132	191	174	164	2	F	21	3	0.5	N/A	Law	Social Sciences	N/A	N/A	47	B2_0	4.67	5.83	10.5	-1.16	5.5	5.88	6	6	5.78	6	6	6	5.75	4	6	5	5
+SM_SIN_040	SIN	155	152	150	149	2	M	22	2	0.5	N/A	Life Science	Life Sciences	N/A	N/A	48	B2_0	4.33	3.33	7.66	1	6	5.25	5.25	5.78	4.89	5	5.5	5	5.5	5	5	5	5
+SM_SIN_041	SIN	160	191	153	158	3	F	20	2	1	N/A	Sociology	Humanities	N/A	N/A	46	B1_2	5.67	4	9.67	1.67	5	4.75	5.63	5.22	5.11	5.25	5.5	4.5	5.5	4	6	5	4
+SM_SIN_042	SIN	147	151	141	157	2	M	25	4	0.5	N/A	Sociology	Humanities	N/A	N/A	47	B2_0	4.67	4.83	9.5	-0.16	5.5	6	6	6	5.89	6	6	6	6	4	5	5	6
+SM_SIN_043	SIN	119	114	103	105	2	M	24	4	0.5	N/A	Social Work	Social Sciences	N/A	N/A	47	B2_0	6	5	11	1	6	6	6	6	6	6	6	6	6	6	4	6	5
+SM_SIN_044	SIN	172	165	162	165	2	M	23	4	0.5	N/A	English Linguistics	Humanities	N/A	N/A	46	B1_2	5.33	5	10.33	0.33	6	5.75	6	5.89	5.89	6	5.5	6	6	5	5	5	5
+SM_SIN_045	SIN	147	164	129	149	2	F	23	4	0.5	N/A	Law	Social Sciences	N/A	N/A	47	B2_0	6	5.5	11.5	0.5	6	6	6	6	6	6	6	6	6	4	4	5	6
+SM_SIN_046	SIN	123	155	149	148	3	M	25	4	0.5	N/A	Economics	Social Sciences	N/A	N/A	48	B2_0	4.83	5.17	10	-0.34	4.5	6	6	6	5.67	6	6	6	6	6	6	6	6
+SM_SIN_047	SIN	170	184	183	169	2	F	19	1	0.5	N/A	Economics	Social Sciences	N/A	N/A	47	B2_0	5.17	4.5	9.67	0.67	5.5	5.25	5.38	6	4.67	5	5	5.75	5.5	5	4	6	5
+SM_SIN_048	SIN	160	166	162	158	2	M	22	1	0.5	N/A	Economics	Social Sciences	N/A	N/A	47	B2_0	5.17	5.17	10.34	0	6	5.25	5.5	5.89	5	5	5.5	5.75	5.25	5	5	5	6
+SM_SIN_049	SIN	141	178	150	129	1	M	25	4	0.5	N/A	Geography	Humanities	N/A	N/A	45	B1_2	4.17	4.5	8.67	-0.33	4.5	4.88	6	5.89	4.78	5.5	5.25	5.25	5.75	5	5	5	5
+SM_SIN_050	SIN	158	159	135	140	1	M	23	3	0.5	N/A	Life Science	Life Sciences	N/A	N/A	46	B1_2	4.83	4.67	9.5	0.16	5.5	5.5	6	5.44	6	5.75	5.75	5.75	5.75	5	5	5	5
+SM_THA_001	THA	132	141	119	114	1	M	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	43	B1_2	4.67	4.83	9.5	-0.16	2	4.6	4.9	5.11	3.78	5.75	5	3.75	4.5	6	6	6	6
+SM_THA_002	THA	126	147	130	106	2	M	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	34	B1_1	5.17	4.5	9.67	0.67	2	2.8	4.6	4	3	3.5	4.5	3	3.75	4	4	4	3
+SM_THA_003	THA	95	119	100	88	2	M	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	42	B1_2	4.5	5	9.5	-0.5	1.5	2.6	3.5	3.78	2	3	3	3	3.25	6	5	5	6
+SM_THA_004	THA	114	99	99	87	1	M	18	1	N/A	N/A	Robotics and Automation Engineering	Sciences & Technology	N/A	N/A	44	B1_2	5.83	6	11.83	-0.17	3.5	2.8	2.8	3.33	2.33	3.5	2.75	2.25	2.5	5	4	5	4
+SM_THA_005	THA	114	111	91	93	2	M	19	1	N/A	N/A	Robotics	Sciences & Technology	N/A	N/A	36	B1_2	5	4.5	9.5	0.5	4	4.4	4	4.22	4.11	4.25	5	3.75	3.75	4	4	4	4
+SM_THA_006	THA	116	120	114	110	1	M	19	1	N/A	N/A	Robotics	Sciences & Technology	N/A	N/A	29	B1_1	5	4.67	9.67	0.33	3	3.1	3.8	2.56	4.22	4	4	3.25	2.5	5	5	4	2
+SM_THA_007	THA	109	122	84	81	1	F	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	47	B2_0	5.5	5.17	10.67	0.33	4	4.9	5.6	5.33	4.89	5.5	5.25	4.75	5.5	4	5	5	6
+SM_THA_008	THA	69	85	48	63	0	F	21	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	44	B1_2	4.5	4.83	9.33	-0.33	2.5	3.3	4.9	3.89	3.89	4.75	4.5	3.25	3.75	3	3	5	3
+SM_THA_009	THA	88	71	74	79	1	F	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	35	B1_1	4.17	5	9.17	-0.83	3	2.6	2.8	3.56	1.89	3.75	2.75	2.5	1.75	5	3	4	4
+SM_THA_010	THA	99	112	82	98	1	F	18	1	N/A	N/A	Computer Science	Sciences & Technology	N/A	N/A	38	B1_2	5	5.17	10.17	-0.17	3	3.4	3.1	4.56	1.89	4	3.75	2.25	3	5	4	5	5
+SM_THA_011	THA	57	79	42	46	0	M	20	2	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	38	B1_2	4	5.17	9.17	-1.17	4	1.9	3.4	3.11	2.44	2.5	2.5	2.25	3.25	3	4	4	5
+SM_THA_012	THA	65	56	64	86	0	M	20	2	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	37	B1_2	5.17	5.33	10.5	-0.16	2.5	3.4	4.6	3.89	3.78	4.25	4	4.5	3.25	5	5	6	5
+SM_THA_013	THA	78	84	100	86	2	F	19	1	N/A	N/A	Computer Science	Sciences & Technology	TOEFL (PBT)	505 	39	B1_1	4.67	4.67	9.34	0	5.5	4	4.9	4.89	4.22	5	3.75	5.25	3.75	6	5	5	5
+SM_THA_014	THA	111	97	114	129	2	F	20	2	N/A	N/A	Material Engineering	Sciences & Technology	N/A	N/A	42	B1_2	4.5	4.83	9.33	-0.33	2	3	4.1	4.44	2.33	3.75	3.25	3.75	3.5	3	3	3	3
+SM_THA_015	THA	79	71	83	72	1	F	20	2	N/A	N/A	Material Engineering	Sciences & Technology	N/A	N/A	35	B1_1	5.17	5	10.17	0.17	1.5	2.8	3.6	3.56	2.44	3.25	3.25	2.75	3.5	4	4	6	4
+SM_THA_016	THA	46	42	47	40	0	M	19	1	N/A	N/A	Computer 	Sciences & Technology	N/A	N/A	31	B1_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SM_THA_017	THA	83	83	80	76	1	M	22	4	N/A	N/A	Tool Engineering	Sciences & Technology	N/A	N/A	28	B1_1	5.33	5	10.33	0.33	3.5	4.3	4.6	4.78	3.89	4.5	5.25	3.5	4.5	4	4	5	3
+SM_THA_018	THA	61	49	47	73	2	F	18	1	2+	N/A	Printing and Packaging Technology	Sciences & Technology	N/A	N/A	28	B1_1	5.5	4.17	9.67	1.33	2.5	4.3	4.3	4.56	3.56	4.5	4.5	4.25	3.75	4	6	4	6
+SM_THA_019	THA	100	100	73	112	2	F	20	2	N/A	N/A	Civil Technology Education	Sciences & Technology	N/A	N/A	44	B1_2	5.33	4.67	10	0.66	3	3.8	4.3	3.78	4	4	3.75	3.75	4.5	5	5	5	5
+SM_THA_020	THA	39	42	36	39	2	M	18	1	N/A	N/A	Printing and Packaging Technology	Sciences & Technology	N/A	N/A	26	B1_1	5	4.83	9.83	0.17	3	3.3	4.1	4.78	2.44	4.25	3.75	3.25	3.5	5	4	4	2
+SM_THA_021	THA	101	95	53	63	2	F	18	1	N/A	N/A	Chemical Engineering	Sciences & Technology	N/A	N/A	36	B1_2	4.67	5.83	10.5	-1.16	3	4.4	4.8	4.67	4.11	5.25	5.25	3.25	4.5	6	5	5	5
+SM_THA_022	THA	71	83	36	68	0	F	18	1	N/A	N/A	Chemical Engineering	Sciences & Technology	N/A	N/A	39	B1_2	6	5.5	11.5	0.5	4	3.4	4.6	4.67	3.33	3.75	4.25	3.75	4.25	4	4	4	4
+SM_THA_023	THA	83	83	70	75	2	F	19	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	44	B1_2	4	3.67	7.67	0.33	2.5	2.5	2.9	3.56	1.78	2.75	3	2.75	2.25	3	2	4	2
+SM_THA_024	THA	127	102	96	110	2	M	19	1	1	N/A	Mechanic Engineering	Sciences & Technology	N/A	N/A	31	B1_1	4.67	4.83	9.5	-0.16	3	2.8	4	3.33	3.33	3.5	3.25	3.5	3.25	5	5	5	5
+SM_THA_025	THA	51	59	37	52	1	F	19	1	N/A	N/A	Chemistry	Sciences & Technology	N/A	N/A	44	B1_2	4	5	9	-1	3	3.9	4.1	4	3.78	4.25	5	3.75	3	5	4	3	2
+SM_THA_026	THA	104	93	87	101	1	F	20	2	N/A	N/A	Civil Technology	Sciences & Technology	N/A	N/A	22	A2_0	3.83	4.83	8.66	-1	3.5	3	3.4	3.78	2.67	3.75	3.5	2.75	2.75	1	3	4	3
+SM_THA_027	THA	76	69	68	79	0	M	18	1	N/A	N/A	Math	Sciences & Technology	N/A	N/A	13	A2_0	3.17	2.67	5.84	0.5	3	2.5	3.1	2.89	2.78	2.5	2.5	3.5	2.75	3	2	3	3
+SM_THA_028	THA	73	69	67	56	1	M	19	1	N/A	N/A	Humanities	Humanities	N/A	N/A	39	B1_2	3	1.17	4.17	1.83	2	3.5	4.8	4.11	3.67	4.5	5	4.25	2.75	5	5	5	5
+SM_THA_029	THA	55	73	56	58	0	M	23	4	N/A	N/A	Mechanical Engineering	Sciences & Technology	TOEIC	465 	26	B1_1	4.83	5	9.83	-0.17	1.5	2	2	2	1.89	3	3	1	1	3	3	5	4
+SM_THA_030	THA	108	102	92	115	0	M	21	3	N/A	N/A	Mechanical Engineering	Sciences & Technology	TOEIC	715 	44	B1_2	6	4.33	10.33	1.67	3.5	3.6	4.8	3.56	4.67	4.5	4.5	3.75	4	5	5	5	6
+SM_THA_031	THA	88	97	81	90	2	M	20	3	N/A	N/A	Production Engineering	Sciences & Technology	N/A	N/A	26	B1_1	5.5	4.5	10	1	5.5	4.8	5.3	5.33	4.78	5	5.25	5.5	4.25	5	5	6	5
+SM_THA_032	THA	124	141	137	148	2	M	21	4	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	46	B1_2	4.67	3.17	7.84	1.5	2	3.8	4.4	4	3.67	4.75	4	3.25	4.25	3	3	4	5
+SM_THA_033	THA	103	118	90	92	1	M	18	1	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	49	B2_0	5.17	4.83	10	0.34	3.5	2.5	3.6	3.44	2.78	3.5	4	2.25	2.5	4	3	3	5
+SM_THA_034	THA	89	92	82	89	1	M	19	1	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	34	B1_1	3.67	5	8.67	-1.33	2	3.9	3.6	3.22	3.89	4.5	4	3	3.5	6	4	4	3
+SM_THA_035	THA	51	49	58	52	1	M	18	1	N/A	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	40	B1_2	5.5	5.83	11.33	-0.33	2.5	2.6	3.9	3.56	2.78	3.5	3	2.75	3.75	4	4	4	6
+SM_THA_036	THA	88	96	75	78	1	M	19	1	N/A	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	47	B2_0	4.17	4.67	8.84	-0.5	3	3.1	4.9	3.67	4.11	4.75	4.25	3.75	3.25	4	5	4	5
+SM_THA_037	THA	86	90	83	73	1	M	19	1	N/A	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	41	B1_2	5.33	4.83	10.16	0.5	1.5	3.1	3.3	3.11	2.89	3.5	3.5	2.75	3	3	4	4	1
+SM_THA_038	THA	89	81	72	91	1	M	19	1	N/A	N/A	Engineering	Sciences & Technology	N/A	N/A	32	B1_1	5.67	6	11.67	-0.33	1.5	4.8	4.6	4.89	3.78	5.25	5.25	3.5	4.75	6	5	5	6
+SM_THA_039	THA	79	88	83	84	1	F	19	1	N/A	N/A	Chemistry	Sciences & Technology	N/A	N/A	43	B1_2	4	3.83	7.83	0.17	3.5	3.1	4.6	4	3.67	3.75	4	3.5	4.25	5	4	6	4
+SM_THA_040	THA	85	100	66	89	1	M	19	1	0.5	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	43	B1_2	5.17	5.17	10.34	0	4	3.3	3.9	3.89	3.33	3.75	4.25	3	3.25	2	4	4	4
+SM_THA_041	THA	91	95	88	91	2	M	19	1	0.5	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	44	B1_2	5.67	5.83	11.5	-0.16	4	4.4	4.5	5	3.78	5	4.25	4	4.5	6	6	5	4
+SM_THA_042	THA	85	102	74	75	0	F	19	1	N/A	N/A	Material Engineering	Sciences & Technology	N/A	N/A	34	B1_1	5.33	5.17	10.5	0.16	2.5	3.8	4.1	3.67	3.89	4.5	4.75	3.75	2.75	4	2	3	2
+SM_THA_043	THA	110	112	100	103	0	F	19	1	N/A	N/A	Material Engineering	Sciences & Technology	N/A	N/A	46	B1_2	5	4.17	9.17	0.83	3	3.1	3.1	3	3.22	3.5	2.75	3	3.25	5	5	3	3
+SM_THA_044	THA	133	131	116	132	1	F	18	1	N/A	N/A	Material Engineering	Sciences & Technology	N/A	N/A	35	B1_1	4.83	4.67	9.5	0.16	5	3.8	3.5	3.56	4	4.25	3.75	3	3.5	3	6	5	4
+SM_THA_045	THA	69	89	82	105	1	F	18	1	0.5	N/A	Material Engineering	Sciences & Technology	N/A	N/A	28	B1_1	5.17	5.5	10.67	-0.33	3	3.9	4.5	4.56	3.56	5.25	5.25	3.5	2.75	2	4	5	3
+SM_THA_046	THA	97	110	115	124	1	M	18	1	1	N/A	Material Engineering	Sciences & Technology	N/A	N/A	31	B1_1	5	5.33	10.33	-0.33	3	4.4	4.4	4.22	4.22	6	5.75	3.25	2.5	4	5	3	2
+SM_THA_047	THA	155	151	124	132	0	M	19	1	N/A	N/A	Computer Engineering	Sciences & Technology	TOEIC	915 	38	B2_0	5.33	6	11.33	-0.67	2.5	3.6	3.6	3	4	4	4.5	3	3	4	3	5	6
+SM_THA_048	THA	89	89	81	86	2	F	19	1	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	43	B1_2	4.5	5	9.5	-0.5	3	3.8	3.9	4	3.44	4	4	3.75	3.5	5	5	4	3
+SM_THA_049	THA	87	89	85	99	2	F	19	1	N/A	N/A	Electronic and Telecommunication	Sciences & Technology	N/A	N/A	33	B1_1	4.5	5.17	9.67	-0.67	4	3.9	4	5.11	2.78	4.25	4.25	3.5	3.75	6	4	6	6
+SM_THA_050	THA	97	102	92	99	3	M	18	1	N/A	N/A	Electronics and Telecommunication	Sciences & Technology	N/A	N/A	37	B1_2	4.67	3.83	8.5	0.84	3	3.6	4.1	4	3.56	4.25	4.25	3.25	3.75	3	4	5	3
+SM_TWN_001	TWN	121	132	102	120	1	F	20	3	N/A	N/A	Educational Technology	Humanities	TOEIC	605 	31	B1_1	4.67	4.5	9.17	0.17	2	3.38	2.75	2.78	3.11	2.75	3.5	2.75	3.25	5	5	3	5
+SM_TWN_002	TWN	155	162	127	112	2	F	21	3	N/A	N/A	French	Humanities	TOEIC	875 	44	B2_0	5.67	3.5	9.17	2.17	4.5	4.25	4.75	3.67	5.33	4.5	4.25	4.75	4.5	6	2	2	4
+SM_TWN_003	TWN	104	88	87	95	2	F	21	4	N/A	N/A	German	Humanities	TOEIC	735 	33	B1_2	4.5	4.83	9.33	-0.33	3.5	3.88	4.13	3.89	4	5	4.5	3.5	3	4	5	4	5
+SM_TWN_004	TWN	101	95	75	79	0	F	21	3	N/A	N/A	Japanese	Humanities	N/A	N/A	32	B1_1	4.5	5.33	9.83	-0.83	4	6	1.75	3.67	4.11	4.25	4.25	3.5	3.5	3	3	3	3
+SM_TWN_005	TWN	108	97	83	106	1	F	19	2	N/A	N/A	Japanese	Humanities	N/A	N/A	28	B1_1	5.33	3.17	8.5	2.16	1.5	4.5	3.5	3.22	4.22	4	3.5	4	4.5	3	1	1	1
+SM_TWN_006	TWN	97	108	95	96	1	F	24	M	N/A	N/A	Business	Social Sciences	TOEIC	625 	40	B1_1	4.33	4.83	9.16	-0.5	3.5	4.5	4.5	4.44	4.33	4.75	5	3.75	4.5	6	6	5	6
+SM_TWN_007	TWN	119	129	117	131	1	F	23	4	N/A	N/A	Japanese	Humanities	TOEIC	525 	31	A2_0	5	4.5	9.5	0.5	2	4.75	2.63	3.67	3.33	4.25	3.75	2.75	4	5	5	5	5
+SM_TWN_008	TWN	132	139	115	121	1	F	23	4	N/A	N/A	Japanese	Humanities	TOEIC	525 	31	A2_0	5	4.5	9.5	0.5	2	4.75	2.63	3.67	3.33	4.25	3.75	2.75	4	5	5	5	5
+SM_TWN_009	TWN	136	131	100	131	1	F	18	1	N/A	N/A	English	Humanities	N/A	N/A	36	B1_2	4.83	4.17	9	0.66	2	2.38	3.75	3.22	2.67	3.75	3.5	2.25	2.75	6	3	2	1
+SM_TWN_010	TWN	109	114	100	73	1	F	19	2	N/A	N/A	Educational Technology	Humanities	TOEIC	550 	28	B1_1	4.83	4.83	9.66	0	3.5	3.38	2.5	3.67	2.33	3.25	3.25	2.25	3	5	5	3	5
+SM_TWN_011	TWN	99	121	115	103	1	F	22	3	N/A	N/A	Japanese	Humanities	N/A	N/A	33	B1_1	5.67	4.67	10.34	1	4	4.38	3.75	3.67	4.44	4.25	4.25	3.75	4	5	5	5	5
+SM_TWN_012	TWN	79	103	67	92	1	F	19	2	N/A	N/A	Educational Technology	Humanities	TOEIC	500 	35	A2_0	5	4.67	9.67	0.33	2	3.63	2.5	3.44	2.44	2.5	4.25	2.5	3	5	3	2	5
+SM_TWN_013	TWN	88	78	81	72	1	F	18	1	N/A	N/A	Information Management	Sciences & Technology	TOEIC	520 	29	A2_0	4.17	4	8.17	0.17	2	3.13	2.25	2.89	2.33	2.5	3.5	2.25	2.5	3	3	2	2
+SM_TWN_014	TWN	103	105	83	93	1	M	18	1	0.5	N/A	Industrial Economics	Social Sciences	N/A	N/A	47	B2_0	3	5	8	-2	4	3.38	3.38	4.56	2.33	3.5	3	3	4	2	4	5	5
+SM_TWN_015	TWN	146	160	129	124	1	F	19	2	N/A	N/A	English	Humanities	TOEFL (iBT)	92 	41	B2_0	4.83	4.67	9.5	0.16	3	4	5	4.44	4.22	4	4.5	4.5	5	5	5	4	4
+SM_TWN_016	TWN	75	81	67	64	0	M	18	1	0.5	N/A	Economics	Social Sciences	N/A	N/A	47	B2_0	3	5	8	-2	4	3.38	3.38	4.56	2.33	3.5	3	3	4	2	4	5	5
+SM_TWN_017	TWN	86	79	80	70	1	F	21	4	N/A	N/A	English Literature	Humanities	TOEIC	850 	38	B2_0	5.67	5	10.67	0.67	2	2.88	4.63	4.33	2.78	4	3.75	3.5	3.75	5	3	5	3
+SM_TWN_018	TWN	136	169	117	101	1	F	22	4	N/A	N/A	German 	Humanities	N/A	N/A	34	B1_1	5.83	4.83	10.66	1	6	5.63	6	5.78	5.89	5.75	5.75	5.75	6	6	6	6	3
+SM_TWN_019	TWN	111	125	108	101	1	F	21	1	0.5	N/A	German	Humanities	N/A	N/A	32	B1_1	5.67	4.33	10	1.34	4	4.13	2	3.22	3.11	3.25	3	3	3	6	4	4	5
+SM_TWN_020	TWN	87	90	73	75	2	F	18	1	N/A	N/A	Business	Social Sciences	N/A	N/A	37	B1_2	5.33	5.17	10.5	0.16	0	4.75	4.25	4	4	4.75	4.75	4	4.5	3	4	4	4
+SM_TWN_021	TWN	104	85	86	76	2	F	21	4	N/A	N/A	English	Humanities	TOEIC	825 	42	B2_0	3.83	5	8.83	-1.17	1.5	2.63	4.63	3.33	3.44	4	4.25	2.75	3.5	3	3	3	5
+SM_TWN_022	TWN	41	29	34	56	1	M	22	4	N/A	N/A	Computer Science	Sciences & Technology	TOEIC	480 	27	A2_0	5	4.33	9.33	0.67	3	4.5	5	4.44	4.67	4.75	4.75	4.75	4.75	1	5	1	4
+SM_TWN_023	TWN	132	142	107	107	0	M	21	4	N/A	N/A	German	Humanities	TOEIC	825 	31	B2_0	3.17	5.67	8.84	-2.5	2	2.88	3	3.11	2.56	2.75	3.75	1.75	3.5	3	3	2	1
+SM_TWN_024	TWN	115	126	89	83	2	F	19	2	N/A	N/A	Business	Social Sciences	N/A	N/A	33	B1_1	4.33	4.5	8.83	-0.17	1.5	1.75	4.13	2.56	3	4	2.5	2.5	2.75	5	5	3	3
+SM_TWN_025	TWN	81	85	94	91	1	F	24	M	2+	N/A	Marketing	Social Sciences	IELTS	7 	35	B2_0	5.17	5.5	10.67	-0.33	1	1.88	2.25	2.44	1.44	2.25	2.5	1.5	2	5	3	3	4
+SM_TWN_026	TWN	104	103	118	96	1	F	21	4	N/A	N/A	German	Humanities	TOEIC	615 	38	B1_1	4.83	3.83	8.66	1	4.5	4.13	4	3.67	4.56	3.75	4.5	3.5	4.5	5	5	4	5
+SM_TWN_027	TWN	86	71	76	98	2	F	22	1	N/A	N/A	Insurance	Social Sciences	TOEIC	625 	33	B1_1	4.33	4.5	8.83	-0.17	1.5	1	3	1.33	2.56	2	2.5	2	1.5	1	4	1	4
+SM_TWN_028	TWN	86	90	109	88	1	F	21	3	N/A	N/A	Japanese	Humanities	N/A	N/A	32	B1_1	4.5	5.17	9.67	-0.67	2.5	4.25	2	3.11	3	3.5	3.25	2.75	3	3	5	4	3
+SM_TWN_029	TWN	118	119	92	101	1	F	20	2	N/A	N/A	Industrial Economics	Social Sciences	N/A	N/A	30	B1_1	4.83	5.5	10.33	-0.67	3.5	4.25	3.38	3.78	3.78	3.75	4.5	3	4	6	6	2	1
+SM_TWN_030	TWN	100	107	88	133	2	F	20	2	N/A	N/A	International Business	Social Sciences	TOEIC	770 	32	B1_2	4.83	4.67	9.5	0.16	4	4.75	5.13	4.56	5.11	5	5.25	4.75	4.75	5	5	5	5
+SM_TWN_031	TWN	91	122	81	105	1	M	22	4	N/A	N/A	Industrial Economics	Social Sciences	TOEIC	415 	26	A2_0	3.33	5	8.33	-1.67	1	2.38	3.88	3.22	2.56	3.5	3	2.25	3.75	6	3	5	6
+SM_TWN_032	TWN	85	71	64	83	1	M	21	4	N/A	N/A	Industrial Economics	Social Sciences	N/A	N/A	28	B1_1	4.33	5.33	9.66	-1	2	3.63	3.25	3.33	3.22	4.25	4.25	1.75	3.5	1	1	1	1
+SM_TWN_033	TWN	98	91	105	102	2	F	21	4	N/A	N/A	Information and Library Science	Sciences & Technology	TOEIC	600 	30	B1_1	4.5	4.5	9	0	3	3	3.63	3.22	3.33	3.5	3.5	3.25	3	4	6	3	6
+SM_TWN_034	TWN	62	69	67	65	0	F	21	4	2+	N/A	Industrial Economics	Social Sciences	TOEIC	535 	29	A2_0	5.5	5	10.5	0.5	3	4.5	4.88	4.11	4.89	5	5	4.5	4.25	5	5	5	2
+SM_TWN_035	TWN	68	83	70	88	1	F	20	3	N/A	N/A	Japanese	Humanities	N/A	N/A	28	B1_1	5	4.67	9.67	0.33	3.5	3.63	3.38	3.67	3.33	3.75	4	3	3.25	5	4	3	3
+SM_TWN_036	TWN	71	83	52	71	1	F	19	2	N/A	N/A	Industrial Economics	Social Sciences	N/A	N/A	39	B1_2	4.67	5.83	10.5	-1.16	4	4.63	4.5	4.22	4.78	4.5	5.25	3.5	5	6	6	4	6
+SM_TWN_037	TWN	107	123	107	115	2	F	20	2	N/A	N/A	Industrial Economics	Social Sciences	N/A	N/A	30	B1_1	4.83	5.5	10.33	-0.67	3.5	4.25	3.38	3.78	3.78	3.75	4.5	3	4	6	6	2	1
+SM_TWN_038	TWN	103	74	90	69	1	M	20	3	N/A	N/A	Computer Science	Sciences & Technology	TOEIC	700 	27	B1_2	5.67	4.5	10.17	1.17	5.5	4.13	4	4.33	4.11	5	4	4	3.25	6	5	5	3
+SM_TWN_039	TWN	82	102	97	110	1	F	19	2	N/A	N/A	Japanese	Humanities	N/A	N/A	34	B1_1	4.83	3.83	8.66	1	3.5	4	3.5	4.11	3.33	3.5	4	3.75	3.75	5	5	5	3
+SM_TWN_040	TWN	89	72	79	75	1	F	22	4	N/A	N/A	Industrial Economics	Social Sciences	TOEIC	810 	34	B2_0	4.83	4.5	9.33	0.33	3	3	3	2.89	3.11	3	3.25	2.75	3	5	4	3	3
+SM_TWN_041	TWN	75	70	71	70	1	F	21	4	0.5	N/A	Business Statistics	Social Sciences	TOEIC	685 	35	B1_2	3.67	4.33	8	-0.66	2.5	3.25	2.63	3.22	2.56	3	3.25	2.25	3.25	3	3	3	3
+SM_TWN_042	TWN	83	109	78	82	1	F	21	3	1	N/A	Computer Language	Sciences & Technology	N/A	N/A	32	B1_1	4.17	4.67	8.84	-0.5	3.5	3	3	2.78	3.33	3.25	2.75	2.75	3.25	4	4	3	3
+SM_TWN_043	TWN	106	129	97	98	1	F	18	1	N/A	N/A	Educational Technology	Humanities	N/A	N/A	32	B1_1	5.67	5.5	11.17	0.17	3	3.5	4.25	3.89	3.67	4.25	4.5	3	3.75	6	6	6	6
+SM_TWN_044	TWN	140	147	127	124	1	M	22	M	N/A	N/A	Chemistry	Sciences & Technology	TOEIC	495 	28	A2_0	4.5	3.5	8	1	1	1.25	2.13	1.44	1.78	1.75	2.25	1.75	1	3	2	4	4
+SM_TWN_045	TWN	58	62	53	39	0	F	20	2	N/A	N/A	Japanese	Humanities	N/A	N/A	18	A2_0	4.5	5.33	9.83	-0.83	4	3.13	2.25	3.33	2.33	2.75	3.25	1.75	3	4	2	3	2
+SM_TWN_046	TWN	69	80	63	63	0	F	18	1	N/A	N/A	Information and Library Science	Sciences & Technology	TOEIC	650 	30	B1_1	4.5	4.83	9.33	-0.33	1.5	4	3	3	3.56	4.25	4	2.25	3.5	2	4	4	6
+SM_TWN_047	TWN	104	132	93	83	2	F	18	1	N/A	N/A	Educational Technology	Humanities	N/A	N/A	44	B1_2	4.83	5.67	10.5	-0.84	0	3.63	3.75	3.11	3.44	3.25	4.5	3	4	5	3	5	3
+SM_TWN_048	TWN	67	85	68	72	0	F	24	M	N/A	N/A	English	Humanities	TOEIC	790 	38	B2_0	5.17	5	10.17	0.17	2	2.38	3.75	3.22	2.67	3.5	3.5	2.75	2.5	1	3	5	6
+SM_TWN_049	TWN	82	81	68	62	2	F	24	1	2+	N/A	English Literature	Humanities	TOEIC	620 	39	B1_1	5.5	5.17	10.67	0.33	3	3.38	4.25	4	3.44	4	4.25	3.25	3.75	6	5	5	5
+SM_TWN_050	TWN	86	93	72	77	1	F	24	1	N/A	N/A	English Literature	Humanities	TOEIC	750 	41	B1_2	5.33	5.33	10.66	0	2.5	2.88	4	4	2.67	3.75	3.75	3.25	3	5	6	5	6
+SM_TWN_051	TWN	93	78	83	77	2	F	23	M	0.5	N/A	English	Humanities	TOEIC	700 	25	B1_2	5.5	3.83	9.33	1.67	1	3.25	4.88	3.67	3.78	4.75	4.75	3.5	3.25	6	6	6	6
+SM_TWN_052	TWN	87	66	72	74	1	F	18	1	0.5	N/A	Management Sciences	Social Sciences	TOEIC	780 	35	B1_2	4.83	4.5	9.33	0.33	3.5	4.75	4.38	4.44	4.44	4.75	5	4	4.5	6	5	5	4
+SM_TWN_053	TWN	99	90	83	78	2	F	30	M	2+	N/A	Psychology	Humanities	TOEFL (iBT)	79 	31	B1_2	4.83	4.33	9.16	0.5	1	1.25	1.88	1.78	1.22	1.75	1.75	1	1.75	5	4	5	5
+SM_TWN_054	TWN	89	92	77	70	1	F	18	1	0.5	N/A	Information Management	Sciences & Technology	TOEIC	810 	35	B2_0	5	5.17	10.17	-0.17	3.5	3.75	3.13	3.67	3.22	3.5	3.5	3.5	3.25	6	6	6	6
+SM_TWN_055	TWN	83	104	75	80	1	F	23	M	0.5	N/A	Educational Psychology	Humanities	N/A	N/A	32	B1_1	4.5	4	8.5	0.5	2.5	4.38	2.5	3.22	3.44	3.25	4	3	3.5	4	5	4	4
+SM_TWN_056	TWN	52	57	55	45	0	M	23	M	0.5	N/A	Engineering	Sciences & Technology	N/A	N/A	29	B1_1	4.33	5.17	9.5	-0.84	1.5	2.88	2.88	3	2.44	2.25	3.25	2.5	3.5	2	2	2	3
+SM_TWN_057	TWN	97	105	101	106	1	F	17	1	0.5	N/A	Information Management	Sciences & Technology	N/A	N/A	41	B1_2	4.83	4.67	9.5	0.16	3.5	4.13	3.75	3.78	4	3.75	4.25	4	3.75	4	4	4	5
+SM_TWN_058	TWN	84	83	76	82	0	F	25	M	0.5	N/A	English	Humanities	N/A	N/A	29	B1_1	6	5.67	11.67	0.33	1	4.63	4.88	4.56	4.11	4.25	6	3.25	5.5	5	3	1	6
+SM_TWN_059	TWN	103	93	92	107	1	F	27	M	0.5	N/A	English	Humanities	TOEIC	875 	39	B2_0	4.5	4.67	9.17	-0.17	1	2.88	3.75	2.67	3.44	4	3.75	2.75	2.75	6	6	5	5
+SM_TWN_060	TWN	59	60	48	59	0	F	21	4	0.5	N/A	Aerospace	Sciences & Technology	TOEIC	545 	28	A2_0	6	5.67	11.67	0.33	3.5	3.5	4.63	4.22	3.78	4	4.25	3.75	4.25	4	4	5	5
+SM_TWN_061	TWN	67	81	70	72	1	F	21	4	0.5	N/A	Aerospace	Sciences & Technology	N/A	N/A	28	B1_1	4.5	5.17	9.67	-0.67	1	2.38	3.63	2.33	3.22	3.25	3.25	2.25	3.25	5	2	2	2
+SM_TWN_062	TWN	64	67	60	61	0	F	20	3	0.5	N/A	Aerospace	Sciences & Technology	TOEIC	500 	24	A2_0	4	4.67	8.67	-0.67	1	2.25	2.5	2.56	1.89	2.25	2.75	2	2.5	3	3	3	3
+SM_TWN_063	TWN	79	92	77	83	1	M	23	M	0.5	N/A	Management Sciences	Social Sciences	TOEIC	475 	17	A2_0	4.67	4.83	9.5	-0.16	3	3.25	2.25	3.78	1.78	3	3.5	1.75	2.75	5	2	3	3
+SM_TWN_064	TWN	61	50	34	29	0	F	22	4	0.5	N/A	Aerospace	Sciences & Technology	TOEIC	455 	28	A2_0	5.5	5	10.5	0.5	1.5	2.75	2.63	3.11	2	2.25	3.5	1.75	3.25	2	1	1	1
+SM_TWN_065	TWN	117	115	101	116	0	F	19	2	0.5	N/A	Educational Technology	Humanities	TOEIC	720 	34	B1_2	4.67	4.33	9	0.34	3.5	4.13	2.5	3.78	2.89	4	4	2	3.25	5	4	3	1
+SM_TWN_066	TWN	134	146	124	94	2	M	19	2	0.5	N/A	Japanese	Humanities	TOEIC	700 	38	B1_2	5.83	4.33	10.16	1.5	4.5	4.5	4.75	4.44	4.78	4.75	4.5	4.75	4.5	5	6	5	5
+SM_TWN_067	TWN	108	131	111	102	2	F	24	M	0.5	N/A	English	Humanities	TOEIC	595 	30	B1_1	4.67	4.83	9.5	-0.16	4.5	4	4.25	4.56	3.78	4.25	4	3.75	4.5	1	2	5	5
+SM_TWN_068	TWN	147	128	124	134	1	F	22	M	0.5	N/A	American Studies	Humanities	TOEIC	860 	42	B2_0	4.5	5	9.5	-0.5	2	3	3.63	2.56	3.78	3.25	4	2.75	3.25	4	2	4	4
+SM_TWN_069	TWN	71	69	68	71	0	F	21	4	0.5	N/A	Aerospace	Sciences & Technology	N/A	N/A	27	B1_1	4.83	4.83	9.66	0	3	4	3.38	3.56	3.67	4.25	3.75	3	3.75	4	4	5	3
+SM_TWN_070	TWN	87	75	88	79	2	F	23	4	0.5	N/A	English Literature	Humanities	TOEIC	815 	37	B2_0	4.67	5.33	10	-0.66	2	4	4.5	4.11	3.89	3.75	5	3.5	4.75	6	4	6	6
+SM_TWN_071	TWN	71	75	52	74	0	F	21	4	0.5	N/A	Electronic Engineering	Sciences & Technology	TOEIC	490 	24	A2_0	4.83	6	10.83	-1.17	2.5	2.38	1.75	2.22	2	1.75	3	1.25	2.25	6	5	2	4
+SM_TWN_072	TWN	103	126	96	116	1	F	20	3	0.5	N/A	History	Humanities	TOEIC	530 	24	A2_0	5.33	4	9.33	1.33	4.5	5.5	2.13	3.89	3.89	4	3.75	4	3.5	5	5	4	5
+SM_TWN_073	TWN	92	101	50	109	0	F	20	2	0.5	N/A	Accounting	Social Sciences	TOEIC	750 	30	B1_2	4	4.67	8.67	-0.67	1.5	4.13	4.13	4.22	3.44	3.75	4.75	3.25	4.75	6	6	6	6
+SM_TWN_074	TWN	106	90	65	57	1	F	22	2	0.5	N/A	French	Humanities	TOEIC	650 	19	B1_1	5	4.5	9.5	0.5	4	3	4	3	4.11	3.5	3.5	3.5	3.5	6	5	5	4
+SM_TWN_075	TWN	75	89	88	85	2	M	19	2	0.5	N/A	French	Humanities	TOEFL (iBT)	72 	35	B1_2	4.83	3.33	8.16	1.5	2	4.5	2.25	2.56	3.89	3.75	4	2.75	3	5	5	3	5
+SM_TWN_076	TWN	105	117	108	130	2	F	21	4	0.5	N/A	French	Humanities	TOEIC	765 	31	B1_2	5	5.33	10.33	-0.33	3.5	3.75	2.5	3	3.33	3.25	3.5	2.25	3.5	6	5	3	2
+SM_TWN_077	TWN	74	86	62	78	0	F	20	2	0.5	N/A	History	Humanities	N/A	N/A	21	A2_0	4.83	4.83	9.66	0	3	4.75	1.25	3	3	2.75	3.25	2	4	3	3	3	4
+SM_TWN_078	TWN	98	91	69	91	0	F	22	4	0.5	N/A	French	Humanities	N/A	N/A	30	B1_1	4.5	4.5	9	0	3.5	3.63	1.63	2.89	2.56	3.25	3	2	2.25	2	2	1	2
+SM_TWN_079	TWN	97	91	71	68	1	F	19	2	0.5	N/A	Public Administration	Social Sciences	TOEIC	610 	27	B1_1	4.17	4.67	8.84	-0.5	2	4.38	3.5	3.33	4.11	4.5	5	2.75	3.5	5	3	3	3
+SM_TWN_080	TWN	103	103	87	109	1	M	20	2	0.5	N/A	Economics 	Social Sciences	N/A	N/A	31	B1_1	5.5	5.17	10.67	0.33	4.5	5.13	5.13	4.22	5.89	5.5	5.25	5	4.75	6	5	5	4
+SM_TWN_081	TWN	99	114	87	84	2	F	20	3	0.5	N/A	Accounting	Social Sciences	TOEIC	710 	36	B1_2	5.5	5	10.5	0.5	4	4.38	2.75	3.33	3.89	3.25	4.75	1.75	4.5	3	6	3	1
+SM_TWN_082	TWN	67	121	92	89	0	M	21	3	1	N/A	Economics 	Social Sciences	TOEIC	760 	39	B1_2	5.33	5.17	10.5	0.16	3.5	4	4.13	3.44	4.56	5	4.75	3.5	3	6	5	4	2
+SM_TWN_083	TWN	115	115	91	101	1	F	20	3	0.5	N/A	French	Humanities	TOEIC	785 	33	B2_0	5.33	4.17	9.5	1.16	4	3.5	2.75	2.78	3.67	3.5	3.5	2.5	3	6	6	4	5
+SM_TWN_084	TWN	96	66	74	74	0	F	19	1	0.5	N/A	Public Administration	Social Sciences	TOEIC	700 	29	B1_2	5.67	5.83	11.5	-0.16	3	5.25	5.25	5.22	4.78	5.5	5.5	4.5	5.5	6	5	5	5
+SM_TWN_085	TWN	85	99	84	101	1	M	20	3	0.5	N/A	Public Administration	Social Sciences	N/A	N/A	31	B1_1	4.67	5	9.67	-0.33	1	2.88	2.13	2.67	2	3	3	1.5	2.5	3	4	3	3
+SM_TWN_086	TWN	92	75	84	99	0	M	18	1	0.5	N/A	Transportation Management	Social Sciences	TOEIC	850 	29	B2_0	5.33	5.67	11	-0.34	3.5	3.5	4.38	4.11	3.67	4.25	4.25	3.25	4	5	5	5	3
+SM_TWN_087	TWN	87	78	51	66	0	M	19	1	0.5	N/A	Transportation Management	Social Sciences	N/A	N/A	30	B1_1	5.5	5	10.5	0.5	2	3.13	3.25	3	3.11	3	3.5	2.25	4	2	3	3	3
+SM_TWN_088	TWN	90	104	101	93	0	F	22	M	0.5	N/A	English 	Humanities	TOEIC	700 	38	B1_2	4.67	5.17	9.84	-0.5	3	3.75	4.5	4	4	3.5	4.5	3.5	5	4	3	3	5
+SM_TWN_089	TWN	63	62	44	46	1	F	24	4	0.5	N/A	Public administration	Social Sciences	N/A	N/A	39	B1_2	5.5	5.17	10.67	0.33	1.5	3.25	3.13	3.33	2.67	2.5	4.25	2	4	2	5	2	6
+SM_TWN_090	TWN	85	97	80	89	1	F	21	4	0.5	N/A	Transportation Management	Social Sciences	TOEIC	455 	31	A2_0	4.33	5.5	9.83	-1.17	4	3.75	2.88	4.33	2.44	3.75	3.5	2.75	3.25	5	5	6	3
+SM_TWN_091	TWN	150	142	120	121	2	M	22	1	0.5	N/A	Transportation Management	Social Sciences	TOEIC	610 	33	B1_1	4.5	4.83	9.33	-0.33	3	3.75	4.63	4.33	3.78	4	5.25	3	4.5	4	4	4	4
+SM_TWN_092	TWN	72	4	52	63	1	F	21	4	0.5	N/A	Economics	Social Sciences	TOEIC	675 	25	B1_2	4.17	4.17	8.34	0	1	2.25	2.13	2.22	1.89	2.5	3	1.25	2	1	1	1	1
+SM_TWN_093	TWN	56	63	55	51	0	F	18	1	0.5	N/A	Industrial Economics	Social Sciences	N/A	N/A	31	B1_1	4.5	5.17	9.67	-0.67	3.5	4.13	4.13	4.44	3.67	4.75	4.25	3	4.5	4	4	5	5
+SM_TWN_094	TWN	86	83	71	70	2	F	18	1	0.5	N/A	Industrial Economics	Social Sciences	N/A	N/A	25	B1_1	3.5	4.83	8.33	-1.33	4	3.5	2.88	3.67	2.89	3.25	3.25	3	3.25	3	3	3	3
+SM_TWN_095	TWN	81	83	59	67	0	F	22	4	0.5	N/A	Public Administration	Social Sciences	TOEIC	450 	29	B1_1	5.17	5	10.17	0.17	4	4.38	3.5	4	3.89	4.25	4.5	3.25	3.75	1	1	1	2
+SM_TWN_096	TWN	91	117	106	113	0	F	21	4	0.5	N/A	Educational Technology	Humanities	TOEIC	500 	26	B1_1	5.5	4.33	9.83	1.17	3.5	3.25	1.63	2.67	2.44	3	2.5	2.25	2	1	1	2	2
+SM_TWN_097	TWN	107	103	104	102	0	F	21	3	0.5	N/A	English Literature	Humanities	TOEIC	715 	35	B1_2	4.33	5.17	9.5	-0.84	4	3.88	4.13	4.67	3.33	4.5	4	3.75	3.75	6	6	6	6
+SM_TWN_098	TWN	105	109	84	91	0	F	20	3	0.5	N/A	English 	Humanities	N/A	N/A	34	B1_1	5.17	5.17	10.34	0	2	2	4	3.22	2.56	3.25	3.5	2.25	3	3	3	4	3
+SM_TWN_099	TWN	121	116	102	104	0	F	21	3	0.5	N/A	English Literature	Humanities	TOEIC	880 	40	B2_0	5.17	4.17	9.34	1	4.5	4.38	4.75	5	4.11	4.75	4.75	3.5	5.25	5	5	5	5
+SM_TWN_100	TWN	56	77	52	70	1	M	19	1	0.5	N/A	Japanese	Humanities	TOEIC	585 	24	B1_1	4	3.83	7.83	0.17	3	3.13	2.13	3.44	1.89	3	3	1.75	2.75	6	4	1	1

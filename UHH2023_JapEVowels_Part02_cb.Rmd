@@ -1,11 +1,4 @@
----
-title: "Reproducibility in corpus-based computational analyses of learner speech - Part 2"
-author: "Martin Schweinberger"
-date: "`r format(Sys.time(), '%Y-%m-%d')`"
-output: word_document
----
-
-# Introduction
+# Reproducibility in corpus-based computational analyses of learner speech - Part 2"
 
 This R Notebook shows how to access Praat from R and how to extract formant values from wav files and their corresponding Praat TextGrids. The tutorials is based on [Phonetics Tools in R](https://marissabarlaz.github.io/portfolio/phoneticstools/] by Marissa Barlaz).
 
@@ -16,24 +9,32 @@ install packages
 ```{r install, eval=F, message=F, warning=F}
 # install
 install.packages("tidyverse")
-install.packages("here")
 install.packages("viridis")
 install.packages("phonR")
 install.packages("vowels")
 install.packages("ggridges")
 install.packages("sm")
+install.packages("here")
+install.packages("adehabitatHR")
+install.packages("lme4")
+install.packages("sjPlot")
+install.packages("report")
 ```
 
 load packages
 
 ```{r load, message=F, warning=F}
 library(tidyverse)
-library(here)
+library(adehabitatHR)
+library(lme4)
+library(sjPlot)
+library(report)
 library(viridis)
 library(phonR)
 library(vowels)
 library(ggridges)
 library(sm)
+library(janitor)
 options("scipen" = 100, "digits" = 12) # suppress math annotation
 ```
 
@@ -43,7 +44,7 @@ load data
 
 ```{r data, message=F, warning=F}
 # load .rda data
-vdf  <- base::readRDS(file = here::here("data", "vdf.rda")) %>%
+vdf  <- base::readRDS(file = url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/vdf.rda")) %>%
   dplyr::mutate(type = stringr::str_replace_all(file, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
                 speaker = stringr::str_replace_all(file, ".*_([0-9]{3,3})_.*", "\\1")) %>%
   dplyr::mutate(tgender = stringr::str_replace_all(path, ".*F[3-7]{1,1}_([fm]{1,1})_[a-z]{2,2}$", "\\1"),
@@ -57,7 +58,7 @@ nrow(vdf); head(vdf)
 # Load Biodata
 
 ```{r bio, message=F, warning=F}
-bio <- read.delim(here::here("data", "biodata_icnale.txt"), header = T, sep = "\t") %>%
+bio <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/biodata_icnale.txt"), header = T, sep = "\t") %>%
   dplyr::filter(stringr::str_detect(Code, "JPN|ENS")) %>%
   dplyr::mutate(type = stringr::str_replace_all(Code, "^[A-Z]{2,}_([A-Z]{3,3})_.*", "\\1"),
                 speaker = stringr::str_replace_all(Code, ".*_([0-9]{3,3}).*", "\\1"),
@@ -123,7 +124,7 @@ summary(fdat$prof)
 [Yang, Byunggon. 1996. A comparative study of American English and Korean vowels produced by male and female speakers. *Journal of Phonetics* 24: 245–261.](http://fonetiks.info/bgyang/db/96jp.pdf)
 
 ```{r refame, message=F, warning=F}
-ame <- read.delim(here::here("data/reference", "GenAm.txt"), sep = "\t", header = T) %>%
+ame <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/reference/GenAm.txt"), sep = "\t", header = T) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
@@ -155,7 +156,7 @@ head(ame)
 
 
 ```{r refbre, message=F, warning=F}
-bre <- read.delim(here::here("data/reference", "SSB.txt"), sep = "\t", header = T) %>%
+bre <- read.delim(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/blob/main/data/reference/SSB.txt"), sep = "\t", header = T) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
@@ -330,7 +331,7 @@ head(max_durs)
 overview
 
 ```{r}
-library(janitor)
+
 tb0 <- fdat %>%
   dplyr::ungroup() %>%
   dplyr::filter(label == "I" | label == "i:" | label == "U" | label == "u:" ) %>%
@@ -660,33 +661,6 @@ nrow(fdat); head(fdat)
 
 
 # Statistical Analysis
-
-## Preparation
-
-install packages
-
-```{r install, eval=F, message=F, warning=F}
-# install
-install.packages("tidyverse")
-install.packages("here")
-install.packages("adehabitatHR")
-install.packages("lme4")
-install.packages("sjPlot")
-install.packages("report")
-install.packages("flextable")
-```
-
-load packages
-
-```{r load, message=F, warning=F}
-library(tidyverse)
-library(here)
-library(adehabitatHR)
-library(lme4)
-library(sjPlot)
-library(report)
-library(flextable)
-```
 
 
 load data
@@ -1178,23 +1152,4 @@ ggsave(here::here("images", "ef.png"), height = 3,  width = 5, dpi = 320)
 report::report(m10)
 ```
 
-
-
-# Citation & Session Info
-
-Schweinberger, Martin. `r format(Sys.time(), '%Y')`. A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English. Brisbane: The University of Queensland, School of Languages and Cultures. url: https://slcladal.github.io/praatrf.html (Version `r format(Sys.time(), '%Y.%m.%d')`).
-
-@manual{schweinberger`r format(Sys.time(), '%Y')`praatrf,
-  author = {Schweinberger, Martin},
-  title = {A Corpus-Based Acoustic Analysis of Monophthongal Vowels among Japanese Learners and Native Speakers of English},
-  note = {https://slcladal.github.io/praatrf.html},
-  year = {`r format(Sys.time(), '%Y')`},
-  organization = "The University of Queensland, School of Languages and Cultures},
-  address = {Brisbane},
-  edition = {`r format(Sys.time(), '%Y.%m.%d')`}
-}
-
-
-```{r}
-sessionInfo()
-```
+[Back to GitHub repo](https://github.com/MartinSchweinberger/UHH2023EngVwlJpn)

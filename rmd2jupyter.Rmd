@@ -40,7 +40,7 @@ library(rmd2jupyter)
 
 ```{r convert1, eval = F, message = F}
 # convert 1 notebook
-rmd2jupyter::rmd2jupyter(here::here("UHH2023_JapEVowels_Part02.Rmd"))
+rmd2jupyter::rmd2jupyter(here::here("UHH2023_JapEVowels_Part02_cb.Rmd"))
 ```
 
 This worked and a ipynb-file is now in our directory.
