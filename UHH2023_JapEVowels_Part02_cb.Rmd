@@ -111,7 +111,7 @@ summary(fdat$prof)
 [Yang, Byunggon. 1996. A comparative study of American English and Korean vowels produced by male and female speakers. *Journal of Phonetics* 24: 245–261.](http://fonetiks.info/bgyang/db/96jp.pdf)
 
 ```{r refame, message=F, warning=F}
-ame <- base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/GenAm.txt", "rb")) %>%
+ame <- base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/GenAm.rda", "rb")) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
@@ -143,7 +143,7 @@ head(ame)
 
 
 ```{r refbre, message=F, warning=F}
-bre <-base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/SSB.txt", "rb")) %>%
+bre <-base::readRDS(url("https://github.com/MartinSchweinberger/UHH2023EngVwlJpn/raw/main/data/reference/SSB.rda", "rb")) %>%
   dplyr::mutate(label = dplyr::case_when(item == "had" ~ "{",
                                          item == "heed" ~ "i:",
                                          item == "hid" ~ "I",
